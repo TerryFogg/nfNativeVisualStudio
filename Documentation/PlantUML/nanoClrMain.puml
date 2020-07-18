@@ -1,0 +1,27 @@
+@startuml
+
+main.c -> hal.c : halInit()
+note right of hal.c: osalInit(void) \n hal_lld_init board specific \n palInit() \n adcInit() \n ... \n ...
+
+alt user button pressed
+    alt main.c -> LauchClr.c :  CheckValidCLRImage
+    main.c -> LauchClr.c :  launch nanoCLR
+    end
+end
+
+main.c -> cmsis_os.c :  osKernelInitialize(void)
+cmsis_os.c -> main.c : osStatus
+
+main.c -> hal_stm32_crc.c: crcStart
+
+main.c -> hal_serial : sdStart(&SERIAL_DRIVER, &uartConfig);
+main.c -> cmsis_os.c :  osThreadCreate(osThread(ReceiverThread), NULL);
+ main.c -> cmsis_os.c: osKernelStart();
+ main.c -> nanoPAL_BlockStorage : BlockStorageList_Initialize();
+ main.c -> target_BlockStorage : BlockStorage_AddDevices();
+loop forever
+main.c -> hal_pal.h :palClearPad (GPIOA, GPIOA_LED_GREEN)
+main.c -> hal_pal.h :palSetPad (GPIOA, GPIOA_LED_GREEN)
+end
+
+@enduml

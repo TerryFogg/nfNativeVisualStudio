@@ -1,0 +1,143 @@
+{
+  "version": "0.2.1",
+  "defaults": {},
+  "configurations": [
+    {
+      "type": "cppdbg",
+      "name": "STM32F769 - nanobooter",
+      "project": "build\\nanobooter.elf",
+      "cwd": "${workspaceRoot}",
+      "program": "c:\\nf\\nf-interpreter\\build\\nanobooter.elf",
+      "MIMode": "gdb",
+      "targetArchitecture": "arm",
+      "externalConsole": false,
+      "inheritEnvironments": [
+        "gcc_arm"
+      ],
+      "miDebuggerPath": "c:/nf/GNU_Tools_ARM_Embedded/8-2019-q3/bin/arm-none-eabi-gdb.exe",
+      "setupCommands": [
+        {
+          "text": "-environment-cd ${workspaceRoot}\\Build"
+        },
+        {
+          "text": "-file-exec-and-symbols c:/nf/nf-interpreter/build/nanobooter.elf"
+        }
+      ],
+      "showDisplayString": true,
+      "miDebuggerServerAddress": "localhost:3333",
+      "launchCompleteCommand": "None",
+      "debugServerPath": "c:/nf/openocd-0.10.0/bin/openocd.exe",
+      "debugServerArgs": "-s \"c:/nf/openocd-0.10.0/scripts/\" -f interface/stlink-v2-1.cfg -f board/stm32f7discovery.cfg -c init -c \"reset halt\"",
+      "serverStarted": "Info\\ :\\ [\\w\\d\\.]*:\\ hardware",
+      "filterStderr": true,
+      "filterStdout": true,
+      "visualizerFile": "${debugInfo.linuxNatvisPath}"
+    },
+    {
+      "type": "cppdbg",
+      "name": "STM32F769 - CLR", //  A friendly name to identify the configuration in the Startup Item dropdown.
+      "project": "build\\nanoCLR.elf",
+      "cwd": "${workspaceRoot}",
+      "program": "c:\\nf\\nf-interpreter\\build\\nanoCLR.elf",
+      "MIMode": "gdb",
+      "targetArchitecture": "arm",
+      "externalConsole": false,
+      "inheritEnvironments": [
+        "gcc_arm"
+      ],
+      "miDebuggerPath": "c:/nf/GNU_Tools_ARM_Embedded/8-2019-q3/bin/arm-none-eabi-gdb.exe",
+      "setupCommands": [
+        {
+          "text": "-environment-cd ${workspaceRoot}\\Build"
+        },
+        {
+          "text": "-file-exec-and-symbols c:/nf/nf-interpreter/build/nanoCLR.elf"
+        }
+      ],
+      "showDisplayString": true,
+      "miDebuggerServerAddress": "localhost:3333",
+      "launchCompleteCommand": "None",
+      "debugServerPath": "c:/nf/openocd-0.10.0/bin/openocd.exe",
+      "debugServerArgs": "-s \"c:/nf/openocd-0.10.0/scripts/\" -f interface/stlink-v2-1.cfg -f board/stm32f7discovery.cfg -c init -c \"reset halt\"",
+      "serverStarted": "Info\\ :\\ [\\w\\d\\.]*:\\ hardware",
+      "filterStderr": true,
+      "filterStdout": true,
+      "visualizerFile": "${debugInfo.linuxNatvisPath}"
+    },
+    {
+      "type": "cppdbg",
+      "name": "ESP32 nanoCLR", //  A friendly name to identify the configuration in the Startup Item dropdown.
+      "project": "build\\ESP32\\nanoCLR.elf", // relative path to the project file
+      "cwd": "${workspaceRoot}",
+      "program": "c:\\nf\\nf-interpreter\\build\\ESP32\\nanoCLR.elf",
+      "MIMode": "gdb",
+      "externalConsole": false,
+      "inheritEnvironments": [
+        "gcc_arm"
+      ],
+      "miDebuggerPath": "C:/nf/esp32/xtensa-esp32-elf/bin/xtensa-esp32-elf-gdb.exe",
+      "setupCommands": [
+        {
+          "text": "-environment-cd ${workspaceRoot}\\Build\\ESP32"
+        },
+        {
+          "text": "-file-exec-and-symbols c:/nf/nf-interpreter/build/ESP32/nanoCLR.elf"
+        },
+        {
+          "text": "-interpreter-exec console \"b main\""
+        }
+      ],
+
+      "showDisplayString": true,
+      "miDebuggerServerAddress": "localhost:3333",
+      "launchCompleteCommand": "None",
+      "debugServerPath": "C:/nf/ESP32/openocd-esp32/bin/openocd.exe",
+      "debugServerArgs": "-s C:/nf/ESP32/openocd-esp32/share/openocd/scripts/ -f interface/ftdi/esp32_devkitj_v1.cfg -f board/esp32-wrover.cfg -c init -c \"reset halt\"",
+      "serverStarted": "Info : .*Tensilica.*0x1.",
+      "filterStderr": true,
+      "filterStdout": true,
+      "visualizerFile": "${debugInfo.linuxNatvisPath}"
+    },
+    {
+      "type": "cppdbg",
+      "name": "WROVER (nanoCLR)",
+      "project": "Build/ESP32/nanoCLR.elf",
+      "cwd": "${workspaceRoot}",
+      "program": "Build/ESP32/nanoCLR.elf",
+      "MIMode": "gdb",
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "miDebuggerPath": "C:/nf/esp32/xtensa-esp32-elf/bin/xtensa-esp32-elf-gdb.exe",
+      "setupCommands": [
+        {
+          "text": "set logging on"
+        },
+        {
+          "text": "!${workspaceRoot}/startocd.bat ESP32_WROVER"
+        },
+        {
+          "text": "target extended-remote localhost:3333"
+        },
+        {
+          "text": "-file-exec-and-symbols c:/nf/nf-interpreter/build/ESP32/nanoCLR.elf"
+        },
+        {
+          "text": "set remote hardware-watchpoint-limit 2"
+        },
+        {
+          "text": "monitor reset halt"
+        },
+        {
+          "text": "flushregs"
+        },
+        {
+          "text": "thb app_main"
+        }
+      ],
+      "launchCompleteCommand": "None",
+      "serverStarted": "Info : .*Tensilica.*0x1.",
+      "filterStderr": true,
+      "filterStdout": true
+    }
+  ]
+}
