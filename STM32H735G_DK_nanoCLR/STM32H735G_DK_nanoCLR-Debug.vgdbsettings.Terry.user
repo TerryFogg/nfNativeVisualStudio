@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<VisualGDBUserPreferences xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <UserDefinedVariableValues />
+  <DebugPreferences xsi:type="com.visualgdb.debug.embedded.preferences">
+    <CatchpointConfiguration>
+      <Exec>false</Exec>
+      <Fork>false</Fork>
+      <Vfork>false</Vfork>
+      <Syscalls />
+      <CXXCatchpoints />
+    </CatchpointConfiguration>
+    <MaskInterruptsWhileStepping>false</MaskInterruptsWhileStepping>
+    <MemoryWindowPreferences>
+      <MemoryWindowPreferences>
+        <ExpressionHistory>
+          <string>xxp</string>
+          <string>0x080a0000</string>
+          <string>this</string>
+          <string>0x700802f8 </string>
+          <string>0x70057b84 </string>
+          <string>0x7007f878</string>
+          <string>0x080a0214</string>
+          <string>0x080a0208</string>
+          <string>0x7003fc3c</string>
+          <string>0x80808080</string>
+          <string>0x80808080 </string>
+          <string>0x70000000</string>
+        </ExpressionHistory>
+        <SymbolicMode>false</SymbolicMode>
+        <TakeAddressMode>false</TakeAddressMode>
+        <Format>
+          <DataWidth>OneByte</DataWidth>
+          <DataFormat>Hexadecimal</DataFormat>
+          <TextFormat>ANSI</TextFormat>
+        </Format>
+        <LiveMemorySettings>
+          <Enabled>true</Enabled>
+          <BreakOnChanges>false</BreakOnChanges>
+          <AutoRefresh>false</AutoRefresh>
+          <RefreshTimeout>0</RefreshTimeout>
+        </LiveMemorySettings>
+        <ShowStatusBar>true</ShowStatusBar>
+        <DisplaySymbols>false</DisplaySymbols>
+      </MemoryWindowPreferences>
+    </MemoryWindowPreferences>
+    <e />
+    <b>
+      <a>
+        <a>com.sysprogs.AllGlobals</a>
+        <b />
+      </a>
+      <a>
+        <a>com.sysprogs.SpecificVariables</a>
+        <b />
+      </a>
+    </b>
+    <c>
+      <b>SpecificVariables</b>
+      <a>false</a>
+    </c>
+    <Suggestions>
+      <HardwareRegisterFilters />
+    </Suggestions>
+    <HardwareRegisters />
+  </DebugPreferences>
+</VisualGDBUserPreferences>

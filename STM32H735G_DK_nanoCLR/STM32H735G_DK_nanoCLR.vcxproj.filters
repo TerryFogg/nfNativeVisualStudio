@@ -1,0 +1,3263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="nanoUI">
+      <UniqueIdentifier>{11d16884-91a4-40f6-bf98-81215ebc426e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nanoUI\Graphics">
+      <UniqueIdentifier>{8ef7c935-f7f7-4877-957e-20fb590e10c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nanoUI\Graphics\Core">
+      <UniqueIdentifier>{a6171a01-0bde-4c59-9fb8-3d6f7d189fec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nanoUI\Graphics\Core\Support">
+      <UniqueIdentifier>{8bde49cb-0367-47d9-a7a3-867645e427ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nanoUI\Graphics\Core\Support\Fonts">
+      <UniqueIdentifier>{5a2ff25a-e954-4dd0-95a0-3ab8dd7a98dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nanoUI\Graphics\Displays">
+      <UniqueIdentifier>{41b3441c-340d-49c0-baf6-9cf8cd99f5d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nanoUI\Graphics\Native">
+      <UniqueIdentifier>{b9b4beca-c572-4bae-92af-bf9e077b9019}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nanoUI\TouchPanel">
+      <UniqueIdentifier>{dd2ed45a-b92a-45be-80aa-3ba89426dc76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nanoUI\TouchPanel\Core">
+      <UniqueIdentifier>{142a9796-118b-460b-b691-55eb0ee86a22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nanoUI\TouchPanel\Devices">
+      <UniqueIdentifier>{e8569a53-4ab4-4980-b2ed-601aaee117cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter">
+      <UniqueIdentifier>{ace8be4a-19c2-41a8-8faa-2a2a8a502de4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src">
+      <UniqueIdentifier>{69633c02-9682-4844-8b8e-df298a4e7eb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\CLR">
+      <UniqueIdentifier>{144a473e-75ee-4ce8-9249-3a90060af0f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\CLR\Core">
+      <UniqueIdentifier>{d83742a8-62cf-43a3-b348-884bd38afaec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\CLR\Core\Hardware">
+      <UniqueIdentifier>{f172c656-29a1-4939-8e0b-a3577c460dc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\CLR\Core\InterruptHandler">
+      <UniqueIdentifier>{7f9153b2-44cc-4222-9a43-2cea4cdd4a36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\CLR\Core\NativeEventDispatcher">
+      <UniqueIdentifier>{61390bef-a98c-480d-ac39-78ea919cc92b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\CLR\Core\RPC">
+      <UniqueIdentifier>{d0eac0d4-deac-400e-86cf-22b159a92e0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\CLR\Core\Serialization">
+      <UniqueIdentifier>{b96cfb3d-bf74-4107-a855-ed60f894397b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\CLR\CoreLib">
+      <UniqueIdentifier>{de491989-62bf-4a88-89f9-35fc8164d889}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\CLR\Diagnostics">
+      <UniqueIdentifier>{7604cf57-5899-4b20-9abf-e90b6e172338}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\CLR\Helpers">
+      <UniqueIdentifier>{b8e04e11-4ac6-4a34-9c8d-7b21024b2608}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\CLR\Helpers\Base64">
+      <UniqueIdentifier>{967a3d2f-5194-494f-bb8f-55a8a3114765}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\CLR\Helpers\nanoprintf">
+      <UniqueIdentifier>{124392a1-471d-48a8-8ab9-01854ae021ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\CLR\Include">
+      <UniqueIdentifier>{b9f340d1-cfbc-48d4-8b3e-7dc23ee45eb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\CLR\Messaging">
+      <UniqueIdentifier>{36bc69f0-1783-4ad8-a147-5791eb2ffd9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\CLR\Startup">
+      <UniqueIdentifier>{0645f7ce-6d78-4880-afae-12611605be53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\CLR\WireProtocol">
+      <UniqueIdentifier>{746284cf-bfbc-49bb-ad55-1f9b2e407108}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\CLR\System.Math">
+      <UniqueIdentifier>{a28e08f7-57ae-4909-a27e-a023faa5b9cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\CLR\Debugger">
+      <UniqueIdentifier>{367f8c29-1ce4-4a85-907b-c8bfc2ab417f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\HAL">
+      <UniqueIdentifier>{0714999d-9c66-43bf-b4b6-f3f48acfc5d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\HAL\Include">
+      <UniqueIdentifier>{92a24d22-adb5-4add-9673-baeeaeac6ea8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\nanoFramework.ResourceManager">
+      <UniqueIdentifier>{af37e183-73c0-4cbc-afe7-46a72f4596a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\nanoFramework.Runtime.Events">
+      <UniqueIdentifier>{a922312b-20d1-446c-b8a9-8fe7dd52452e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\nanoFramework.Runtime.Native">
+      <UniqueIdentifier>{4a6ac4c7-5e41-4261-b3ef-bd11c90bedcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\nanoFramework.System.Collections">
+      <UniqueIdentifier>{919b702d-28b3-4f8e-82d0-9fb39e30c08e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\nanoFramework.System.Text">
+      <UniqueIdentifier>{77e00369-d31e-4f83-a24a-10f1e9259349}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\PAL">
+      <UniqueIdentifier>{9ab7a57e-c585-4feb-9748-a8bd75dba518}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\PAL\AsyncProcCall">
+      <UniqueIdentifier>{ca5e0eb2-e11a-4920-9336-47c95ff37d4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\PAL\BlockStorage">
+      <UniqueIdentifier>{997d16ec-c534-454e-a9a8-6523a28b2438}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\PAL\COM">
+      <UniqueIdentifier>{c16f27dd-e3a2-44d2-8f12-7f94cb085fae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\PAL\Double">
+      <UniqueIdentifier>{7988d824-5717-4618-ac03-8d82a2b421c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\PAL\Events">
+      <UniqueIdentifier>{a2f4a437-b12e-4098-9a2d-cfce4df95bbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\PAL\Include">
+      <UniqueIdentifier>{97515aac-dbf9-4e95-9a8f-fdceaf0be91f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\PAL\Profiler">
+      <UniqueIdentifier>{44470780-b5b0-45b9-a232-6db3cdf8d522}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\System.Device.I2c">
+      <UniqueIdentifier>{8cfeaa63-9cec-4b7f-9fe6-9fb62df7cc06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\System.Device.Spi">
+      <UniqueIdentifier>{552bb5a2-955f-4915-8cac-a7d97e3221ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\System.Device.Gpio">
+      <UniqueIdentifier>{96ea9eda-7394-4230-8066-051362573184}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\System.Device.Adc">
+      <UniqueIdentifier>{7bb434a2-9a41-4d41-b6c0-5944cc4498dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\System.Device.Pwm">
+      <UniqueIdentifier>{a0e84149-c94f-4e51-a7e9-b2161e5df69a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\System.Device.Dac">
+      <UniqueIdentifier>{1f4e74bf-7b99-4a08-bb77-151fb2fc3323}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\Windows.Storage">
+      <UniqueIdentifier>{d705a464-170d-4ca0-aa38-3e69053b394a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\System.IO.Ports">
+      <UniqueIdentifier>{4b01107d-5d69-4596-adc1-43cfb4dd24bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STM32CubeH7">
+      <UniqueIdentifier>{3cf80e30-6393-4be4-857e-097739d107e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STM32CubeH7\Drivers">
+      <UniqueIdentifier>{508a7ebd-f793-4411-abf6-9ed44352302e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STM32CubeH7\Drivers\CMSIS">
+      <UniqueIdentifier>{35faf261-3d49-4753-a502-e87fd78c6de1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STM32CubeH7\Drivers\CMSIS\Device">
+      <UniqueIdentifier>{752d1dd2-2aba-486d-b043-b2ec16121bf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STM32CubeH7\Drivers\CMSIS\Device\ST">
+      <UniqueIdentifier>{73cec4ee-33ec-4a5b-a394-74dd2fa2cf72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STM32CubeH7\Drivers\CMSIS\Device\ST\STM32H7xx">
+      <UniqueIdentifier>{b4f0ecf2-068e-42f5-ac43-14a1f32b10ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STM32CubeH7\Drivers\CMSIS\Device\ST\STM32H7xx\Include">
+      <UniqueIdentifier>{712b8d67-65ec-45cc-a67a-38b10390a035}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STM32CubeH7\Drivers\CMSIS\Include">
+      <UniqueIdentifier>{ed320c37-2a29-42e2-a846-e62ca39a4134}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STM32CubeH7\Drivers\STM32H7xx_HAL_Driver">
+      <UniqueIdentifier>{33b4824b-b435-4079-b7f7-4bcefd25c7c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\src">
+      <UniqueIdentifier>{07876c21-b88a-4884-895c-eba488e93f5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc">
+      <UniqueIdentifier>{b475d26f-d876-42b9-8077-9b0bb3526ee4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc\Legacy">
+      <UniqueIdentifier>{a28a9493-f8aa-425e-b358-90b39ddad8d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="threadx">
+      <UniqueIdentifier>{dc50d2cd-20cf-4631-84f5-bd5e8bb9c82f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="threadx\common">
+      <UniqueIdentifier>{62b7971e-b465-40ed-92a8-929248efb276}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="threadx\common\src">
+      <UniqueIdentifier>{e802ebd8-5a9b-4715-96b9-acee4dec43c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="threadx\common\inc">
+      <UniqueIdentifier>{3ecbb1f2-92e0-436a-9a79-bfbe73b8f0c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="threadx\ports">
+      <UniqueIdentifier>{b139c3eb-91a9-4cf8-a26d-4c640cbbd881}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="threadx\ports\cortex_m7">
+      <UniqueIdentifier>{c4eb60cd-a16f-474f-91f2-b38816479a69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="threadx\ports\cortex_m7\gnu">
+      <UniqueIdentifier>{19bf8a6c-05b5-4158-a040-6b76a0610e9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="threadx\ports\cortex_m7\gnu\src">
+      <UniqueIdentifier>{bfb0ea0d-523f-4ad2-b04f-fcdafef44b7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="threadx\ports\cortex_m7\gnu\inc">
+      <UniqueIdentifier>{795397cc-75d1-434c-8ee2-5be139733afa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FileX">
+      <UniqueIdentifier>{9a20da76-76ed-4729-bf5b-77bb225f2c8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FileX\common">
+      <UniqueIdentifier>{a2b6320a-8c35-44df-aa96-6087e8bef9db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FileX\common\inc">
+      <UniqueIdentifier>{cd40aab8-d117-45d9-98d5-fb2a1761f193}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FileX\common\src">
+      <UniqueIdentifier>{2b6c4895-30fa-45a4-afa0-b001363665b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FileX\ports">
+      <UniqueIdentifier>{0f787994-d6e2-4e26-a6e4-0d67097aa647}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FileX\ports\cortex_m7">
+      <UniqueIdentifier>{ff6cbaae-3de2-4d72-978b-5fc735c82b62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FileX\ports\cortex_m7\gnu">
+      <UniqueIdentifier>{8072e925-7e61-4a97-bba3-f2fffb829b6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FileX\ports\cortex_m7\gnu\inc">
+      <UniqueIdentifier>{ebf308b4-3162-40ed-b249-cd48e3d85cf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\targets">
+      <UniqueIdentifier>{acddd13a-69d5-4723-a361-124b6c883d38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\targets\AzureRTOS">
+      <UniqueIdentifier>{65eb47d4-06ba-48e7-966e-603ef5be4416}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\targets\AzureRTOS\ST">
+      <UniqueIdentifier>{f58004e5-256b-4475-9f42-84410b27f2d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK">
+      <UniqueIdentifier>{a4dbefee-f36c-45f9-9a54-cb2e8cf41114}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR">
+      <UniqueIdentifier>{09af8dde-5cc9-4085-a7d4-da0d39f1d06c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\HAL">
+      <UniqueIdentifier>{02e4cad5-51c3-4191-bfb5-5058cac45ca0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Memory">
+      <UniqueIdentifier>{d1166060-19f0-4b8b-8c71-fb083b341a6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\nanoFramework.Graphics">
+      <UniqueIdentifier>{b2f42653-74b9-4d51-84d5-32c923ce2617}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\nanoFramework.Hardware.Stm32H7xx">
+      <UniqueIdentifier>{3e31aa7e-fef2-4fdd-be4b-dd2ada58480b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\PAL">
+      <UniqueIdentifier>{017b12e8-b2d8-4784-af7c-6f34bc6c7a16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Startup">
+      <UniqueIdentifier>{38a6e3aa-81d0-426b-b63d-092415ea7347}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\System.Device.Gpio">
+      <UniqueIdentifier>{4d2678af-40e0-4629-a2ab-3c717309bdb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\System.Device.I2c">
+      <UniqueIdentifier>{17f733f5-40f6-46e3-ad92-b2db9b9ab046}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\System.Device.Spi">
+      <UniqueIdentifier>{c37d7d29-f27d-4c67-8f73-14cd972b059d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\WireProtocol">
+      <UniqueIdentifier>{f32703dc-dacb-41eb-b390-f4952eac598b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Other">
+      <UniqueIdentifier>{5e3f09ab-8588-4d7f-8976-9e492f270513}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\System.Media.PlaySound">
+      <UniqueIdentifier>{9db3997f-47bb-46fe-a194-c8df9fa6692e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Windows.Storage">
+      <UniqueIdentifier>{dc7f1a49-bb5c-4a5c-ad49-6a78bc76bdbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\System.Device.Adc">
+      <UniqueIdentifier>{36ea1b60-3b5c-4bd3-9def-28c09120e8f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\System.Device.Dac">
+      <UniqueIdentifier>{dec93e5f-d0e8-42d8-bf9b-72d36c402c91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\System.Device.Pwm">
+      <UniqueIdentifier>{de7d281d-5295-4e62-bf1e-90ad4e839f43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\System.IO.Ports">
+      <UniqueIdentifier>{95b901e7-379a-407b-b8df-6bd60a4acb0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\nanoFramework.Graphics">
+      <UniqueIdentifier>{d7c3e020-5e3a-4942-a3fa-5849bd5932be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\nanoFramework.Graphics\Graphics">
+      <UniqueIdentifier>{7d12561b-73db-46f3-959a-dbc8de291e24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\nanoFramework.Graphics\Graphics\Core">
+      <UniqueIdentifier>{910cf588-3232-4caf-acb5-f1d21fbfcad4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support">
+      <UniqueIdentifier>{4eb999d3-5c06-4024-9aaf-1da491d05538}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Bmp">
+      <UniqueIdentifier>{5ade95b4-e85a-49c0-b4e9-3f7b50e7481c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Fonts">
+      <UniqueIdentifier>{ed7b7dd5-bc03-498c-9f85-2f558db8bad1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Gif">
+      <UniqueIdentifier>{074dc2e3-0cf2-4f6d-b323-6d88e9912677}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg">
+      <UniqueIdentifier>{d91e25c2-baea-4e11-8c4b-a42dd1d3f0a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\nanoFramework.Graphics\TouchPanel">
+      <UniqueIdentifier>{e80da81b-ec5b-4ec1-bebc-25427134564e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\nanoFramework.Graphics\TouchPanel\Core">
+      <UniqueIdentifier>{b1df150e-92cc-43e7-9814-7108bbb7625e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\nanoFramework.Graphics\TouchPanel\Devices">
+      <UniqueIdentifier>{ba933ed4-7a1f-406a-b552-d59330c400f7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\ExternalRepositories\nf-interpreter\src\nanoFramework.Graphics\Readme.md">
+      <Filter>nanoUI</Filter>
+    </None>
+    <None Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Memory\STM32H735G-DK.ld">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Memory</Filter>
+    </None>
+    <None Include="..\..\nf-interpreter\src\CLR\Include\opcode.def">
+      <Filter>nf-interpreter\src\CLR\Include</Filter>
+    </None>
+    <None Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Readme.md">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\TouchPanel</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\nanoUI\Graphics\Core\Graphics.h">
+      <Filter>nanoUI\Graphics\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nanoUI\Graphics\Core\Support\Fonts\InternalFont.h">
+      <Filter>nanoUI\Graphics\Core\Support\Fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nanoUI\Graphics\Displays\Debug_To_Display.h">
+      <Filter>nanoUI\Graphics\Displays</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nanoUI\Graphics\Displays\Display.h">
+      <Filter>nanoUI\Graphics\Displays</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nanoUI\Graphics\Displays\DisplayInterface.h">
+      <Filter>nanoUI\Graphics\Displays</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nanoUI\Graphics\Native\nanoFramework_Graphics.h">
+      <Filter>nanoUI\Graphics\Native</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nanoUI\TouchPanel\Core\TouchPanel.h">
+      <Filter>nanoUI\TouchPanel\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nanoUI\TouchPanel\Devices\TouchInterface.h">
+      <Filter>nanoUI\TouchPanel\Devices</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nanoUI\TouchPanel\Devices\TouchDevice.h">
+      <Filter>nanoUI\TouchPanel\Devices</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\CLR\CorLib\corlib_native.h">
+      <Filter>nf-interpreter\src\CLR\CoreLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\CLR\CorLib\CorLib.h">
+      <Filter>nf-interpreter\src\CLR\CoreLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\CLR\Debugger\Debugger.h">
+      <Filter>nf-interpreter\src\CLR\Debugger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\filex\common\inc\fx_api.h">
+      <Filter>FileX\common\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\filex\common\inc\fx_directory.h">
+      <Filter>FileX\common\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\filex\common\inc\fx_directory_exFAT.h">
+      <Filter>FileX\common\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\filex\common\inc\fx_fault_tolerant.h">
+      <Filter>FileX\common\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\filex\common\inc\fx_file.h">
+      <Filter>FileX\common\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\filex\common\inc\fx_media.h">
+      <Filter>FileX\common\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\filex\common\inc\fx_system.h">
+      <Filter>FileX\common\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\filex\common\inc\fx_unicode.h">
+      <Filter>FileX\common\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\filex\common\inc\fx_user_sample.h">
+      <Filter>FileX\common\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\filex\common\inc\fx_utility.h">
+      <Filter>FileX\common\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h">
+      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc\Legacy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\CLR\Helpers\Base64\base64.h">
+      <Filter>nf-interpreter\src\CLR\Helpers\Base64</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\CLR\Startup\CLRStartup.h">
+      <Filter>nf-interpreter\src\CLR\Startup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Startup\tx_user.h">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Startup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Startup\tx_user_nanoCLR.h">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Startup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\CLR\Core\corhdr_private.h">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\CLR\Core\Core.h">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\PAL\Include\CPU_GPIO_decl.h">
+      <Filter>nf-interpreter\src\PAL\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Memory\target_BlockStorage.h">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Memory\Target_BlockStorage_STM32FlashDriver.h">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Memory\TargetPAL_BlockStorage.h">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\HAL\target_board.h">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\HAL\target_common.h">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\HAL\targetHAL_Power.h">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\HAL\TargetHAL_Spi.h">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Other\cmsis_compiler.h">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Other\cmsis_gcc.h">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Other\cmsis_os.h">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Other\cmsis_version.h">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Other\core_cm7.h">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Other\mpu_armv7.h">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\WireProtocol\wp_Communications.h">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\WireProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\CLR\Diagnostics\Diagnostics.h">
+      <Filter>nf-interpreter\src\CLR\Diagnostics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\CLR\Include\nanoCLR_Win32.h">
+      <Filter>nf-interpreter\src\CLR\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\CLR\Include\nanoCLR_Application.h">
+      <Filter>nf-interpreter\src\CLR\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\CLR\Include\nanoCLR_Checks.h">
+      <Filter>nf-interpreter\src\CLR\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\CLR\Include\nanoCLR_Debugging.h">
+      <Filter>nf-interpreter\src\CLR\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\CLR\Include\nanoCLR_ErrorCodes.h">
+      <Filter>nf-interpreter\src\CLR\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\CLR\Include\nanoCLR_Hardware.h">
+      <Filter>nf-interpreter\src\CLR\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\CLR\Include\nanoCLR_Headers.h">
+      <Filter>nf-interpreter\src\CLR\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\CLR\Include\nanoCLR_Interop.h">
+      <Filter>nf-interpreter\src\CLR\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\CLR\Include\nanoCLR_Messaging.h">
+      <Filter>nf-interpreter\src\CLR\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\CLR\Include\nanoCLR_ParseOptions.h">
+      <Filter>nf-interpreter\src\CLR\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\CLR\Include\nanoCLR_PlatformDef.h">
+      <Filter>nf-interpreter\src\CLR\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\CLR\Include\nanoCLR_Profiling.h">
+      <Filter>nf-interpreter\src\CLR\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\CLR\Include\nanoCLR_Runtime.h">
+      <Filter>nf-interpreter\src\CLR\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\CLR\Include\nanoCLR_Runtime__HeapBlock.h">
+      <Filter>nf-interpreter\src\CLR\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\CLR\Include\nanoCLR_Runtime__Serialization.h">
+      <Filter>nf-interpreter\src\CLR\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\CLR\Include\nanoCLR_Types.h">
+      <Filter>nf-interpreter\src\CLR\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\HAL\Include\nanoHAL.h">
+      <Filter>nf-interpreter\src\HAL\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\HAL\Include\nanoHAL_Boot.h">
+      <Filter>nf-interpreter\src\HAL\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\HAL\Include\nanoHAL_Spi.h">
+      <Filter>nf-interpreter\src\HAL\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\HAL\Include\nanoHAL_Graphics.h">
+      <Filter>nf-interpreter\src\HAL\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\HAL\Include\nanoHAL_Network.h">
+      <Filter>nf-interpreter\src\HAL\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\HAL\Include\nanoHAL_Power.h">
+      <Filter>nf-interpreter\src\HAL\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\HAL\Include\nanoHAL_ReleaseInfo.h">
+      <Filter>nf-interpreter\src\HAL\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\HAL\Include\nanoHAL_ConfigurationManager.h">
+      <Filter>nf-interpreter\src\HAL\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\HAL\Include\nanoHAL_Watchdog.h">
+      <Filter>nf-interpreter\src\HAL\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\HAL\Include\nanoHAL_v2.h">
+      <Filter>nf-interpreter\src\HAL\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\HAL\Include\nanoHAL_Types.h">
+      <Filter>nf-interpreter\src\HAL\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\HAL\Include\nanoHAL_Time.h">
+      <Filter>nf-interpreter\src\HAL\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\PAL\Include\nanoCRT.h">
+      <Filter>nf-interpreter\src\PAL\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\CLR\Include\nanoPackStruct.h">
+      <Filter>nf-interpreter\src\CLR\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\PAL\Include\nanoPAL_AsyncProcCalls_decl.h">
+      <Filter>nf-interpreter\src\PAL\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\PAL\Include\nanoPAL.h">
+      <Filter>nf-interpreter\src\PAL\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\PAL\Include\nanoPAL_BlockStorage.h">
+      <Filter>nf-interpreter\src\PAL\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\PAL\Include\nanoPAL_Events.h">
+      <Filter>nf-interpreter\src\PAL\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\PAL\Include\nanoPAL_COM.h">
+      <Filter>nf-interpreter\src\PAL\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\PAL\Include\nanoPAL_Time.h">
+      <Filter>nf-interpreter\src\PAL\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\PAL\Include\nanoPAL_PerformanceCounters.h">
+      <Filter>nf-interpreter\src\PAL\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\PAL\Include\nanoPAL_Network.h">
+      <Filter>nf-interpreter\src\PAL\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\PAL\Include\nanoPAL_Sockets.h">
+      <Filter>nf-interpreter\src\PAL\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\CLR\Helpers\nanoprintf\nanoprintf.h">
+      <Filter>nf-interpreter\src\CLR\Helpers\nanoprintf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\CLR\Include\nanoWeak.h">
+      <Filter>nf-interpreter\src\CLR\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\CLR\Include\nanoVersion.h">
+      <Filter>nf-interpreter\src\CLR\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\CLR\Include\nanoSupport.h">
+      <Filter>nf-interpreter\src\CLR\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\CLR\Include\nf_errors_exceptions.h">
+      <Filter>nf-interpreter\src\CLR\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\CLR\System.Math\nf_native_system_math.h">
+      <Filter>nf-interpreter\src\CLR\System.Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\nanoFramework.Runtime.Events\nf_rt_events_native.h">
+      <Filter>nf-interpreter\src\nanoFramework.Runtime.Events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\nanoFramework.Runtime.Native\nf_rt_native.h">
+      <Filter>nf-interpreter\src\nanoFramework.Runtime.Native</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\nanoFramework.System.Collections\nf_system_collections.h">
+      <Filter>nf-interpreter\src\nanoFramework.System.Collections</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\nanoFramework.ResourceManager\nf_system_resourcemanager.h">
+      <Filter>nf-interpreter\src\nanoFramework.ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\nanoFramework.System.Text\nf_system_text.h">
+      <Filter>nf-interpreter\src\nanoFramework.System.Text</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STM32CubeH7\Drivers\CMSIS\Device\ST\STM32H7xx\Include\stm32h7xx.h">
+      <Filter>STM32CubeH7\Drivers\CMSIS\Device\ST\STM32H7xx\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_ll_adc.h">
+      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_ll_bdma.h">
+      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_ll_bus.h">
+      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_ll_comp.h">
+      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_ll_cordic.h">
+      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_ll_cortex.h">
+      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_ll_crc.h">
+      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_ll_crs.h">
+      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_ll_dac.h">
+      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_ll_delayblock.h">
+      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_ll_dma.h">
+      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_ll_dma2d.h">
+      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_ll_dmamux.h">
+      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_ll_exti.h">
+      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_ll_fmac.h">
+      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_ll_fmc.h">
+      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_ll_gpio.h">
+      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_ll_hrtim.h">
+      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_ll_hsem.h">
+      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_ll_i2c.h">
+      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_ll_iwdg.h">
+      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_ll_lptim.h">
+      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_ll_lpuart.h">
+      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_ll_mdma.h">
+      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_ll_opamp.h">
+      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_ll_pwr.h">
+      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_ll_rcc.h">
+      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_ll_rng.h">
+      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_ll_rtc.h">
+      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_ll_sdmmc.h">
+      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_ll_spi.h">
+      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_ll_swpmi.h">
+      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_ll_system.h">
+      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_ll_tim.h">
+      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_ll_usart.h">
+      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_ll_usb.h">
+      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_ll_utils.h">
+      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_ll_wwdg.h">
+      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STM32CubeH7\Drivers\CMSIS\Device\ST\STM32H7xx\Include\stm32h735xx.h">
+      <Filter>STM32CubeH7\Drivers\CMSIS\Device\ST\STM32H7xx\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\System.Device.Adc\sys_dev_adc_native.h">
+      <Filter>nf-interpreter\src\System.Device.Adc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\System.Device.Dac\sys_dev_dac_native.h">
+      <Filter>nf-interpreter\src\System.Device.Dac</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\System.Device.Gpio\sys_dev_gpio_native.h">
+      <Filter>nf-interpreter\src\System.Device.Gpio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\System.Device.I2c\sys_dev_i2c_native.h">
+      <Filter>nf-interpreter\src\System.Device.I2c</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\System.Device.Pwm\sys_dev_pwm_native.h">
+      <Filter>nf-interpreter\src\System.Device.Pwm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\System.Device.Spi\sys_dev_spi_native.h">
+      <Filter>nf-interpreter\src\System.Device.Spi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\System.IO.Ports\sys_io_ser_native.h">
+      <Filter>nf-interpreter\src\System.IO.Ports</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STM32CubeH7\Drivers\CMSIS\Device\ST\STM32H7xx\Include\system_stm32h7xx.h">
+      <Filter>STM32CubeH7\Drivers\CMSIS\Device\ST\STM32H7xx\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\threadx\common\inc\tx_api.h">
+      <Filter>threadx\common\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\threadx\common\inc\tx_block_pool.h">
+      <Filter>threadx\common\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\threadx\common\inc\tx_byte_pool.h">
+      <Filter>threadx\common\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\threadx\common\inc\tx_event_flags.h">
+      <Filter>threadx\common\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\threadx\common\inc\tx_initialize.h">
+      <Filter>threadx\common\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\threadx\common\inc\tx_mutex.h">
+      <Filter>threadx\common\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\threadx\common\inc\tx_queue.h">
+      <Filter>threadx\common\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\threadx\common\inc\tx_semaphore.h">
+      <Filter>threadx\common\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\threadx\common\inc\tx_thread.h">
+      <Filter>threadx\common\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\threadx\common\inc\tx_timer.h">
+      <Filter>threadx\common\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\threadx\common\inc\tx_trace.h">
+      <Filter>threadx\common\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\threadx\common\inc\tx_user_sample.h">
+      <Filter>threadx\common\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\Windows.Storage\win_storage_native.h">
+      <Filter>nf-interpreter\src\Windows.Storage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\PAL\target_os.h">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\PAL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\PAL\target_platform.h">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\PAL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\PAL\targetPAL.h">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\PAL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\PAL\platform_target_capabilities.h">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\PAL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\HAL\Register_Modifications.h">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\HAL\targetHAL.h">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\HAL\targetHAL_Time.h">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\PAL\targetPAL_Time.h">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\PAL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\WireProtocol\wp_CircularBuffer.h">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\WireProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\WireProtocol\WireProtocol_ReceiverThread.h">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\WireProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Startup\CLR_Startup_Thread.h">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Startup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\CLR\Include\WireProtocol.h">
+      <Filter>nf-interpreter\src\CLR\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\CLR\Include\WireProtocol_App_Interface.h">
+      <Filter>nf-interpreter\src\CLR\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\CLR\Include\WireProtocol_Message.h">
+      <Filter>nf-interpreter\src\CLR\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\CLR\Include\WireProtocol_MonitorCommands.h">
+      <Filter>nf-interpreter\src\CLR\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\CLR\Include\WireProtocol_HAL_Interface.h">
+      <Filter>nf-interpreter\src\CLR\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Memory\Target_Windows_Storage.h">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\HAL\targetHAL_board.h">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Windows.Storage\MicroSD.h">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Windows.Storage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\System.Device.Gpio\sys_dev_gpio_native_target.h">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\System.Device.Gpio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\HAL\Include\nanoHAL_Capabilites.h">
+      <Filter>nf-interpreter\src\HAL\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\PAL\Include\nanoPAL_NativeDouble.h">
+      <Filter>nf-interpreter\src\PAL\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\PAL\Include\nanoPAL_GPIO.h">
+      <Filter>nf-interpreter\src\PAL\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\filex\ports\cortex_m7\gnu\inc\fx_port.h">
+      <Filter>FileX\ports\cortex_m7\gnu\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Startup\___vectors.h">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Startup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\HAL\Include\nanoHAL_Windows_Storage.h">
+      <Filter>nf-interpreter\src\HAL\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STM32CubeH7\Drivers\CMSIS\Include\mpu_armv7.h">
+      <Filter>STM32CubeH7\Drivers\CMSIS\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STM32CubeH7\Drivers\CMSIS\Include\core_cm7.h">
+      <Filter>STM32CubeH7\Drivers\CMSIS\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\PAL\Include\CPU_SPI_decl.h">
+      <Filter>nf-interpreter\src\PAL\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STM32CubeH7\Drivers\CMSIS\Include\cmsis_armcc.h">
+      <Filter>STM32CubeH7\Drivers\CMSIS\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STM32CubeH7\Drivers\CMSIS\Include\cmsis_armclang.h">
+      <Filter>STM32CubeH7\Drivers\CMSIS\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STM32CubeH7\Drivers\CMSIS\Include\cmsis_compiler.h">
+      <Filter>STM32CubeH7\Drivers\CMSIS\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STM32CubeH7\Drivers\CMSIS\Include\cmsis_gcc.h">
+      <Filter>STM32CubeH7\Drivers\CMSIS\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STM32CubeH7\Drivers\CMSIS\Include\cmsis_iccarm.h">
+      <Filter>STM32CubeH7\Drivers\CMSIS\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STM32CubeH7\Drivers\CMSIS\Include\cmsis_version.h">
+      <Filter>STM32CubeH7\Drivers\CMSIS\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal.h">
+      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_def.h">
+      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_dma.h">
+      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_sai_ex.h">
+      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_dma_ex.h">
+      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\threadx\ports\cortex_m7\gnu\inc\tx_port.h">
+      <Filter>threadx\ports\cortex_m7\gnu\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\CLR\Include\stdafx.h">
+      <Filter>nf-interpreter\src\CLR\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\System.Device.I2c\low_level_i2c.h">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\System.Device.I2c</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Gif\gif.h">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Gif</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Gif\giffile.h">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Gif</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Gif\lzw.h">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Gif</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Gif\lzwread.h">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Gif</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Gif\lzwutil.h">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Gif</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg\jchuff.h">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg\jconfig.h">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg\jdct.h">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg\jdhuff.h">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg\jerror.h">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg\jinclude.h">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg\jmemsys.h">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg\jmorecfg.h">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg\jpegint.h">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg\jpeglib.h">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg\jversion.h">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg\mcbcr.h">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg\transupp.h">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Graphics.h">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\GraphicsMemoryHeap.h">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\nanoUI\Graphics\Core\Graphics.cpp">
+      <Filter>nanoUI\Graphics\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\nanoUI\Graphics\Core\Support\Fonts\font8x8.cpp">
+      <Filter>nanoUI\Graphics\Core\Support\Fonts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\nanoUI\Graphics\Native\nanoFramework_Graphics.cpp">
+      <Filter>nanoUI\Graphics\Native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\nanoUI\Graphics\Native\nanoFramework_Graphics_nanoFramework_UI_Bitmap.cpp">
+      <Filter>nanoUI\Graphics\Native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\nanoUI\Graphics\Native\nanoFramework_Graphics_nanoFramework_UI_DisplayControl.cpp">
+      <Filter>nanoUI\Graphics\Native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\nanoUI\Graphics\Native\nanoFramework_Graphics_nanoFramework_UI_Font.cpp">
+      <Filter>nanoUI\Graphics\Native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\nanoUI\Graphics\Native\nanoFramework_Graphics_nanoFramework_UI_TouchPanel.cpp">
+      <Filter>nanoUI\Graphics\Native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\nanoUI\TouchPanel\Core\TouchPanel.cpp">
+      <Filter>nanoUI\TouchPanel\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\nanoUI\TouchPanel\Devices\FT5336_I2C.cpp">
+      <Filter>nanoUI\TouchPanel\Devices</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\Core\CLR_RT_Interop.cpp">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\Core\CLR_RT_DblLinkedList.cpp">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\Core\CLR_RT_HeapBlock.cpp">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\Core\CLR_RT_HeapBlock_Array.cpp">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\Core\CLR_RT_HeapBlock_ArrayList.cpp">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\Core\CLR_RT_HeapBlock_BinaryBlob.cpp">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\Core\CLR_RT_HeapBlock_Delegate.cpp">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\Core\CLR_RT_HeapBlock_Delegate_List.cpp">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\Core\RPC\CLR_RT_HeapBlock_EndPoint.cpp">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\Core\CLR_RT_HeapBlock_Finalizer.cpp">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\Core\CLR_RT_HeapBlock_Lock.cpp">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\Core\CLR_RT_HeapBlock_LockRequest.cpp">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\Core\CLR_RT_HeapBlock_Node.cpp">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\Core\CLR_RT_HeapBlock_Queue.cpp">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\Core\CLR_RT_HeapBlock_Stack.cpp">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\Core\CLR_RT_HeapBlock_String.cpp">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\Core\CLR_RT_HeapBlock_Timer.cpp">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\Core\CLR_RT_HeapBlock_WaitForObject.cpp">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\Core\CLR_RT_HeapCluster.cpp">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\Core\CLR_RT_UnicodeHelper.cpp">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\Core\CLR_RT_SystemAssembliesTable.cpp">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\Core\CLR_RT_StackFrame.cpp">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\Core\CLR_RT_RuntimeMemory.cpp">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\Core\CLR_RT_ObjectToEvent_Source.cpp">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\Core\CLR_RT_ObjectToEvent_Destination.cpp">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\Core\CLR_RT_Memory.cpp">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\CorLib\corlib_native_System_WeakReference.cpp">
+      <Filter>nf-interpreter\src\CLR\CoreLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\CorLib\corlib_native_System_ValueType.cpp">
+      <Filter>nf-interpreter\src\CLR\CoreLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\CorLib\corlib_native_System_Type.cpp">
+      <Filter>nf-interpreter\src\CLR\CoreLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\CorLib\corlib_native_System_TimeSpan.cpp">
+      <Filter>nf-interpreter\src\CLR\CoreLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\CorLib\corlib_native_System_Threading_WaitHandle.cpp">
+      <Filter>nf-interpreter\src\CLR\CoreLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\CorLib\corlib_native_System_Threading_Timer.cpp">
+      <Filter>nf-interpreter\src\CLR\CoreLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\CorLib\corlib_native_System_Threading_Thread.cpp">
+      <Filter>nf-interpreter\src\CLR\CoreLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\CorLib\corlib_native_System_Threading_SpinWait.cpp">
+      <Filter>nf-interpreter\src\CLR\CoreLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\CorLib\corlib_native_System_Threading_Monitor.cpp">
+      <Filter>nf-interpreter\src\CLR\CoreLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\CorLib\corlib_native_System_Threading_ManualResetEvent.cpp">
+      <Filter>nf-interpreter\src\CLR\CoreLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\CorLib\corlib_native_System_Threading_Interlocked.cpp">
+      <Filter>nf-interpreter\src\CLR\CoreLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\CorLib\corlib_native_System_Threading_AutoResetEvent.cpp">
+      <Filter>nf-interpreter\src\CLR\CoreLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\CorLib\corlib_native_System_String.cpp">
+      <Filter>nf-interpreter\src\CLR\CoreLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\CorLib\corlib_native_System_RuntimeType.cpp">
+      <Filter>nf-interpreter\src\CLR\CoreLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\CorLib\corlib_native_System_Runtime_Remoting_RemotingServices.cpp">
+      <Filter>nf-interpreter\src\CLR\CoreLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\CorLib\corlib_native_System_Runtime_CompilerServices_RuntimeHelpers.cpp">
+      <Filter>nf-interpreter\src\CLR\CoreLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\CorLib\corlib_native_System_Reflection_RuntimeMethodInfo.cpp">
+      <Filter>nf-interpreter\src\CLR\CoreLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\CorLib\corlib_native_System_Reflection_RuntimeFieldInfo.cpp">
+      <Filter>nf-interpreter\src\CLR\CoreLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\CorLib\corlib_native_System_Reflection_PropertyInfo.cpp">
+      <Filter>nf-interpreter\src\CLR\CoreLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\CorLib\corlib_native_System_Reflection_MethodBase.cpp">
+      <Filter>nf-interpreter\src\CLR\CoreLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\CorLib\corlib_native_System_Reflection_MemberInfo.cpp">
+      <Filter>nf-interpreter\src\CLR\CoreLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\CorLib\corlib_native_System_Reflection_FieldInfo.cpp">
+      <Filter>nf-interpreter\src\CLR\CoreLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\CorLib\corlib_native_System_Reflection_ConstructorInfo.cpp">
+      <Filter>nf-interpreter\src\CLR\CoreLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\CorLib\corlib_native_System_Reflection_Binder.cpp">
+      <Filter>nf-interpreter\src\CLR\CoreLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\CorLib\corlib_native_System_Reflection_Assembly.cpp">
+      <Filter>nf-interpreter\src\CLR\CoreLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\CorLib\corlib_native_System_Random.cpp">
+      <Filter>nf-interpreter\src\CLR\CoreLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\CorLib\corlib_native_System_Object.cpp">
+      <Filter>nf-interpreter\src\CLR\CoreLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\CorLib\corlib_native_System_Number.cpp">
+      <Filter>nf-interpreter\src\CLR\CoreLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\CorLib\corlib_native_System_MulticastDelegate.cpp">
+      <Filter>nf-interpreter\src\CLR\CoreLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\CorLib\corlib_native_System_MathInternal.cpp">
+      <Filter>nf-interpreter\src\CLR\CoreLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\CorLib\corlib_native_System_MarshalByRefObject.cpp">
+      <Filter>nf-interpreter\src\CLR\CoreLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\CorLib\corlib_native_System_Guid.cpp">
+      <Filter>nf-interpreter\src\CLR\CoreLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\CorLib\corlib_native_System_Globalization_DateTimeFormat.cpp">
+      <Filter>nf-interpreter\src\CLR\CoreLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\CorLib\corlib_native_System_Globalization_CultureInfo.cpp">
+      <Filter>nf-interpreter\src\CLR\CoreLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\CorLib\corlib_native_System_GC.cpp">
+      <Filter>nf-interpreter\src\CLR\CoreLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\CorLib\corlib_native_System_Exception.cpp">
+      <Filter>nf-interpreter\src\CLR\CoreLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\CorLib\corlib_native_System_Enum.cpp">
+      <Filter>nf-interpreter\src\CLR\CoreLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\CorLib\corlib_native_System_Double.cpp">
+      <Filter>nf-interpreter\src\CLR\CoreLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\CorLib\corlib_native_System_Diagnostics_Debugger.cpp">
+      <Filter>nf-interpreter\src\CLR\CoreLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\CorLib\corlib_native_System_Diagnostics_Debug.cpp">
+      <Filter>nf-interpreter\src\CLR\CoreLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\CorLib\corlib_native_System_Delegate.cpp">
+      <Filter>nf-interpreter\src\CLR\CoreLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\CorLib\corlib_native_System_DateTime.cpp">
+      <Filter>nf-interpreter\src\CLR\CoreLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\CorLib\corlib_native_System_Convert.cpp">
+      <Filter>nf-interpreter\src\CLR\CoreLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\CorLib\corlib_native_System_Collections_ArrayList.cpp">
+      <Filter>nf-interpreter\src\CLR\CoreLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\CorLib\corlib_native_System_BitConverter.cpp">
+      <Filter>nf-interpreter\src\CLR\CoreLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\CorLib\corlib_native_System_Attribute.cpp">
+      <Filter>nf-interpreter\src\CLR\CoreLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\CorLib\corlib_native_System_Array.cpp">
+      <Filter>nf-interpreter\src\CLR\CoreLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\CorLib\corlib_native_System_AppDomain.cpp">
+      <Filter>nf-interpreter\src\CLR\CoreLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\CorLib\corlib_native.cpp">
+      <Filter>nf-interpreter\src\CLR\CoreLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\Debugger\Debugger_stub.cpp">
+      <Filter>nf-interpreter\src\CLR\Debugger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\Debugger\Debugger_full.cpp">
+      <Filter>nf-interpreter\src\CLR\Debugger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\Debugger\Debugger.cpp">
+      <Filter>nf-interpreter\src\CLR\Debugger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_directory_entry_write.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_directory_attributes_read.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_directory_attributes_set.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_directory_create.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_directory_default_get.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_directory_default_get_copy.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_directory_default_set.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_directory_delete.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_directory_entry_read.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_directory_short_name_get_extended.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_directory_exFAT_entry_read.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_directory_exFAT_entry_write.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_directory_exFAT_free_search.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_directory_exFAT_unicode_entry_write.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_directory_first_entry_find.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_directory_first_full_entry_find.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_directory_free_search.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_directory_information_get.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_directory_local_path_clear.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_directory_local_path_get.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_directory_local_path_get_copy.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_directory_local_path_restore.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_directory_local_path_set.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_directory_long_name_get.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_directory_long_name_get_extended.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_directory_name_extract.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_directory_name_test.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_directory_next_entry_find.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_directory_next_full_entry_find.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_directory_rename.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_directory_search.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_directory_short_name_get.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_fault_tolerant_write_log_file.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_fault_tolerant_add_bitmap_log.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_fault_tolerant_add_checksum_log.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_fault_tolerant_add_dir_log.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_fault_tolerant_add_FAT_log.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_fault_tolerant_apply_logs.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_fault_tolerant_calculate_checksum.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_fault_tolerant_cleanup_FAT_chain.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_fault_tolerant_create_log_file.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_fault_tolerant_enable.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_fault_tolerant_read_directory_sector.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_fault_tolerant_read_FAT.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_fault_tolerant_read_log_file.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_fault_tolerant_recover.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_fault_tolerant_reset_log_file.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_fault_tolerant_set_FAT_chain.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_fault_tolerant_transaction_end.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_fault_tolerant_transaction_fail.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_fault_tolerant_transaction_start.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_file_write_notify_set.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_file_allocate.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_file_attributes_read.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_file_attributes_set.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_file_best_effort_allocate.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_file_close.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_file_create.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_file_date_time_set.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_file_delete.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_file_extended_allocate.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_file_extended_best_effort_allocate.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_file_extended_relative_seek.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_file_extended_seek.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_file_extended_truncate.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_file_extended_truncate_release.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_file_open.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_file_read.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_file_relative_seek.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_file_rename.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_file_seek.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_file_truncate.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_file_truncate_release.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_file_write.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_ram_driver.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_partition_offset_calculate.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_media_write.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_media_volume_set.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_media_volume_get_extended.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_media_volume_get.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_media_space_available.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_media_read.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_media_open_notify_set.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_media_open.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_media_format_volume_id_set.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_media_format_type_set.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_media_format_oem_name_set.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_media_format.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_media_flush.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_media_extended_space_available.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_media_exFAT_format.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_media_close_notify_set.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_media_close.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_media_check_lost_cluster_check.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_media_check_FAT_chain_check.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_media_check.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_media_cache_invalidate.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_media_boot_info_extract.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_media_abort.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_trace_object_unregister.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_trace_object_register.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_trace_event_update.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_trace_event_insert.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_system_timer_entry.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_system_time_set.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_system_time_get.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_system_initialize.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_system_date_set.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_system_date_get.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fxe_unicode_short_name_get_extended.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fxe_unicode_short_name_get.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fxe_unicode_name_get_extended.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fxe_unicode_name_get.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fxe_unicode_file_rename.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fxe_unicode_file_create.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fxe_unicode_directory_rename.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fxe_unicode_directory_create.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fxe_system_time_set.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fxe_system_time_get.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fxe_system_date_set.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fxe_system_date_get.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fxe_media_write.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fxe_media_volume_set.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fxe_media_volume_get_extended.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fxe_media_volume_get.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fxe_media_space_available.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fxe_media_read.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fxe_media_open_notify_set.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fxe_media_open.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fxe_media_format.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fxe_media_flush.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fxe_media_extended_space_available.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fxe_media_exFAT_format.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fxe_media_close_notify_set.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fxe_media_close.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fxe_media_check.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fxe_media_cache_invalidate.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fxe_media_abort.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fxe_file_write_notify_set.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fxe_file_write.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fxe_file_truncate_release.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fxe_file_truncate.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fxe_file_seek.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fxe_file_rename.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fxe_file_relative_seek.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fxe_file_read.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fxe_file_open.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fxe_file_extended_truncate_release.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fxe_file_extended_truncate.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fxe_file_extended_seek.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fxe_file_extended_relative_seek.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fxe_file_extended_best_effort_allocate.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fxe_file_extended_allocate.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fxe_file_delete.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fxe_file_date_time_set.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fxe_file_create.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fxe_file_close.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fxe_file_best_effort_allocate.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fxe_file_attributes_set.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fxe_file_attributes_read.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fxe_file_allocate.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fxe_fault_tolerant_enable.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fxe_directory_short_name_get_extended.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fxe_directory_short_name_get.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fxe_directory_rename.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fxe_directory_next_full_entry_find.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fxe_directory_next_entry_find.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fxe_directory_name_test.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fxe_directory_long_name_get_extended.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fxe_directory_long_name_get.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fxe_directory_local_path_set.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fxe_directory_local_path_restore.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fxe_directory_local_path_get_copy.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fxe_directory_local_path_get.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fxe_directory_local_path_clear.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fxe_directory_information_get.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fxe_directory_first_full_entry_find.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fxe_directory_first_entry_find.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fxe_directory_delete.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fxe_directory_default_set.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fxe_directory_default_get_copy.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fxe_directory_default_get.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fxe_directory_create.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fxe_directory_attributes_set.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fxe_directory_attributes_read.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_utility_token_length_get.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_utility_string_length_get.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_utility_memory_set.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_utility_memory_copy.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_utility_logical_sector_write.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_utility_logical_sector_read.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_utility_logical_sector_flush.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_utility_logical_sector_cache_entry_read.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_utility_FAT_sector_get.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_utility_FAT_map_flush.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_utility_FAT_flush.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_utility_FAT_entry_write.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_utility_FAT_entry_read.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_utility_exFAT_upcase_table.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_utility_exFAT_unicode_name_hash_get.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_utility_exFAT_system_sector_write.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_utility_exFAT_system_area_format.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_utility_exFAT_system_area_checksum_write.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_utility_exFAT_system_area_checksum_verify.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_utility_exFAT_size_calculate.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_utility_exFAT_name_hash_get.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_utility_exFAT_geometry_check.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_utility_exFAT_cluster_state_set.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_utility_exFAT_cluster_state_get.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_utility_exFAT_cluster_free.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_utility_exFAT_bitmap_start_sector_get.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_utility_exFAT_bitmap_initialize.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_utility_exFAT_bitmap_free_cluster_find.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_utility_exFAT_bitmap_flush.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_utility_exFAT_bitmap_cache_update.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_utility_exFAT_bitmap_cache_prepare.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_utility_exFAT_allocate_new_cluster.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_utility_absolute_path_get.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_utility_64_unsigned_write.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_utility_64_unsigned_read.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_utility_32_unsigned_write.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_utility_32_unsigned_read.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_utility_16_unsigned_write.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_utility_16_unsigned_read.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_unicode_short_name_get_extended.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_unicode_short_name_get.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_unicode_name_get_extended.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_unicode_name_get.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_unicode_length_get_extended.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_unicode_length_get.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_unicode_file_rename.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_unicode_file_create.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_unicode_directory_search.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_unicode_directory_rename.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_unicode_directory_entry_read.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_unicode_directory_entry_change.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\filex\common\src\fx_unicode_directory_create.c">
+      <Filter>FileX\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\PAL\AsyncProcCall\AsyncCompletions.cpp">
+      <Filter>nf-interpreter\src\PAL\AsyncProcCall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\PAL\AsyncProcCall\AsyncContinuations.cpp">
+      <Filter>nf-interpreter\src\PAL\AsyncProcCall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\Core\Serialization\BinaryFormatter.cpp">
+      <Filter>nf-interpreter\src\CLR\Core\Serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\Core\Serialization\BinaryFormatter_stub.cpp">
+      <Filter>nf-interpreter\src\CLR\Core\Serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\Helpers\Base64\base64.c">
+      <Filter>nf-interpreter\src\CLR\Helpers\Base64</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\Core\Cache.cpp">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\Core\Checks.cpp">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\Startup\CLRStartup.cpp">
+      <Filter>nf-interpreter\src\CLR\Startup</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Startup\Clock_configuration.c">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Startup</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Startup\CLR_RT_InteropAssembliesTable.cpp">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Startup</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Startup\CLR_Startup_Thread.c">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Startup</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Startup\nanoFramework_Threads.c">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Startup</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\PAL\COM\COM_stubs.c">
+      <Filter>nf-interpreter\src\PAL\COM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\Core\Core.cpp">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Memory\Device_BlockStorage.c">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Memory\OCTOSPI2_Hyperam.c">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Memory\platform_BlockStorage.c">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Memory\target_BlockStorage.c">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Memory\Target_BlockStorage_STM32FlashDriver.c">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\HAL\target_common.c">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\HAL\targetHAL.cpp">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\HAL\targetHAL_ConfigurationManager.cpp">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\HAL\targetHAL_Power.c">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\nanoFramework.Graphics\Graphics_Memory.cpp">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\nanoFramework.Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\nanoFramework.Graphics\I2c_To_TouchPanel.cpp">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\nanoFramework.Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\nanoFramework.Graphics\Initialize_Graphics.cpp">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\nanoFramework.Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\nanoFramework.Graphics\LTDC_DMA2D_To_Video.cpp">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\nanoFramework.Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\nanoFramework.Graphics\RK043FN48H_VideoMode.cpp">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\nanoFramework.Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\WireProtocol\wp_Communications.c">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\WireProtocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\Diagnostics\Diagnostics_stub.cpp">
+      <Filter>nf-interpreter\src\CLR\Diagnostics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\Core\GarbageCollector_Info.cpp">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\Core\Execution.cpp">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\Core\GarbageCollector.cpp">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\Core\GarbageCollector_Compaction.cpp">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\Core\GarbageCollector_ComputeReachabilityGraph.cpp">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\PAL\COM\GenericPort_stubs.c">
+      <Filter>nf-interpreter\src\PAL\COM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\Core\Hardware\Hardware.cpp">
+      <Filter>nf-interpreter\src\CLR\Core\Hardware</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\Core\Hardware\Hardware_stub.cpp">
+      <Filter>nf-interpreter\src\CLR\Core\Hardware</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\Diagnostics\Info.cpp">
+      <Filter>nf-interpreter\src\CLR\Diagnostics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\Core\Interpreter.cpp">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\Core\InterruptHandler\InterruptHandler.cpp">
+      <Filter>nf-interpreter\src\CLR\Core\InterruptHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\Core\InterruptHandler\InterruptHandler_stub.cpp">
+      <Filter>nf-interpreter\src\CLR\Core\InterruptHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\Messaging\Messaging_stub.cpp">
+      <Filter>nf-interpreter\src\CLR\Messaging</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\Messaging\Messaging.cpp">
+      <Filter>nf-interpreter\src\CLR\Messaging</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\HAL\nanoHAL_Boot.c">
+      <Filter>nf-interpreter\src\HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\HAL\nanoHAL_Capabilites.c">
+      <Filter>nf-interpreter\src\HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\HAL\nanoHAL_ConfigurationManager.c">
+      <Filter>nf-interpreter\src\HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\HAL\nanoHAL_Watchdog.c">
+      <Filter>nf-interpreter\src\HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\HAL\nanoHAL_Time.cpp">
+      <Filter>nf-interpreter\src\HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\HAL\nanoHAL_SystemInformation.cpp">
+      <Filter>nf-interpreter\src\HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\HAL\nanoHAL_SystemEvents.c">
+      <Filter>nf-interpreter\src\HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\System.Device.Spi\nanoHAL_Spi.cpp">
+      <Filter>nf-interpreter\src\System.Device.Spi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\PAL\Events\nanoPAL_Events_functions.cpp">
+      <Filter>nf-interpreter\src\PAL\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\PAL\Events\nanoPAL_Events.cpp">
+      <Filter>nf-interpreter\src\PAL\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\PAL\Events\nanoPAL_Events_driver.cpp">
+      <Filter>nf-interpreter\src\PAL\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\PAL\Double\nanoPAL_NativeDouble.cpp">
+      <Filter>nf-interpreter\src\PAL\Double</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\PAL\nanoPAL_Network_stubs.cpp">
+      <Filter>nf-interpreter\src\PAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\PAL\Profiler\nanoPAL_PerformanceCounters_stubs.cpp">
+      <Filter>nf-interpreter\src\PAL\Profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\Helpers\nanoprintf\nanoprintf.c">
+      <Filter>nf-interpreter\src\CLR\Helpers\nanoprintf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\Core\nanoSupport_CRC32.c">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\System.Math\nf_native_system_math.cpp">
+      <Filter>nf-interpreter\src\CLR\System.Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Runtime.Events\nf_rt_events_native_nanoFramework_Runtime_Events_WeakDelegate.cpp">
+      <Filter>nf-interpreter\src\nanoFramework.Runtime.Events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Runtime.Events\nf_rt_events_native.cpp">
+      <Filter>nf-interpreter\src\nanoFramework.Runtime.Events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Runtime.Events\nf_rt_events_native_nanoFramework_Runtime_Events_EventSink.cpp">
+      <Filter>nf-interpreter\src\nanoFramework.Runtime.Events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Runtime.Events\nf_rt_events_native_nanoFramework_Runtime_Events_NativeEventDispatcher.cpp">
+      <Filter>nf-interpreter\src\nanoFramework.Runtime.Events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\System.Math\nf_native_system_math_System_Math.cpp">
+      <Filter>nf-interpreter\src\CLR\System.Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Runtime.Native\nf_rt_native_nanoFramework_Runtime_Hardware_SystemInfo.cpp">
+      <Filter>nf-interpreter\src\nanoFramework.Runtime.Native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Runtime.Native\nf_rt_native_nanoFramework_Runtime_Native_ExecutionConstraint.cpp">
+      <Filter>nf-interpreter\src\nanoFramework.Runtime.Native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Runtime.Native\nf_rt_native_nanoFramework_Runtime_Native_GC.cpp">
+      <Filter>nf-interpreter\src\nanoFramework.Runtime.Native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Runtime.Native\nf_rt_native_nanoFramework_Runtime_Native_Power.cpp">
+      <Filter>nf-interpreter\src\nanoFramework.Runtime.Native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Runtime.Native\nf_rt_native_nanoFramework_Runtime_Native_Rtc_stubs.cpp">
+      <Filter>nf-interpreter\src\nanoFramework.Runtime.Native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Runtime.Native\nf_rt_native_System_Environment.cpp">
+      <Filter>nf-interpreter\src\nanoFramework.Runtime.Native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Runtime.Native\nf_rt_native.cpp">
+      <Filter>nf-interpreter\src\nanoFramework.Runtime.Native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.System.Collections\nf_system_collections.cpp">
+      <Filter>nf-interpreter\src\nanoFramework.System.Collections</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.System.Collections\nf_system_collections_System_Collections_Hashtable.cpp">
+      <Filter>nf-interpreter\src\nanoFramework.System.Collections</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.System.Collections\nf_system_collections_System_Collections_Hashtable__HashtableEnumerator.cpp">
+      <Filter>nf-interpreter\src\nanoFramework.System.Collections</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.System.Collections\nf_system_collections_System_Collections_Queue.cpp">
+      <Filter>nf-interpreter\src\nanoFramework.System.Collections</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.System.Collections\nf_system_collections_System_Collections_Stack.cpp">
+      <Filter>nf-interpreter\src\nanoFramework.System.Collections</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.ResourceManager\nf_system_resourcemanager.cpp">
+      <Filter>nf-interpreter\src\nanoFramework.ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.ResourceManager\nf_system_resourcemanager_nanoFramework_Runtime_Native_ResourceUtility.cpp">
+      <Filter>nf-interpreter\src\nanoFramework.ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.ResourceManager\nf_system_resourcemanager_System_Resources_ResourceManager.cpp">
+      <Filter>nf-interpreter\src\nanoFramework.ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.System.Text\nf_system_text.cpp">
+      <Filter>nf-interpreter\src\nanoFramework.System.Text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.System.Text\nf_system_text_System_Text_UTF8Decoder.cpp">
+      <Filter>nf-interpreter\src\nanoFramework.System.Text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.System.Text\nf_system_text_System_Text_UTF8Encoding.cpp">
+      <Filter>nf-interpreter\src\nanoFramework.System.Text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\Diagnostics\Profile.cpp">
+      <Filter>nf-interpreter\src\CLR\Diagnostics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\Diagnostics\Profiler.cpp">
+      <Filter>nf-interpreter\src\CLR\Diagnostics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_ll_usart.c">
+      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_ll_tim.c">
+      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_ll_swpmi.c">
+      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_ll_spi.c">
+      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_ll_rtc.c">
+      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_ll_rng.c">
+      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_ll_rcc.c">
+      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_ll_pwr.c">
+      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_ll_opamp.c">
+      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_ll_mdma.c">
+      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_ll_lpuart.c">
+      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_ll_lptim.c">
+      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_ll_i2c.c">
+      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_ll_hrtim.c">
+      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_ll_gpio.c">
+      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_ll_fmac.c">
+      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_ll_exti.c">
+      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_ll_dma2d.c">
+      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_ll_dma.c">
+      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_ll_dac.c">
+      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_ll_crs.c">
+      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_ll_crc.c">
+      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_ll_cordic.c">
+      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_ll_comp.c">
+      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_ll_bdma.c">
+      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_ll_adc.c">
+      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\Core\RPC\RPC_stub.cpp">
+      <Filter>nf-interpreter\src\CLR\Core\RPC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\Core\Streams.cpp">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\Core\StringTable.cpp">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\Core\StringTableData.cpp">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\System.Device.Adc\sys_dev_adc_native.cpp">
+      <Filter>nf-interpreter\src\System.Device.Adc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\System.Device.Dac\sys_dev_dac_native.cpp">
+      <Filter>nf-interpreter\src\System.Device.Dac</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\System.Device.Gpio\sys_dev_gpio_native.cpp">
+      <Filter>nf-interpreter\src\System.Device.Gpio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\System.Device.Gpio\sys_dev_gpio_native_System_Device_Gpio_GpioController.cpp">
+      <Filter>nf-interpreter\src\System.Device.Gpio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\System.Device.Gpio\sys_dev_gpio_native_System_Device_Gpio_GpioPin.cpp">
+      <Filter>nf-interpreter\src\System.Device.Gpio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\System.Device.I2c\sys_dev_i2c_native.cpp">
+      <Filter>nf-interpreter\src\System.Device.I2c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\System.Device.Pwm\sys_dev_pwm_native.cpp">
+      <Filter>nf-interpreter\src\System.Device.Pwm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\System.Device.Spi\sys_dev_spi_native.cpp">
+      <Filter>nf-interpreter\src\System.Device.Spi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\System.IO.Ports\sys_io_ser_native.cpp">
+      <Filter>nf-interpreter\src\System.IO.Ports</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\System.IO.Ports\sys_io_ser_native_System_IO_Ports_SerialPort__.cpp">
+      <Filter>nf-interpreter\src\System.IO.Ports</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\Core\Thread.cpp">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_byte_allocate.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_block_allocate.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_block_pool_cleanup.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_block_pool_create.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_block_pool_delete.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_block_pool_info_get.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_block_pool_initialize.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_block_pool_performance_info_get.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_block_pool_performance_system_info_get.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_block_pool_prioritize.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_block_release.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_byte_release.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_byte_pool_cleanup.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_byte_pool_create.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_byte_pool_delete.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_byte_pool_info_get.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_byte_pool_initialize.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_byte_pool_performance_info_get.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_byte_pool_performance_system_info_get.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_byte_pool_prioritize.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_byte_pool_search.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_event_flags_set_notify.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_event_flags_set.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_event_flags_performance_system_info_get.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_event_flags_performance_info_get.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_event_flags_initialize.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_event_flags_info_get.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_event_flags_get.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_event_flags_delete.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_event_flags_create.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_event_flags_cleanup.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_initialize_high_level.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_initialize_kernel_enter.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_initialize_kernel_setup.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_semaphore_put_notify.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_semaphore_put.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_semaphore_prioritize.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_semaphore_performance_system_info_get.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_semaphore_performance_info_get.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_semaphore_initialize.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_semaphore_info_get.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_semaphore_get.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_semaphore_delete.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_semaphore_create.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_semaphore_cleanup.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_semaphore_ceiling_put.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_queue_send_notify.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_queue_send.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_queue_receive.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_queue_prioritize.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_queue_performance_system_info_get.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_queue_performance_info_get.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_queue_initialize.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_queue_info_get.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_queue_front_send.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_queue_flush.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_queue_delete.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_queue_create.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_queue_cleanup.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_mutex_put.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_mutex_priority_change.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_mutex_prioritize.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_mutex_performance_system_info_get.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_mutex_performance_info_get.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_mutex_initialize.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_mutex_info_get.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_mutex_get.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_mutex_delete.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_mutex_create.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_mutex_cleanup.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_misra.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_timer_initialize.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_timer_info_get.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_timer_expiration_process.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_timer_delete.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_timer_deactivate.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_timer_create.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_timer_change.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_timer_activate.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_time_set.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_time_get.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_thread_wait_abort.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_thread_timeout.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_thread_time_slice_change.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_thread_time_slice.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_thread_terminate.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_thread_system_suspend.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_thread_system_resume.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_thread_system_preempt_check.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_thread_suspend.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_thread_stack_error_notify.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_thread_stack_error_handler.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_thread_stack_analyze.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_thread_sleep.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_thread_shell_entry.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_thread_resume.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_thread_reset.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_thread_relinquish.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_thread_priority_change.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_thread_preemption_change.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_thread_performance_system_info_get.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_thread_performance_info_get.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_thread_initialize.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_thread_info_get.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_thread_identify.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_thread_entry_exit_notify.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_thread_delete.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_thread_create.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_trace_user_event_insert.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_trace_object_unregister.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_trace_object_register.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_trace_isr_exit_insert.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_trace_isr_enter_insert.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_trace_interrupt_control.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_trace_initialize.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_trace_event_unfilter.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_trace_event_filter.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_trace_enable.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_trace_disable.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_trace_buffer_full_notify.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_timer_thread_entry.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_timer_system_deactivate.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_timer_system_activate.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_timer_performance_system_info_get.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\tx_timer_performance_info_get.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\txe_timer_info_get.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\txe_timer_delete.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\txe_timer_deactivate.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\txe_timer_create.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\txe_timer_change.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\txe_timer_activate.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\txe_thread_wait_abort.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\txe_thread_time_slice_change.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\txe_thread_terminate.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\txe_thread_suspend.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\txe_thread_resume.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\txe_thread_reset.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\txe_thread_relinquish.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\txe_thread_priority_change.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\txe_thread_preemption_change.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\txe_thread_info_get.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\txe_thread_entry_exit_notify.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\txe_thread_delete.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\txe_thread_create.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\txe_semaphore_put_notify.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\txe_semaphore_put.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\txe_semaphore_prioritize.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\txe_semaphore_info_get.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\txe_semaphore_get.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\txe_semaphore_delete.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\txe_semaphore_create.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\txe_semaphore_ceiling_put.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\txe_queue_send_notify.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\txe_queue_send.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\txe_queue_receive.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\txe_queue_prioritize.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\txe_queue_info_get.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\txe_queue_front_send.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\txe_queue_flush.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\txe_queue_delete.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\txe_queue_create.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\txe_mutex_put.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\txe_mutex_prioritize.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\txe_mutex_info_get.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\txe_mutex_get.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\txe_mutex_delete.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\txe_mutex_create.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\txe_event_flags_set_notify.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\txe_event_flags_set.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\txe_event_flags_info_get.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\txe_event_flags_get.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\txe_event_flags_delete.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\txe_event_flags_create.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\txe_byte_release.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\txe_byte_pool_prioritize.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\txe_byte_pool_info_get.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\txe_byte_pool_delete.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\txe_byte_pool_create.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\txe_byte_allocate.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\txe_block_release.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\txe_block_pool_prioritize.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\txe_block_pool_info_get.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\txe_block_pool_delete.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\txe_block_pool_create.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\common\src\txe_block_allocate.c">
+      <Filter>threadx\common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\Core\TypeSystem.cpp">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\Core\TypeSystemLookup.cpp">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\WireProtocol\WireProtocol_App_Interface.c">
+      <Filter>nf-interpreter\src\CLR\WireProtocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\WireProtocol\WireProtocol_HAL_Interface.c">
+      <Filter>nf-interpreter\src\CLR\WireProtocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\Windows.Storage\win_storage_native.cpp">
+      <Filter>nf-interpreter\src\Windows.Storage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\Core\Various.cpp">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\PAL\system_stm32h7xx.c">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\PAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\PAL\targetPAL.c">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\PAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\main.c">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\HAL\hard_fault_handler.c">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\HAL\nanoHAL.cpp">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\HAL\targetHAL_Time.cpp">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\HAL\nanoCRT.cpp">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\HAL\Memory.cpp">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\PAL\targetPAL_Events.cpp">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\PAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\PAL\targetPAL_Time.cpp">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\PAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\PAL\platform_heap.c">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\PAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\WireProtocol\WireProtocol_HAL_Interface.c">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\WireProtocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\WireProtocol\WireProtocol_ReceiverThread.c">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\WireProtocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\WireProtocol\wp_CircularBuffer.c">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\WireProtocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\WireProtocol\WireProtocol_MonitorCommands.c">
+      <Filter>nf-interpreter\src\CLR\WireProtocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\WireProtocol\WireProtocol_Message.c">
+      <Filter>nf-interpreter\src\CLR\WireProtocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\HAL\targetHAL_board.c">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\System.Media.PlaySound\cpu_System.Media.Playsound.c">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\System.Media.PlaySound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Windows.Storage\MicroSD.c">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Windows.Storage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Windows.Storage\WindowsStorage.cpp">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Windows.Storage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\System.Device.Adc\cpu_System.Device.Adc.cpp">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\System.Device.Adc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\System.Device.Gpio\cpu_System.Device.Gpio.cpp">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\System.Device.Gpio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\System.Device.Dac\cpu_System.Device.Dac.cpp">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\System.Device.Dac</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\System.Device.Spi\cpu_System.Device.SPI.cpp">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\System.Device.Spi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\System.Device.Pwm\cpu_System.Device.Pwm.cpp">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\System.Device.Pwm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\System.IO.Ports\cpu_System.IO.Ports.cpp">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\System.IO.Ports</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\nanoFramework.Hardware.Stm32H7xx\RealTimeClock.c">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\nanoFramework.Hardware.Stm32H7xx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\Core\Random.cpp">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\Core\NativeEventDispatcher\NativeEventDispatcher.cpp">
+      <Filter>nf-interpreter\src\CLR\Core\NativeEventDispatcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\Core\NativeEventDispatcher\NativeEventDispatcher_stub.cpp">
+      <Filter>nf-interpreter\src\CLR\Core\NativeEventDispatcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\PAL\BlockStorage\nanoPAL_BlockStorage.c">
+      <Filter>nf-interpreter\src\PAL\BlockStorage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Startup\tx_initialize_low_level.S">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Startup</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Startup\startup_stm32h735igkx.S">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Startup</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\ports\cortex_m7\gnu\src\tx_thread_context_restore.S">
+      <Filter>threadx\ports\cortex_m7\gnu\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\ports\cortex_m7\gnu\src\tx_thread_context_save.S">
+      <Filter>threadx\ports\cortex_m7\gnu\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\ports\cortex_m7\gnu\src\tx_thread_interrupt_disable.S">
+      <Filter>threadx\ports\cortex_m7\gnu\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\ports\cortex_m7\gnu\src\tx_thread_interrupt_restore.S">
+      <Filter>threadx\ports\cortex_m7\gnu\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\ports\cortex_m7\gnu\src\tx_thread_schedule.S">
+      <Filter>threadx\ports\cortex_m7\gnu\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\ports\cortex_m7\gnu\src\tx_thread_stack_build.S">
+      <Filter>threadx\ports\cortex_m7\gnu\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\ports\cortex_m7\gnu\src\tx_thread_system_return.S">
+      <Filter>threadx\ports\cortex_m7\gnu\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\ports\cortex_m7\gnu\src\tx_timer_interrupt.S">
+      <Filter>threadx\ports\cortex_m7\gnu\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\System.Device.I2c\cpu_System.Device.I2c.cpp">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\System.Device.I2c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\System.Device.I2c\low_level_I2c.c">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\System.Device.I2c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\threadx\ports\cortex_m7\gnu\src\tx_thread_interrupt_control.S">
+      <Filter>threadx\ports\cortex_m7\gnu\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_ll_utils.c">
+      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Bmp\Bitmap_Decoder.cpp">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Bmp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Fonts\Font.cpp">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Fonts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Gif\Gif.cpp">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Gif</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Gif\GifDecoder.cpp">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Gif</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Gif\lzwread.cpp">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Gif</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg\jbytearraydatasrc.c">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg\jcapimin.c">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg\jcapistd.c">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg\jccoefct.c">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg\jccolor.c">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg\jcdctmgr.c">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg\jchuff.c">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg\jcinit.c">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg\jcmainct.c">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg\jcmarker.c">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg\jcmaster.c">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg\jcomapi.c">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg\jcparam.c">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg\jcphuff.c">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg\jcprepct.c">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg\jcsample.c">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg\jctrans.c">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg\jdapimin.c">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg\jdapistd.c">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg\jdcoefct.c">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg\jdcolor.c">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg\jddctmgr.c">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg\jdhuff.c">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg\jdinput.c">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg\jdmainct.c">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg\jdmarker.c">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg\jdmaster.c">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg\jdmerge.c">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg\jdphuff.c">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg\jdpostct.c">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg\jdsample.c">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg\jdtrans.c">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg\jerror.c">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg\jfdctflt.c">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg\jfdctfst.c">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg\jfdctint.c">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg\jidctflt.c">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg\jidctfst.c">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg\jidctint.c">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg\jidctred.c">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg\jmemmgr.c">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg\jmemnanoclr.cpp">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg\Jpeg.cpp">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg\jquant1.c">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg\jquant2.c">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg\jutils.c">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg\mcbcr.c">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg\mfint.c">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg\miint.c">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg\pfint.c">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg\piint.c">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg\transupp.c">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\GraphicsDriver.cpp">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\GraphicsMemoryHeap.cpp">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

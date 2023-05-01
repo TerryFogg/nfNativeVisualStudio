@@ -1,0 +1,226 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RaspberryPiPico_nanoCLR", "RaspberryPiPico_nanoCLR\RaspberryPiPico_nanoCLR.vcxproj", "{7E7AB174-875A-4519-A6DE-D1AA20A4DD29}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "STM32H735G_DK_nanoCLR", "STM32H735G_DK_nanoCLR\STM32H735G_DK_nanoCLR.vcxproj", "{67C33B72-4EB0-414B-984C-46502ADD5453}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{E3E2DC90-7C9A-49E1-A951-3630DC3147C9}"
+	ProjectSection(SolutionItems) = preProject
+		Tools\flash_nuke.uf2 = Tools\flash_nuke.uf2
+		Tools\RpiPico_PostBuild.bat = Tools\RpiPico_PostBuild.bat
+		Tools\RunPioasm.bat = Tools\RunPioasm.bat
+		Tools\STM32H735G_DK_postbuild.bat = Tools\STM32H735G_DK_postbuild.bat
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildOutput", "BuildOutput", "{F2A58AD6-7D68-4923-AB1B-7B26F47D0AB3}"
+	ProjectSection(SolutionItems) = preProject
+		BuildOutput\RaspberryPiPico_nanoCLR.bin = BuildOutput\RaspberryPiPico_nanoCLR.bin
+		BuildOutput\RaspberryPiPico_nanoCLR.elf = BuildOutput\RaspberryPiPico_nanoCLR.elf
+		BuildOutput\RaspberryPiPico_nanoCLR.link.rsp = BuildOutput\RaspberryPiPico_nanoCLR.link.rsp
+		BuildOutput\RaspberryPiPico_nanoCLR.lst = BuildOutput\RaspberryPiPico_nanoCLR.lst
+		BuildOutput\RaspberryPiPico_nanoCLR.mkbin.rsp = BuildOutput\RaspberryPiPico_nanoCLR.mkbin.rsp
+		BuildOutput\RaspberryPiPico_nanoCLR.nm = BuildOutput\RaspberryPiPico_nanoCLR.nm
+		BuildOutput\RaspberryPiPico_nanoCLR.progstat = BuildOutput\RaspberryPiPico_nanoCLR.progstat
+		BuildOutput\RaspberryPiPico_nanoCLR.size = BuildOutput\RaspberryPiPico_nanoCLR.size
+		BuildOutput\RaspberryPiPico_nanoCLR.uf2 = BuildOutput\RaspberryPiPico_nanoCLR.uf2
+		BuildOutput\STM32H735G_DK_nanoCLR.elf = BuildOutput\STM32H735G_DK_nanoCLR.elf
+		BuildOutput\STM32H735G_DK_nanoCLR.link.rsp = BuildOutput\STM32H735G_DK_nanoCLR.link.rsp
+		BuildOutput\STM32H735G_DK_nanoCLR.lst = BuildOutput\STM32H735G_DK_nanoCLR.lst
+		BuildOutput\STM32H735G_DK_nanoCLR.mkbin.rsp = BuildOutput\STM32H735G_DK_nanoCLR.mkbin.rsp
+		BuildOutput\STM32H735G_DK_nanoCLR.nm = BuildOutput\STM32H735G_DK_nanoCLR.nm
+		BuildOutput\STM32H735G_DK_nanoCLR.size = BuildOutput\STM32H735G_DK_nanoCLR.size
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{6893F203-BCD6-46F3-BAF9-669E76448C94}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\activity.puml = Documentation\activity.puml
+		Documentation\ER-TFTM028-4_Datasheet.pdf = Documentation\ER-TFTM028-4_Datasheet.pdf
+		Documentation\ER-TFTM028-4_Interfacing.pdf = Documentation\ER-TFTM028-4_Interfacing.pdf
+		Documentation\FT6206.pdf = Documentation\FT6206.pdf
+		Documentation\ILI9341.pdf = Documentation\ILI9341.pdf
+		Documentation\nanoClrLaunch.puml = Documentation\nanoClrLaunch.puml
+		Documentation\nanoClrMain.puml = Documentation\nanoClrMain.puml
+		Documentation\nanoFrameworkArchitecture.grl = Documentation\nanoFrameworkArchitecture.grl
+		notes.txt = notes.txt
+		Documentation\PioTFT.docx = Documentation\PioTFT.docx
+		Documentation\SensorTypes.md = Documentation\SensorTypes.md
+		Documentation\SignatureIdea.md = Documentation\SignatureIdea.md
+		Documentation\STM32H735_PINOUT.csv = Documentation\STM32H735_PINOUT.csv
+		Documentation\StmDocuments.md = Documentation\StmDocuments.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Misc", "Misc", "{1EA869C0-BD8E-46FD-AA3C-E91C2F9D56F1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ELF2UF2", "Tools\ELF2UF2\ELF2UF2.vcxproj", "{67643395-C99B-4E27-8067-DF42E6A2C1AA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "x64", "x64", "{6EEE3316-E1BC-4CD5-8A00-2726AF496186}"
+	ProjectSection(SolutionItems) = preProject
+		x64\Debug\ELF2UF2.exe = x64\Debug\ELF2UF2.exe
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Debug", "Debug", "{F1B0FBC2-93BC-431D-99AA-FDB528E7B6F1}"
+	ProjectSection(SolutionItems) = preProject
+		x64\Debug\ELF2UF2.exe = x64\Debug\ELF2UF2.exe
+		x64\Debug\Pioasm.exe = x64\Debug\Pioasm.exe
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PicoProbe", "Tools\PicoProbe\PicoProbe.vcxproj", "{F5761A5A-0930-4F0A-A781-026071D32EEC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pioasm", "Tools\Pioasm\Pioasm.vcxproj", "{47157A75-7B83-40EC-B3CA-20300337F3A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|VisualGDB = Debug|VisualGDB
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		MinSizeRel|VisualGDB = MinSizeRel|VisualGDB
+		MinSizeRel|x64 = MinSizeRel|x64
+		MinSizeRel|x86 = MinSizeRel|x86
+		Release|VisualGDB = Release|VisualGDB
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+		RelWithDebInfo|VisualGDB = RelWithDebInfo|VisualGDB
+		RelWithDebInfo|x64 = RelWithDebInfo|x64
+		RelWithDebInfo|x86 = RelWithDebInfo|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E7AB174-875A-4519-A6DE-D1AA20A4DD29}.Debug|VisualGDB.ActiveCfg = Debug|VisualGDB
+		{7E7AB174-875A-4519-A6DE-D1AA20A4DD29}.Debug|VisualGDB.Build.0 = Debug|VisualGDB
+		{7E7AB174-875A-4519-A6DE-D1AA20A4DD29}.Debug|x64.ActiveCfg = Debug|VisualGDB
+		{7E7AB174-875A-4519-A6DE-D1AA20A4DD29}.Debug|x64.Build.0 = Debug|VisualGDB
+		{7E7AB174-875A-4519-A6DE-D1AA20A4DD29}.Debug|x86.ActiveCfg = Debug|VisualGDB
+		{7E7AB174-875A-4519-A6DE-D1AA20A4DD29}.Debug|x86.Build.0 = Debug|VisualGDB
+		{7E7AB174-875A-4519-A6DE-D1AA20A4DD29}.MinSizeRel|VisualGDB.ActiveCfg = Release|VisualGDB
+		{7E7AB174-875A-4519-A6DE-D1AA20A4DD29}.MinSizeRel|VisualGDB.Build.0 = Release|VisualGDB
+		{7E7AB174-875A-4519-A6DE-D1AA20A4DD29}.MinSizeRel|x64.ActiveCfg = Release|VisualGDB
+		{7E7AB174-875A-4519-A6DE-D1AA20A4DD29}.MinSizeRel|x64.Build.0 = Release|VisualGDB
+		{7E7AB174-875A-4519-A6DE-D1AA20A4DD29}.MinSizeRel|x86.ActiveCfg = Release|VisualGDB
+		{7E7AB174-875A-4519-A6DE-D1AA20A4DD29}.MinSizeRel|x86.Build.0 = Release|VisualGDB
+		{7E7AB174-875A-4519-A6DE-D1AA20A4DD29}.Release|VisualGDB.ActiveCfg = Release|VisualGDB
+		{7E7AB174-875A-4519-A6DE-D1AA20A4DD29}.Release|VisualGDB.Build.0 = Release|VisualGDB
+		{7E7AB174-875A-4519-A6DE-D1AA20A4DD29}.Release|x64.ActiveCfg = Release|VisualGDB
+		{7E7AB174-875A-4519-A6DE-D1AA20A4DD29}.Release|x64.Build.0 = Release|VisualGDB
+		{7E7AB174-875A-4519-A6DE-D1AA20A4DD29}.Release|x86.ActiveCfg = Release|VisualGDB
+		{7E7AB174-875A-4519-A6DE-D1AA20A4DD29}.Release|x86.Build.0 = Release|VisualGDB
+		{7E7AB174-875A-4519-A6DE-D1AA20A4DD29}.RelWithDebInfo|VisualGDB.ActiveCfg = Release|VisualGDB
+		{7E7AB174-875A-4519-A6DE-D1AA20A4DD29}.RelWithDebInfo|VisualGDB.Build.0 = Release|VisualGDB
+		{7E7AB174-875A-4519-A6DE-D1AA20A4DD29}.RelWithDebInfo|x64.ActiveCfg = Release|VisualGDB
+		{7E7AB174-875A-4519-A6DE-D1AA20A4DD29}.RelWithDebInfo|x64.Build.0 = Release|VisualGDB
+		{7E7AB174-875A-4519-A6DE-D1AA20A4DD29}.RelWithDebInfo|x86.ActiveCfg = Release|VisualGDB
+		{7E7AB174-875A-4519-A6DE-D1AA20A4DD29}.RelWithDebInfo|x86.Build.0 = Release|VisualGDB
+		{67C33B72-4EB0-414B-984C-46502ADD5453}.Debug|VisualGDB.ActiveCfg = Debug|VisualGDB
+		{67C33B72-4EB0-414B-984C-46502ADD5453}.Debug|VisualGDB.Build.0 = Debug|VisualGDB
+		{67C33B72-4EB0-414B-984C-46502ADD5453}.Debug|x64.ActiveCfg = Debug|VisualGDB
+		{67C33B72-4EB0-414B-984C-46502ADD5453}.Debug|x64.Build.0 = Debug|VisualGDB
+		{67C33B72-4EB0-414B-984C-46502ADD5453}.Debug|x86.ActiveCfg = Debug|VisualGDB
+		{67C33B72-4EB0-414B-984C-46502ADD5453}.Debug|x86.Build.0 = Debug|VisualGDB
+		{67C33B72-4EB0-414B-984C-46502ADD5453}.MinSizeRel|VisualGDB.ActiveCfg = Release|VisualGDB
+		{67C33B72-4EB0-414B-984C-46502ADD5453}.MinSizeRel|VisualGDB.Build.0 = Release|VisualGDB
+		{67C33B72-4EB0-414B-984C-46502ADD5453}.MinSizeRel|x64.ActiveCfg = Release|VisualGDB
+		{67C33B72-4EB0-414B-984C-46502ADD5453}.MinSizeRel|x64.Build.0 = Release|VisualGDB
+		{67C33B72-4EB0-414B-984C-46502ADD5453}.MinSizeRel|x86.ActiveCfg = Release|VisualGDB
+		{67C33B72-4EB0-414B-984C-46502ADD5453}.MinSizeRel|x86.Build.0 = Release|VisualGDB
+		{67C33B72-4EB0-414B-984C-46502ADD5453}.Release|VisualGDB.ActiveCfg = Release|VisualGDB
+		{67C33B72-4EB0-414B-984C-46502ADD5453}.Release|VisualGDB.Build.0 = Release|VisualGDB
+		{67C33B72-4EB0-414B-984C-46502ADD5453}.Release|x64.ActiveCfg = Release|VisualGDB
+		{67C33B72-4EB0-414B-984C-46502ADD5453}.Release|x64.Build.0 = Release|VisualGDB
+		{67C33B72-4EB0-414B-984C-46502ADD5453}.Release|x86.ActiveCfg = Release|VisualGDB
+		{67C33B72-4EB0-414B-984C-46502ADD5453}.Release|x86.Build.0 = Release|VisualGDB
+		{67C33B72-4EB0-414B-984C-46502ADD5453}.RelWithDebInfo|VisualGDB.ActiveCfg = Release|VisualGDB
+		{67C33B72-4EB0-414B-984C-46502ADD5453}.RelWithDebInfo|VisualGDB.Build.0 = Release|VisualGDB
+		{67C33B72-4EB0-414B-984C-46502ADD5453}.RelWithDebInfo|x64.ActiveCfg = Release|VisualGDB
+		{67C33B72-4EB0-414B-984C-46502ADD5453}.RelWithDebInfo|x64.Build.0 = Release|VisualGDB
+		{67C33B72-4EB0-414B-984C-46502ADD5453}.RelWithDebInfo|x86.ActiveCfg = Release|VisualGDB
+		{67C33B72-4EB0-414B-984C-46502ADD5453}.RelWithDebInfo|x86.Build.0 = Release|VisualGDB
+		{67643395-C99B-4E27-8067-DF42E6A2C1AA}.Debug|VisualGDB.ActiveCfg = Debug|x64
+		{67643395-C99B-4E27-8067-DF42E6A2C1AA}.Debug|VisualGDB.Build.0 = Debug|x64
+		{67643395-C99B-4E27-8067-DF42E6A2C1AA}.Debug|x64.ActiveCfg = Debug|x64
+		{67643395-C99B-4E27-8067-DF42E6A2C1AA}.Debug|x64.Build.0 = Debug|x64
+		{67643395-C99B-4E27-8067-DF42E6A2C1AA}.Debug|x86.ActiveCfg = Debug|Win32
+		{67643395-C99B-4E27-8067-DF42E6A2C1AA}.Debug|x86.Build.0 = Debug|Win32
+		{67643395-C99B-4E27-8067-DF42E6A2C1AA}.MinSizeRel|VisualGDB.ActiveCfg = Debug|x64
+		{67643395-C99B-4E27-8067-DF42E6A2C1AA}.MinSizeRel|VisualGDB.Build.0 = Debug|x64
+		{67643395-C99B-4E27-8067-DF42E6A2C1AA}.MinSizeRel|x64.ActiveCfg = Debug|x64
+		{67643395-C99B-4E27-8067-DF42E6A2C1AA}.MinSizeRel|x64.Build.0 = Debug|x64
+		{67643395-C99B-4E27-8067-DF42E6A2C1AA}.MinSizeRel|x86.ActiveCfg = Debug|Win32
+		{67643395-C99B-4E27-8067-DF42E6A2C1AA}.MinSizeRel|x86.Build.0 = Debug|Win32
+		{67643395-C99B-4E27-8067-DF42E6A2C1AA}.Release|VisualGDB.ActiveCfg = Release|x64
+		{67643395-C99B-4E27-8067-DF42E6A2C1AA}.Release|VisualGDB.Build.0 = Release|x64
+		{67643395-C99B-4E27-8067-DF42E6A2C1AA}.Release|x64.ActiveCfg = Release|x64
+		{67643395-C99B-4E27-8067-DF42E6A2C1AA}.Release|x64.Build.0 = Release|x64
+		{67643395-C99B-4E27-8067-DF42E6A2C1AA}.Release|x86.ActiveCfg = Release|Win32
+		{67643395-C99B-4E27-8067-DF42E6A2C1AA}.Release|x86.Build.0 = Release|Win32
+		{67643395-C99B-4E27-8067-DF42E6A2C1AA}.RelWithDebInfo|VisualGDB.ActiveCfg = Release|x64
+		{67643395-C99B-4E27-8067-DF42E6A2C1AA}.RelWithDebInfo|VisualGDB.Build.0 = Release|x64
+		{67643395-C99B-4E27-8067-DF42E6A2C1AA}.RelWithDebInfo|x64.ActiveCfg = Release|x64
+		{67643395-C99B-4E27-8067-DF42E6A2C1AA}.RelWithDebInfo|x64.Build.0 = Release|x64
+		{67643395-C99B-4E27-8067-DF42E6A2C1AA}.RelWithDebInfo|x86.ActiveCfg = Release|Win32
+		{67643395-C99B-4E27-8067-DF42E6A2C1AA}.RelWithDebInfo|x86.Build.0 = Release|Win32
+		{F5761A5A-0930-4F0A-A781-026071D32EEC}.Debug|VisualGDB.ActiveCfg = Debug|VisualGDB
+		{F5761A5A-0930-4F0A-A781-026071D32EEC}.Debug|VisualGDB.Build.0 = Debug|VisualGDB
+		{F5761A5A-0930-4F0A-A781-026071D32EEC}.Debug|x64.ActiveCfg = Debug|VisualGDB
+		{F5761A5A-0930-4F0A-A781-026071D32EEC}.Debug|x64.Build.0 = Debug|VisualGDB
+		{F5761A5A-0930-4F0A-A781-026071D32EEC}.Debug|x86.ActiveCfg = Debug|VisualGDB
+		{F5761A5A-0930-4F0A-A781-026071D32EEC}.Debug|x86.Build.0 = Debug|VisualGDB
+		{F5761A5A-0930-4F0A-A781-026071D32EEC}.MinSizeRel|VisualGDB.ActiveCfg = Release|VisualGDB
+		{F5761A5A-0930-4F0A-A781-026071D32EEC}.MinSizeRel|VisualGDB.Build.0 = Release|VisualGDB
+		{F5761A5A-0930-4F0A-A781-026071D32EEC}.MinSizeRel|x64.ActiveCfg = Release|VisualGDB
+		{F5761A5A-0930-4F0A-A781-026071D32EEC}.MinSizeRel|x64.Build.0 = Release|VisualGDB
+		{F5761A5A-0930-4F0A-A781-026071D32EEC}.MinSizeRel|x86.ActiveCfg = Release|VisualGDB
+		{F5761A5A-0930-4F0A-A781-026071D32EEC}.MinSizeRel|x86.Build.0 = Release|VisualGDB
+		{F5761A5A-0930-4F0A-A781-026071D32EEC}.Release|VisualGDB.ActiveCfg = Release|VisualGDB
+		{F5761A5A-0930-4F0A-A781-026071D32EEC}.Release|VisualGDB.Build.0 = Release|VisualGDB
+		{F5761A5A-0930-4F0A-A781-026071D32EEC}.Release|x64.ActiveCfg = Release|VisualGDB
+		{F5761A5A-0930-4F0A-A781-026071D32EEC}.Release|x64.Build.0 = Release|VisualGDB
+		{F5761A5A-0930-4F0A-A781-026071D32EEC}.Release|x86.ActiveCfg = Release|VisualGDB
+		{F5761A5A-0930-4F0A-A781-026071D32EEC}.Release|x86.Build.0 = Release|VisualGDB
+		{F5761A5A-0930-4F0A-A781-026071D32EEC}.RelWithDebInfo|VisualGDB.ActiveCfg = Release|VisualGDB
+		{F5761A5A-0930-4F0A-A781-026071D32EEC}.RelWithDebInfo|VisualGDB.Build.0 = Release|VisualGDB
+		{F5761A5A-0930-4F0A-A781-026071D32EEC}.RelWithDebInfo|x64.ActiveCfg = Release|VisualGDB
+		{F5761A5A-0930-4F0A-A781-026071D32EEC}.RelWithDebInfo|x64.Build.0 = Release|VisualGDB
+		{F5761A5A-0930-4F0A-A781-026071D32EEC}.RelWithDebInfo|x86.ActiveCfg = Release|VisualGDB
+		{F5761A5A-0930-4F0A-A781-026071D32EEC}.RelWithDebInfo|x86.Build.0 = Release|VisualGDB
+		{47157A75-7B83-40EC-B3CA-20300337F3A3}.Debug|VisualGDB.ActiveCfg = Debug|x64
+		{47157A75-7B83-40EC-B3CA-20300337F3A3}.Debug|VisualGDB.Build.0 = Debug|x64
+		{47157A75-7B83-40EC-B3CA-20300337F3A3}.Debug|x64.ActiveCfg = Debug|x64
+		{47157A75-7B83-40EC-B3CA-20300337F3A3}.Debug|x64.Build.0 = Debug|x64
+		{47157A75-7B83-40EC-B3CA-20300337F3A3}.Debug|x86.ActiveCfg = Debug|Win32
+		{47157A75-7B83-40EC-B3CA-20300337F3A3}.Debug|x86.Build.0 = Debug|Win32
+		{47157A75-7B83-40EC-B3CA-20300337F3A3}.MinSizeRel|VisualGDB.ActiveCfg = Debug|x64
+		{47157A75-7B83-40EC-B3CA-20300337F3A3}.MinSizeRel|VisualGDB.Build.0 = Debug|x64
+		{47157A75-7B83-40EC-B3CA-20300337F3A3}.MinSizeRel|x64.ActiveCfg = Debug|x64
+		{47157A75-7B83-40EC-B3CA-20300337F3A3}.MinSizeRel|x64.Build.0 = Debug|x64
+		{47157A75-7B83-40EC-B3CA-20300337F3A3}.MinSizeRel|x86.ActiveCfg = Debug|Win32
+		{47157A75-7B83-40EC-B3CA-20300337F3A3}.MinSizeRel|x86.Build.0 = Debug|Win32
+		{47157A75-7B83-40EC-B3CA-20300337F3A3}.Release|VisualGDB.ActiveCfg = Release|x64
+		{47157A75-7B83-40EC-B3CA-20300337F3A3}.Release|VisualGDB.Build.0 = Release|x64
+		{47157A75-7B83-40EC-B3CA-20300337F3A3}.Release|x64.ActiveCfg = Release|x64
+		{47157A75-7B83-40EC-B3CA-20300337F3A3}.Release|x64.Build.0 = Release|x64
+		{47157A75-7B83-40EC-B3CA-20300337F3A3}.Release|x86.ActiveCfg = Release|Win32
+		{47157A75-7B83-40EC-B3CA-20300337F3A3}.Release|x86.Build.0 = Release|Win32
+		{47157A75-7B83-40EC-B3CA-20300337F3A3}.RelWithDebInfo|VisualGDB.ActiveCfg = Release|x64
+		{47157A75-7B83-40EC-B3CA-20300337F3A3}.RelWithDebInfo|VisualGDB.Build.0 = Release|x64
+		{47157A75-7B83-40EC-B3CA-20300337F3A3}.RelWithDebInfo|x64.ActiveCfg = Release|x64
+		{47157A75-7B83-40EC-B3CA-20300337F3A3}.RelWithDebInfo|x64.Build.0 = Release|x64
+		{47157A75-7B83-40EC-B3CA-20300337F3A3}.RelWithDebInfo|x86.ActiveCfg = Release|Win32
+		{47157A75-7B83-40EC-B3CA-20300337F3A3}.RelWithDebInfo|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E3E2DC90-7C9A-49E1-A951-3630DC3147C9} = {1EA869C0-BD8E-46FD-AA3C-E91C2F9D56F1}
+		{F2A58AD6-7D68-4923-AB1B-7B26F47D0AB3} = {1EA869C0-BD8E-46FD-AA3C-E91C2F9D56F1}
+		{6893F203-BCD6-46F3-BAF9-669E76448C94} = {1EA869C0-BD8E-46FD-AA3C-E91C2F9D56F1}
+		{67643395-C99B-4E27-8067-DF42E6A2C1AA} = {E3E2DC90-7C9A-49E1-A951-3630DC3147C9}
+		{F1B0FBC2-93BC-431D-99AA-FDB528E7B6F1} = {6EEE3316-E1BC-4CD5-8A00-2726AF496186}
+		{F5761A5A-0930-4F0A-A781-026071D32EEC} = {E3E2DC90-7C9A-49E1-A951-3630DC3147C9}
+		{47157A75-7B83-40EC-B3CA-20300337F3A3} = {E3E2DC90-7C9A-49E1-A951-3630DC3147C9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EF88C385-2DA4-4827-B6C6-8E99F00D7F8B}
+	EndGlobalSection
+EndGlobal
