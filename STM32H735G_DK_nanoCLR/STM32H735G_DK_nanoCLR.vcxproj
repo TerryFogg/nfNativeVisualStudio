@@ -47,7 +47,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|VisualGDB'">
     <ClCompile>
-      <AdditionalIncludeDirectories>..\..\nf-interpreter\src\CLR\Include;..\..\nf-interpreter\src\CLR\Core;..\..\nf-interpreter\src\CLR\CorLib;..\..\nf-interpreter\src\CLR\Debugger;..\..\nf-interpreter\src\CLR\Diagnostics;..\..\nf-interpreter\src\CLR\Helpers\Base64;..\..\nf-interpreter\src\CLR\Helpers\nanoprintf;..\..\nf-interpreter\src\CLR\NativeEventDispatcher;..\..\nf-interpreter\src\CLR\Startup;..\..\nf-interpreter\src\CLR\System.Math;..\..\nf-interpreter\src\DeviceInterfaces\Network\Enc28j60;..\..\nf-interpreter\src\DeviceInterfaces\Networking.Sntp;..\..\nf-interpreter\src\DeviceInterfaces\System.Net;..\..\nf-interpreter\src\HAL\Include;..\..\nf-interpreter\src\nanoFramework.Devices.Can;..\..\nf-interpreter\src\nanoFramework.Devices.OneWire;..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core;..\..\nf-interpreter\src\nanoFramework.ResourceManager;..\..\nf-interpreter\src\nanoFramework.Runtime.Native;..\..\nf-interpreter\src\nanoFramework.System.Collections;..\..\nf-interpreter\src\nanoFramework.System.Text;..\..\nf-interpreter\src\PAL\Include;..\..\nf-interpreter\src\PAL\COM\sockets\ssl\mbedTLS;..\..\nf-interpreter\src\PAL\COM\sockets\ssl;..\..\nf-interpreter\src\PAL\COM\sockets;..\..\nf-interpreter\src\PAL\Lwip;..\..\nf-interpreter\src\nanoFramework.Runtime.Events;..\..\nf-interpreter\src\System.Device.Adc;..\..\nf-interpreter\src\System.Device.Dac;..\..\nf-interpreter\src\System.Device.Gpio;..\..\nf-interpreter\src\System.Device.I2c;..\..\nf-interpreter\src\System.Device.Pwm;..\..\nf-interpreter\src\System.Device.Spi;..\..\nf-interpreter\src\System.IO.Ports;..\..\nf-interpreter\src\System.IO.FileSystem;..\..\nf-interpreter\src\System.Net;..\..\nf-interpreter\src\Windows.Storage;..\..\threadx\common\inc;..\..\threadx\ports\cortex_m7\gnu\inc;..\..\filex\common\inc;..\..\filex\ports\cortex_m7\gnu\inc;..\..\STM32CubeH7\Drivers\CMSIS\Include;..\..\STM32CubeH7\Drivers\CMSIS\Device\ST\STM32H7xx\Include;..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc;..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\Legacy;..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\HAL;..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Memory;..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\nanoFramework.Graphics;..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\nanoFramework.Hardware.STM32H7xx;..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Other;..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\PAL;..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Startup;..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\System.Device.Gpio;..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\System.Device.I2c;..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\System.Device.Spi;..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\WireProtocol;..\nanoUI\Graphics\Core;..\nanoUI\Graphics\Displays;..\nanoUI\Graphics\Core\Support;..\nanoUI\Graphics\Core\Support\Fonts;..\nanoUI\Graphics\Core\Support\Gif;..\nanoUI\Graphics\Core\Support\Jpeg;..\nanoUI\Graphics\Native;..\nanoUI\TouchPanel\Core;..\nanoUI\TouchPanel\Devices;%(ClCompile.AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\nf-interpreter\src\CLR\Include;..\..\nf-interpreter\src\CLR\Core;..\..\nf-interpreter\src\CLR\CorLib;..\..\nf-interpreter\src\CLR\Debugger;..\..\nf-interpreter\src\CLR\Diagnostics;..\..\nf-interpreter\src\CLR\Helpers\Base64;..\..\nf-interpreter\src\CLR\Helpers\nanoprintf;..\..\nf-interpreter\src\CLR\NativeEventDispatcher;..\..\nf-interpreter\src\CLR\Startup;..\..\nf-interpreter\src\CLR\System.Math;..\..\nf-interpreter\src\DeviceInterfaces\Network\Enc28j60;..\..\nf-interpreter\src\DeviceInterfaces\Networking.Sntp;..\..\nf-interpreter\src\DeviceInterfaces\System.Net;..\..\nf-interpreter\src\HAL\Include;..\..\nf-interpreter\src\nanoFramework.Devices.Can;..\..\nf-interpreter\src\nanoFramework.Devices.OneWire;..\..\nf-interpreter\src\nanoFramework.ResourceManager;..\..\nf-interpreter\src\nanoFramework.Runtime.Native;..\..\nf-interpreter\src\nanoFramework.System.Collections;..\..\nf-interpreter\src\nanoFramework.System.Text;..\..\nf-interpreter\src\PAL\Include;..\..\nf-interpreter\src\PAL\COM\sockets\ssl\mbedTLS;..\..\nf-interpreter\src\PAL\COM\sockets\ssl;..\..\nf-interpreter\src\PAL\COM\sockets;..\..\nf-interpreter\src\PAL\Lwip;..\..\nf-interpreter\src\nanoFramework.Runtime.Events;..\..\nf-interpreter\src\System.Device.Adc;..\..\nf-interpreter\src\System.Device.Dac;..\..\nf-interpreter\src\System.Device.Gpio;..\..\nf-interpreter\src\System.Device.I2c;..\..\nf-interpreter\src\System.Device.Pwm;..\..\nf-interpreter\src\System.Device.Spi;..\..\nf-interpreter\src\System.IO.Ports;..\..\nf-interpreter\src\System.IO.FileSystem;..\..\nf-interpreter\src\System.Net;..\..\nf-interpreter\src\Windows.Storage;..\..\threadx\common\inc;..\..\threadx\ports\cortex_m7\gnu\inc;..\..\filex\common\inc;..\..\filex\ports\cortex_m7\gnu\inc;..\..\STM32CubeH7\Drivers\CMSIS\Include;..\..\STM32CubeH7\Drivers\CMSIS\Device\ST\STM32H7xx\Include;..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc;..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\Legacy;..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\HAL;..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Memory;..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\nanoFramework.Graphics;..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\nanoFramework.Hardware.STM32H7xx;..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Other;..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\PAL;..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Startup;..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\System.Device.Gpio;..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\System.Device.I2c;..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\System.Device.Spi;..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\WireProtocol;..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core;..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Displays;..\..\nf-interpreter\src\nanoFramework.Graphics\TouchPanel\Devices;..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Fonts;..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Gif;..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg;..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Native;..\..\nf-interpreter\src\nanoFramework.Graphics\TouchPanel\Core;%(ClCompile.AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>DEBUG=1;STM32H735xx;PLATFORM_ARM;USE_FULL_LL_DRIVER;I_AM_NANOCLR;%(ClCompile.PreprocessorDefinitions)</PreprocessorDefinitions>
       <CLanguageStandard>GNU11</CLanguageStandard>
       <AdditionalOptions />
@@ -318,10 +318,12 @@
     <ClCompile Include="..\..\filex\common\src\fx_utility_memory_set.c" />
     <ClCompile Include="..\..\filex\common\src\fx_utility_string_length_get.c" />
     <ClCompile Include="..\..\filex\common\src\fx_utility_token_length_get.c" />
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Graphics.cpp" />
     <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\GraphicsDriver.cpp" />
     <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\GraphicsMemoryHeap.cpp" />
     <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Bmp\Bitmap_Decoder.cpp" />
     <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Fonts\Font.cpp" />
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Fonts\font8x8.cpp" />
     <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Gif\Gif.cpp" />
     <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Gif\GifDecoder.cpp" />
     <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Gif\lzwread.cpp" />
@@ -377,6 +379,13 @@
     <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg\pfint.c" />
     <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg\piint.c" />
     <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg\transupp.c" />
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Native\nanoFramework_Graphics.cpp" />
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Native\nanoFramework_Graphics_nanoFramework_UI_Bitmap.cpp" />
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Native\nanoFramework_Graphics_nanoFramework_UI_DisplayControl.cpp" />
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Native\nanoFramework_Graphics_nanoFramework_UI_Font.cpp" />
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Native\nanoFramework_Graphics_nanoFramework_UI_TouchPanel.cpp" />
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\TouchPanel\Core\TouchPanel.cpp" />
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\TouchPanel\Devices\FT5336_I2C.cpp" />
     <ClCompile Include="..\..\threadx\common\src\txe_block_allocate.c" />
     <ClCompile Include="..\..\threadx\common\src\txe_block_pool_create.c" />
     <ClCompile Include="..\..\threadx\common\src\txe_block_pool_delete.c" />
@@ -770,15 +779,6 @@
     <ClCompile Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_ll_tim.c" />
     <ClCompile Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_ll_usart.c" />
     <ClCompile Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_ll_utils.c" />
-    <ClCompile Include="..\nanoUI\Graphics\Core\Graphics.cpp" />
-    <ClCompile Include="..\nanoUI\Graphics\Core\Support\Fonts\font8x8.cpp" />
-    <ClCompile Include="..\nanoUI\Graphics\Native\nanoFramework_Graphics.cpp" />
-    <ClCompile Include="..\nanoUI\Graphics\Native\nanoFramework_Graphics_nanoFramework_UI_Bitmap.cpp" />
-    <ClCompile Include="..\nanoUI\Graphics\Native\nanoFramework_Graphics_nanoFramework_UI_DisplayControl.cpp" />
-    <ClCompile Include="..\nanoUI\Graphics\Native\nanoFramework_Graphics_nanoFramework_UI_Font.cpp" />
-    <ClCompile Include="..\nanoUI\Graphics\Native\nanoFramework_Graphics_nanoFramework_UI_TouchPanel.cpp" />
-    <ClCompile Include="..\nanoUI\TouchPanel\Core\TouchPanel.cpp" />
-    <ClCompile Include="..\nanoUI\TouchPanel\Devices\FT5336_I2C.cpp" />
     <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\HAL\hard_fault_handler.c" />
     <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\HAL\Memory.cpp" />
     <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\HAL\nanoCRT.cpp" />
@@ -840,6 +840,7 @@
     <ClInclude Include="..\..\filex\ports\cortex_m7\gnu\inc\fx_port.h" />
     <ClInclude Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Graphics.h" />
     <ClInclude Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\GraphicsMemoryHeap.h" />
+    <ClInclude Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Fonts\InternalFont.h" />
     <ClInclude Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Gif\gif.h" />
     <ClInclude Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Gif\giffile.h" />
     <ClInclude Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Gif\lzw.h" />
@@ -858,6 +859,13 @@
     <ClInclude Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg\jversion.h" />
     <ClInclude Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg\mcbcr.h" />
     <ClInclude Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg\transupp.h" />
+    <ClInclude Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Displays\Debug_To_Display.h" />
+    <ClInclude Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Displays\Display.h" />
+    <ClInclude Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Displays\DisplayInterface.h" />
+    <ClInclude Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Native\nanoFramework_Graphics.h" />
+    <ClInclude Include="..\..\nf-interpreter\src\nanoFramework.Graphics\TouchPanel\Core\TouchPanel.h" />
+    <ClInclude Include="..\..\nf-interpreter\src\nanoFramework.Graphics\TouchPanel\Devices\TouchDevice.h" />
+    <ClInclude Include="..\..\nf-interpreter\src\nanoFramework.Graphics\TouchPanel\Devices\TouchInterface.h" />
     <ClInclude Include="..\..\threadx\common\inc\tx_api.h" />
     <ClInclude Include="..\..\threadx\common\inc\tx_block_pool.h" />
     <ClInclude Include="..\..\threadx\common\inc\tx_byte_pool.h" />
@@ -1003,15 +1011,6 @@
     <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_ll_usb.h" />
     <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_ll_utils.h" />
     <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_ll_wwdg.h" />
-    <ClInclude Include="..\nanoUI\Graphics\Core\Graphics.h" />
-    <ClInclude Include="..\nanoUI\Graphics\Core\Support\Fonts\InternalFont.h" />
-    <ClInclude Include="..\nanoUI\Graphics\Displays\Debug_To_Display.h" />
-    <ClInclude Include="..\nanoUI\Graphics\Displays\Display.h" />
-    <ClInclude Include="..\nanoUI\Graphics\Displays\DisplayInterface.h" />
-    <ClInclude Include="..\nanoUI\Graphics\Native\nanoFramework_Graphics.h" />
-    <ClInclude Include="..\nanoUI\TouchPanel\Core\TouchPanel.h" />
-    <ClInclude Include="..\nanoUI\TouchPanel\Devices\TouchDevice.h" />
-    <ClInclude Include="..\nanoUI\TouchPanel\Devices\TouchInterface.h" />
     <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\HAL\Register_Modifications.h" />
     <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\HAL\targetHAL.h" />
     <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\HAL\targetHAL_board.h" />
@@ -1047,8 +1046,9 @@
     <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Startup\CLR_Startup_Thread.h" />
     <None Include="..\..\nf-interpreter\src\CLR\Include\opcode.def" />
     <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h" />
+    <None Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Fonts\TinyFonts\NinaB.tinyfnt" />
+    <None Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Fonts\TinyFonts\small.tinyfnt" />
     <None Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Readme.md" />
-    <None Include="..\ExternalRepositories\nf-interpreter\src\nanoFramework.Graphics\Readme.md" />
     <None Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Memory\STM32H735G-DK.ld" />
   </ItemGroup>
 </Project>

@@ -1,36 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="nanoUI">
-      <UniqueIdentifier>{11d16884-91a4-40f6-bf98-81215ebc426e}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="nanoUI\Graphics">
-      <UniqueIdentifier>{8ef7c935-f7f7-4877-957e-20fb590e10c2}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="nanoUI\Graphics\Core">
-      <UniqueIdentifier>{a6171a01-0bde-4c59-9fb8-3d6f7d189fec}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="nanoUI\Graphics\Core\Support">
-      <UniqueIdentifier>{8bde49cb-0367-47d9-a7a3-867645e427ee}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="nanoUI\Graphics\Core\Support\Fonts">
-      <UniqueIdentifier>{5a2ff25a-e954-4dd0-95a0-3ab8dd7a98dd}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="nanoUI\Graphics\Displays">
-      <UniqueIdentifier>{41b3441c-340d-49c0-baf6-9cf8cd99f5d3}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="nanoUI\Graphics\Native">
-      <UniqueIdentifier>{b9b4beca-c572-4bae-92af-bf9e077b9019}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="nanoUI\TouchPanel">
-      <UniqueIdentifier>{dd2ed45a-b92a-45be-80aa-3ba89426dc76}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="nanoUI\TouchPanel\Core">
-      <UniqueIdentifier>{142a9796-118b-460b-b691-55eb0ee86a22}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="nanoUI\TouchPanel\Devices">
-      <UniqueIdentifier>{e8569a53-4ab4-4980-b2ed-601aaee117cc}</UniqueIdentifier>
-    </Filter>
     <Filter Include="nf-interpreter">
       <UniqueIdentifier>{ace8be4a-19c2-41a8-8faa-2a2a8a502de4}</UniqueIdentifier>
     </Filter>
@@ -348,9 +318,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\ExternalRepositories\nf-interpreter\src\nanoFramework.Graphics\Readme.md">
-      <Filter>nanoUI</Filter>
-    </None>
     <None Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Memory\STM32H735G-DK.ld">
       <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Memory</Filter>
     </None>
@@ -360,35 +327,10 @@
     <None Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Readme.md">
       <Filter>nf-interpreter\src\nanoFramework.Graphics\TouchPanel</Filter>
     </None>
+    <None Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Fonts\TinyFonts\NinaB.tinyfnt" />
+    <None Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Fonts\TinyFonts\small.tinyfnt" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\nanoUI\Graphics\Core\Graphics.h">
-      <Filter>nanoUI\Graphics\Core</Filter>
-    </ClInclude>
-    <ClInclude Include="..\nanoUI\Graphics\Core\Support\Fonts\InternalFont.h">
-      <Filter>nanoUI\Graphics\Core\Support\Fonts</Filter>
-    </ClInclude>
-    <ClInclude Include="..\nanoUI\Graphics\Displays\Debug_To_Display.h">
-      <Filter>nanoUI\Graphics\Displays</Filter>
-    </ClInclude>
-    <ClInclude Include="..\nanoUI\Graphics\Displays\Display.h">
-      <Filter>nanoUI\Graphics\Displays</Filter>
-    </ClInclude>
-    <ClInclude Include="..\nanoUI\Graphics\Displays\DisplayInterface.h">
-      <Filter>nanoUI\Graphics\Displays</Filter>
-    </ClInclude>
-    <ClInclude Include="..\nanoUI\Graphics\Native\nanoFramework_Graphics.h">
-      <Filter>nanoUI\Graphics\Native</Filter>
-    </ClInclude>
-    <ClInclude Include="..\nanoUI\TouchPanel\Core\TouchPanel.h">
-      <Filter>nanoUI\TouchPanel\Core</Filter>
-    </ClInclude>
-    <ClInclude Include="..\nanoUI\TouchPanel\Devices\TouchInterface.h">
-      <Filter>nanoUI\TouchPanel\Devices</Filter>
-    </ClInclude>
-    <ClInclude Include="..\nanoUI\TouchPanel\Devices\TouchDevice.h">
-      <Filter>nanoUI\TouchPanel\Devices</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\nf-interpreter\src\CLR\CorLib\corlib_native.h">
       <Filter>nf-interpreter\src\CLR\CoreLib</Filter>
     </ClInclude>
@@ -1019,35 +961,16 @@
     <ClInclude Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\GraphicsMemoryHeap.h">
       <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Fonts\InternalFont.h" />
+    <ClInclude Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Displays\Debug_To_Display.h" />
+    <ClInclude Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Displays\Display.h" />
+    <ClInclude Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Displays\DisplayInterface.h" />
+    <ClInclude Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Native\nanoFramework_Graphics.h" />
+    <ClInclude Include="..\..\nf-interpreter\src\nanoFramework.Graphics\TouchPanel\Core\TouchPanel.h" />
+    <ClInclude Include="..\..\nf-interpreter\src\nanoFramework.Graphics\TouchPanel\Devices\TouchDevice.h" />
+    <ClInclude Include="..\..\nf-interpreter\src\nanoFramework.Graphics\TouchPanel\Devices\TouchInterface.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\nanoUI\Graphics\Core\Graphics.cpp">
-      <Filter>nanoUI\Graphics\Core</Filter>
-    </ClCompile>
-    <ClCompile Include="..\nanoUI\Graphics\Core\Support\Fonts\font8x8.cpp">
-      <Filter>nanoUI\Graphics\Core\Support\Fonts</Filter>
-    </ClCompile>
-    <ClCompile Include="..\nanoUI\Graphics\Native\nanoFramework_Graphics.cpp">
-      <Filter>nanoUI\Graphics\Native</Filter>
-    </ClCompile>
-    <ClCompile Include="..\nanoUI\Graphics\Native\nanoFramework_Graphics_nanoFramework_UI_Bitmap.cpp">
-      <Filter>nanoUI\Graphics\Native</Filter>
-    </ClCompile>
-    <ClCompile Include="..\nanoUI\Graphics\Native\nanoFramework_Graphics_nanoFramework_UI_DisplayControl.cpp">
-      <Filter>nanoUI\Graphics\Native</Filter>
-    </ClCompile>
-    <ClCompile Include="..\nanoUI\Graphics\Native\nanoFramework_Graphics_nanoFramework_UI_Font.cpp">
-      <Filter>nanoUI\Graphics\Native</Filter>
-    </ClCompile>
-    <ClCompile Include="..\nanoUI\Graphics\Native\nanoFramework_Graphics_nanoFramework_UI_TouchPanel.cpp">
-      <Filter>nanoUI\Graphics\Native</Filter>
-    </ClCompile>
-    <ClCompile Include="..\nanoUI\TouchPanel\Core\TouchPanel.cpp">
-      <Filter>nanoUI\TouchPanel\Core</Filter>
-    </ClCompile>
-    <ClCompile Include="..\nanoUI\TouchPanel\Devices\FT5336_I2C.cpp">
-      <Filter>nanoUI\TouchPanel\Devices</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\nf-interpreter\src\CLR\Core\CLR_RT_Interop.cpp">
       <Filter>nf-interpreter\src\CLR\Core</Filter>
     </ClCompile>
@@ -3258,6 +3181,17 @@
     </ClCompile>
     <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\GraphicsMemoryHeap.cpp">
       <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Graphics.cpp" />
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Fonts\font8x8.cpp" />
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Native\nanoFramework_Graphics.cpp" />
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Native\nanoFramework_Graphics_nanoFramework_UI_Bitmap.cpp" />
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Native\nanoFramework_Graphics_nanoFramework_UI_DisplayControl.cpp" />
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Native\nanoFramework_Graphics_nanoFramework_UI_Font.cpp" />
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Native\nanoFramework_Graphics_nanoFramework_UI_TouchPanel.cpp" />
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\TouchPanel\Core\TouchPanel.cpp" />
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\TouchPanel\Devices\FT5336_I2C.cpp">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\TouchPanel\Devices</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

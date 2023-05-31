@@ -475,6 +475,8 @@ echo fx_utility_string_length_get.c
 c:\sysgcc\arm-eabi\bin\arm-none-eabi-gcc.exe @"VisualGDB/Debug/_2_/filex/common/src/fx_utility_string_length_get.gcc.rsp" || exit 1
 echo fx_utility_token_length_get.c
 c:\sysgcc\arm-eabi\bin\arm-none-eabi-gcc.exe @"VisualGDB/Debug/_2_/filex/common/src/fx_utility_token_length_get.gcc.rsp" || exit 1
+echo Graphics.cpp
+c:\sysgcc\arm-eabi\bin\arm-none-eabi-g++.exe @"VisualGDB/Debug/_2_/nf-interpreter/src/nanoFramework.Graphics/Graphics/Core/Graphics.gcc.rsp" || exit 1
 echo GraphicsDriver.cpp
 c:\sysgcc\arm-eabi\bin\arm-none-eabi-g++.exe @"VisualGDB/Debug/_2_/nf-interpreter/src/nanoFramework.Graphics/Graphics/Core/GraphicsDriver.gcc.rsp" || exit 1
 echo GraphicsMemoryHeap.cpp
@@ -483,6 +485,8 @@ echo Bitmap_Decoder.cpp
 c:\sysgcc\arm-eabi\bin\arm-none-eabi-g++.exe @"VisualGDB/Debug/_2_/nf-interpreter/src/nanoFramework.Graphics/Graphics/Core/Support/Bmp/Bitmap_Decoder.gcc.rsp" || exit 1
 echo Font.cpp
 c:\sysgcc\arm-eabi\bin\arm-none-eabi-g++.exe @"VisualGDB/Debug/_2_/nf-interpreter/src/nanoFramework.Graphics/Graphics/Core/Support/Fonts/Font.gcc.rsp" || exit 1
+echo font8x8.cpp
+c:\sysgcc\arm-eabi\bin\arm-none-eabi-g++.exe @"VisualGDB/Debug/_2_/nf-interpreter/src/nanoFramework.Graphics/Graphics/Core/Support/Fonts/font8x8.gcc.rsp" || exit 1
 echo Gif.cpp
 c:\sysgcc\arm-eabi\bin\arm-none-eabi-g++.exe @"VisualGDB/Debug/_2_/nf-interpreter/src/nanoFramework.Graphics/Graphics/Core/Support/Gif/Gif.gcc.rsp" || exit 1
 echo GifDecoder.cpp
@@ -593,6 +597,20 @@ echo piint.c
 c:\sysgcc\arm-eabi\bin\arm-none-eabi-gcc.exe @"VisualGDB/Debug/_2_/nf-interpreter/src/nanoFramework.Graphics/Graphics/Core/Support/Jpeg/piint.gcc.rsp" || exit 1
 echo transupp.c
 c:\sysgcc\arm-eabi\bin\arm-none-eabi-gcc.exe @"VisualGDB/Debug/_2_/nf-interpreter/src/nanoFramework.Graphics/Graphics/Core/Support/Jpeg/transupp.gcc.rsp" || exit 1
+echo nanoFramework_Graphics.cpp
+c:\sysgcc\arm-eabi\bin\arm-none-eabi-g++.exe @"VisualGDB/Debug/_2_/nf-interpreter/src/nanoFramework.Graphics/Graphics/Native/nanoFramework_Graphics.gcc.rsp" || exit 1
+echo nanoFramework_Graphics_nanoFramework_UI_Bitmap.cpp
+c:\sysgcc\arm-eabi\bin\arm-none-eabi-g++.exe @"VisualGDB/Debug/_2_/nf-interpreter/src/nanoFramework.Graphics/Graphics/Native/nanoFramework_Graphics_nanoFramework_UI_Bitmap.gcc.rsp" || exit 1
+echo nanoFramework_Graphics_nanoFramework_UI_DisplayControl.cpp
+c:\sysgcc\arm-eabi\bin\arm-none-eabi-g++.exe @"VisualGDB/Debug/_2_/nf-interpreter/src/nanoFramework.Graphics/Graphics/Native/nanoFramework_Graphics_nanoFramework_UI_DisplayControl.gcc.rsp" || exit 1
+echo nanoFramework_Graphics_nanoFramework_UI_Font.cpp
+c:\sysgcc\arm-eabi\bin\arm-none-eabi-g++.exe @"VisualGDB/Debug/_2_/nf-interpreter/src/nanoFramework.Graphics/Graphics/Native/nanoFramework_Graphics_nanoFramework_UI_Font.gcc.rsp" || exit 1
+echo nanoFramework_Graphics_nanoFramework_UI_TouchPanel.cpp
+c:\sysgcc\arm-eabi\bin\arm-none-eabi-g++.exe @"VisualGDB/Debug/_2_/nf-interpreter/src/nanoFramework.Graphics/Graphics/Native/nanoFramework_Graphics_nanoFramework_UI_TouchPanel.gcc.rsp" || exit 1
+echo TouchPanel.cpp
+c:\sysgcc\arm-eabi\bin\arm-none-eabi-g++.exe @"VisualGDB/Debug/_2_/nf-interpreter/src/nanoFramework.Graphics/TouchPanel/Core/TouchPanel.gcc.rsp" || exit 1
+echo FT5336_I2C.cpp
+c:\sysgcc\arm-eabi\bin\arm-none-eabi-g++.exe @"VisualGDB/Debug/_2_/nf-interpreter/src/nanoFramework.Graphics/TouchPanel/Devices/FT5336_I2C.gcc.rsp" || exit 1
 echo txe_block_allocate.c
 c:\sysgcc\arm-eabi\bin\arm-none-eabi-gcc.exe @"VisualGDB/Debug/_2_/threadx/common/src/txe_block_allocate.gcc.rsp" || exit 1
 echo txe_block_pool_create.c
@@ -1361,24 +1379,6 @@ echo stm32h7xx_ll_usart.c
 c:\sysgcc\arm-eabi\bin\arm-none-eabi-gcc.exe @"VisualGDB/Debug/_2_/STM32CubeH7/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usart.gcc.rsp" || exit 1
 echo stm32h7xx_ll_utils.c
 c:\sysgcc\arm-eabi\bin\arm-none-eabi-gcc.exe @"VisualGDB/Debug/_2_/STM32CubeH7/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_utils.gcc.rsp" || exit 1
-echo Graphics.cpp
-c:\sysgcc\arm-eabi\bin\arm-none-eabi-g++.exe @"VisualGDB/Debug/_1_/nanoUI/Graphics/Core/Graphics.gcc.rsp" || exit 1
-echo font8x8.cpp
-c:\sysgcc\arm-eabi\bin\arm-none-eabi-g++.exe @"VisualGDB/Debug/_1_/nanoUI/Graphics/Core/Support/Fonts/font8x8.gcc.rsp" || exit 1
-echo nanoFramework_Graphics.cpp
-c:\sysgcc\arm-eabi\bin\arm-none-eabi-g++.exe @"VisualGDB/Debug/_1_/nanoUI/Graphics/Native/nanoFramework_Graphics.gcc.rsp" || exit 1
-echo nanoFramework_Graphics_nanoFramework_UI_Bitmap.cpp
-c:\sysgcc\arm-eabi\bin\arm-none-eabi-g++.exe @"VisualGDB/Debug/_1_/nanoUI/Graphics/Native/nanoFramework_Graphics_nanoFramework_UI_Bitmap.gcc.rsp" || exit 1
-echo nanoFramework_Graphics_nanoFramework_UI_DisplayControl.cpp
-c:\sysgcc\arm-eabi\bin\arm-none-eabi-g++.exe @"VisualGDB/Debug/_1_/nanoUI/Graphics/Native/nanoFramework_Graphics_nanoFramework_UI_DisplayControl.gcc.rsp" || exit 1
-echo nanoFramework_Graphics_nanoFramework_UI_Font.cpp
-c:\sysgcc\arm-eabi\bin\arm-none-eabi-g++.exe @"VisualGDB/Debug/_1_/nanoUI/Graphics/Native/nanoFramework_Graphics_nanoFramework_UI_Font.gcc.rsp" || exit 1
-echo nanoFramework_Graphics_nanoFramework_UI_TouchPanel.cpp
-c:\sysgcc\arm-eabi\bin\arm-none-eabi-g++.exe @"VisualGDB/Debug/_1_/nanoUI/Graphics/Native/nanoFramework_Graphics_nanoFramework_UI_TouchPanel.gcc.rsp" || exit 1
-echo TouchPanel.cpp
-c:\sysgcc\arm-eabi\bin\arm-none-eabi-g++.exe @"VisualGDB/Debug/_1_/nanoUI/TouchPanel/Core/TouchPanel.gcc.rsp" || exit 1
-echo FT5336_I2C.cpp
-c:\sysgcc\arm-eabi\bin\arm-none-eabi-g++.exe @"VisualGDB/Debug/_1_/nanoUI/TouchPanel/Devices/FT5336_I2C.gcc.rsp" || exit 1
 echo hard_fault_handler.c
 c:\sysgcc\arm-eabi\bin\arm-none-eabi-gcc.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/STM32H735G_DK/nanoCLR/HAL/hard_fault_handler.gcc.rsp" || exit 1
 echo Memory.cpp

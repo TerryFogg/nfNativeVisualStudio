@@ -34,7 +34,8 @@
     </MemoryWindowPreferences>
     <e>
       <e32>
-        <c>message-&gt;m_header.m_size</c>
+        <c>__deployment_start__</c>
+        <b>com.sysprogs.types.builtin.HexInt8</b>
         <f>true</f>
         <e>
           <ComparisonMode>Equals</ComparisonMode>
