@@ -1,6 +1,96 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
+    <Filter Include="FileX">
+      <UniqueIdentifier>{9a20da76-76ed-4729-bf5b-77bb225f2c8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FileX\common">
+      <UniqueIdentifier>{a2b6320a-8c35-44df-aa96-6087e8bef9db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FileX\common\inc">
+      <UniqueIdentifier>{cd40aab8-d117-45d9-98d5-fb2a1761f193}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FileX\common\src">
+      <UniqueIdentifier>{2b6c4895-30fa-45a4-afa0-b001363665b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FileX\ports">
+      <UniqueIdentifier>{0f787994-d6e2-4e26-a6e4-0d67097aa647}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FileX\ports\cortex_m7">
+      <UniqueIdentifier>{ff6cbaae-3de2-4d72-978b-5fc735c82b62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FileX\ports\cortex_m7\gnu">
+      <UniqueIdentifier>{8072e925-7e61-4a97-bba3-f2fffb829b6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FileX\ports\cortex_m7\gnu\inc">
+      <UniqueIdentifier>{ebf308b4-3162-40ed-b249-cd48e3d85cf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExternalRepos">
+      <UniqueIdentifier>{8854e24d-e42f-4c77-942f-ef72ba6a09d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExternalRepos\STM32CubeH7">
+      <UniqueIdentifier>{3cf80e30-6393-4be4-857e-097739d107e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExternalRepos\STM32CubeH7\Drivers">
+      <UniqueIdentifier>{508a7ebd-f793-4411-abf6-9ed44352302e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExternalRepos\STM32CubeH7\Drivers\CMSIS">
+      <UniqueIdentifier>{35faf261-3d49-4753-a502-e87fd78c6de1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExternalRepos\STM32CubeH7\Drivers\CMSIS\Device">
+      <UniqueIdentifier>{752d1dd2-2aba-486d-b043-b2ec16121bf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExternalRepos\STM32CubeH7\Drivers\CMSIS\Device\ST">
+      <UniqueIdentifier>{73cec4ee-33ec-4a5b-a394-74dd2fa2cf72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExternalRepos\STM32CubeH7\Drivers\CMSIS\Device\ST\STM32H7xx">
+      <UniqueIdentifier>{b4f0ecf2-068e-42f5-ac43-14a1f32b10ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExternalRepos\STM32CubeH7\Drivers\CMSIS\Device\ST\STM32H7xx\Include">
+      <UniqueIdentifier>{712b8d67-65ec-45cc-a67a-38b10390a035}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExternalRepos\STM32CubeH7\Drivers\CMSIS\Include">
+      <UniqueIdentifier>{ed320c37-2a29-42e2-a846-e62ca39a4134}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExternalRepos\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver">
+      <UniqueIdentifier>{33b4824b-b435-4079-b7f7-4bcefd25c7c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExternalRepos\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\src">
+      <UniqueIdentifier>{07876c21-b88a-4884-895c-eba488e93f5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExternalRepos\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc">
+      <UniqueIdentifier>{b475d26f-d876-42b9-8077-9b0bb3526ee4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExternalRepos\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc\Legacy">
+      <UniqueIdentifier>{a28a9493-f8aa-425e-b358-90b39ddad8d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExternalRepos\threadx">
+      <UniqueIdentifier>{dc50d2cd-20cf-4631-84f5-bd5e8bb9c82f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExternalRepos\threadx\common">
+      <UniqueIdentifier>{62b7971e-b465-40ed-92a8-929248efb276}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExternalRepos\threadx\common\src">
+      <UniqueIdentifier>{e802ebd8-5a9b-4715-96b9-acee4dec43c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExternalRepos\threadx\common\inc">
+      <UniqueIdentifier>{3ecbb1f2-92e0-436a-9a79-bfbe73b8f0c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExternalRepos\threadx\ports">
+      <UniqueIdentifier>{b139c3eb-91a9-4cf8-a26d-4c640cbbd881}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExternalRepos\threadx\ports\cortex_m7">
+      <UniqueIdentifier>{c4eb60cd-a16f-474f-91f2-b38816479a69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExternalRepos\threadx\ports\cortex_m7\gnu">
+      <UniqueIdentifier>{19bf8a6c-05b5-4158-a040-6b76a0610e9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExternalRepos\threadx\ports\cortex_m7\gnu\src">
+      <UniqueIdentifier>{bfb0ea0d-523f-4ad2-b04f-fcdafef44b7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExternalRepos\threadx\ports\cortex_m7\gnu\inc">
+      <UniqueIdentifier>{795397cc-75d1-434c-8ee2-5be139733afa}</UniqueIdentifier>
+    </Filter>
     <Filter Include="nf-interpreter">
       <UniqueIdentifier>{ace8be4a-19c2-41a8-8faa-2a2a8a502de4}</UniqueIdentifier>
     </Filter>
@@ -130,92 +220,38 @@
     <Filter Include="nf-interpreter\src\System.IO.Ports">
       <UniqueIdentifier>{4b01107d-5d69-4596-adc1-43cfb4dd24bc}</UniqueIdentifier>
     </Filter>
-    <Filter Include="STM32CubeH7">
-      <UniqueIdentifier>{3cf80e30-6393-4be4-857e-097739d107e6}</UniqueIdentifier>
+    <Filter Include="nf-interpreter\src\nanoFramework.Graphics">
+      <UniqueIdentifier>{d7c3e020-5e3a-4942-a3fa-5849bd5932be}</UniqueIdentifier>
     </Filter>
-    <Filter Include="STM32CubeH7\Drivers">
-      <UniqueIdentifier>{508a7ebd-f793-4411-abf6-9ed44352302e}</UniqueIdentifier>
+    <Filter Include="nf-interpreter\src\nanoFramework.Graphics\Graphics">
+      <UniqueIdentifier>{7d12561b-73db-46f3-959a-dbc8de291e24}</UniqueIdentifier>
     </Filter>
-    <Filter Include="STM32CubeH7\Drivers\CMSIS">
-      <UniqueIdentifier>{35faf261-3d49-4753-a502-e87fd78c6de1}</UniqueIdentifier>
+    <Filter Include="nf-interpreter\src\nanoFramework.Graphics\Graphics\Core">
+      <UniqueIdentifier>{910cf588-3232-4caf-acb5-f1d21fbfcad4}</UniqueIdentifier>
     </Filter>
-    <Filter Include="STM32CubeH7\Drivers\CMSIS\Device">
-      <UniqueIdentifier>{752d1dd2-2aba-486d-b043-b2ec16121bf9}</UniqueIdentifier>
+    <Filter Include="nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support">
+      <UniqueIdentifier>{4eb999d3-5c06-4024-9aaf-1da491d05538}</UniqueIdentifier>
     </Filter>
-    <Filter Include="STM32CubeH7\Drivers\CMSIS\Device\ST">
-      <UniqueIdentifier>{73cec4ee-33ec-4a5b-a394-74dd2fa2cf72}</UniqueIdentifier>
+    <Filter Include="nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Bmp">
+      <UniqueIdentifier>{5ade95b4-e85a-49c0-b4e9-3f7b50e7481c}</UniqueIdentifier>
     </Filter>
-    <Filter Include="STM32CubeH7\Drivers\CMSIS\Device\ST\STM32H7xx">
-      <UniqueIdentifier>{b4f0ecf2-068e-42f5-ac43-14a1f32b10ed}</UniqueIdentifier>
+    <Filter Include="nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Fonts">
+      <UniqueIdentifier>{ed7b7dd5-bc03-498c-9f85-2f558db8bad1}</UniqueIdentifier>
     </Filter>
-    <Filter Include="STM32CubeH7\Drivers\CMSIS\Device\ST\STM32H7xx\Include">
-      <UniqueIdentifier>{712b8d67-65ec-45cc-a67a-38b10390a035}</UniqueIdentifier>
+    <Filter Include="nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Gif">
+      <UniqueIdentifier>{074dc2e3-0cf2-4f6d-b323-6d88e9912677}</UniqueIdentifier>
     </Filter>
-    <Filter Include="STM32CubeH7\Drivers\CMSIS\Include">
-      <UniqueIdentifier>{ed320c37-2a29-42e2-a846-e62ca39a4134}</UniqueIdentifier>
+    <Filter Include="nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg">
+      <UniqueIdentifier>{d91e25c2-baea-4e11-8c4b-a42dd1d3f0a6}</UniqueIdentifier>
     </Filter>
-    <Filter Include="STM32CubeH7\Drivers\STM32H7xx_HAL_Driver">
-      <UniqueIdentifier>{33b4824b-b435-4079-b7f7-4bcefd25c7c2}</UniqueIdentifier>
+    <Filter Include="nf-interpreter\src\nanoFramework.Graphics\TouchPanel">
+      <UniqueIdentifier>{e80da81b-ec5b-4ec1-bebc-25427134564e}</UniqueIdentifier>
     </Filter>
-    <Filter Include="STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\src">
-      <UniqueIdentifier>{07876c21-b88a-4884-895c-eba488e93f5c}</UniqueIdentifier>
+    <Filter Include="nf-interpreter\src\nanoFramework.Graphics\TouchPanel\Core">
+      <UniqueIdentifier>{b1df150e-92cc-43e7-9814-7108bbb7625e}</UniqueIdentifier>
     </Filter>
-    <Filter Include="STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc">
-      <UniqueIdentifier>{b475d26f-d876-42b9-8077-9b0bb3526ee4}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc\Legacy">
-      <UniqueIdentifier>{a28a9493-f8aa-425e-b358-90b39ddad8d3}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="threadx">
-      <UniqueIdentifier>{dc50d2cd-20cf-4631-84f5-bd5e8bb9c82f}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="threadx\common">
-      <UniqueIdentifier>{62b7971e-b465-40ed-92a8-929248efb276}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="threadx\common\src">
-      <UniqueIdentifier>{e802ebd8-5a9b-4715-96b9-acee4dec43c0}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="threadx\common\inc">
-      <UniqueIdentifier>{3ecbb1f2-92e0-436a-9a79-bfbe73b8f0c7}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="threadx\ports">
-      <UniqueIdentifier>{b139c3eb-91a9-4cf8-a26d-4c640cbbd881}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="threadx\ports\cortex_m7">
-      <UniqueIdentifier>{c4eb60cd-a16f-474f-91f2-b38816479a69}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="threadx\ports\cortex_m7\gnu">
-      <UniqueIdentifier>{19bf8a6c-05b5-4158-a040-6b76a0610e9a}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="threadx\ports\cortex_m7\gnu\src">
-      <UniqueIdentifier>{bfb0ea0d-523f-4ad2-b04f-fcdafef44b7e}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="threadx\ports\cortex_m7\gnu\inc">
-      <UniqueIdentifier>{795397cc-75d1-434c-8ee2-5be139733afa}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="FileX">
-      <UniqueIdentifier>{9a20da76-76ed-4729-bf5b-77bb225f2c8f}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="FileX\common">
-      <UniqueIdentifier>{a2b6320a-8c35-44df-aa96-6087e8bef9db}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="FileX\common\inc">
-      <UniqueIdentifier>{cd40aab8-d117-45d9-98d5-fb2a1761f193}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="FileX\common\src">
-      <UniqueIdentifier>{2b6c4895-30fa-45a4-afa0-b001363665b1}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="FileX\ports">
-      <UniqueIdentifier>{0f787994-d6e2-4e26-a6e4-0d67097aa647}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="FileX\ports\cortex_m7">
-      <UniqueIdentifier>{ff6cbaae-3de2-4d72-978b-5fc735c82b62}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="FileX\ports\cortex_m7\gnu">
-      <UniqueIdentifier>{8072e925-7e61-4a97-bba3-f2fffb829b6a}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="FileX\ports\cortex_m7\gnu\inc">
-      <UniqueIdentifier>{ebf308b4-3162-40ed-b249-cd48e3d85cf3}</UniqueIdentifier>
+    <Filter Include="nf-interpreter\src\nanoFramework.Graphics\TouchPanel\Devices">
+      <UniqueIdentifier>{ba933ed4-7a1f-406a-b552-d59330c400f7}</UniqueIdentifier>
     </Filter>
     <Filter Include="nf-interpreter\targets">
       <UniqueIdentifier>{acddd13a-69d5-4723-a361-124b6c883d38}</UniqueIdentifier>
@@ -283,38 +319,14 @@
     <Filter Include="nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\System.IO.Ports">
       <UniqueIdentifier>{95b901e7-379a-407b-b8df-6bd60a4acb0a}</UniqueIdentifier>
     </Filter>
-    <Filter Include="nf-interpreter\src\nanoFramework.Graphics">
-      <UniqueIdentifier>{d7c3e020-5e3a-4942-a3fa-5849bd5932be}</UniqueIdentifier>
+    <Filter Include="nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Fonts\TinyFonts">
+      <UniqueIdentifier>{32d63621-0ec6-442c-8e3c-7acac2fd7fe5}</UniqueIdentifier>
     </Filter>
-    <Filter Include="nf-interpreter\src\nanoFramework.Graphics\Graphics">
-      <UniqueIdentifier>{7d12561b-73db-46f3-959a-dbc8de291e24}</UniqueIdentifier>
+    <Filter Include="nf-interpreter\src\nanoFramework.Graphics\Graphics\Displays">
+      <UniqueIdentifier>{508324a7-8fe2-418c-a0ed-04701734e393}</UniqueIdentifier>
     </Filter>
-    <Filter Include="nf-interpreter\src\nanoFramework.Graphics\Graphics\Core">
-      <UniqueIdentifier>{910cf588-3232-4caf-acb5-f1d21fbfcad4}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support">
-      <UniqueIdentifier>{4eb999d3-5c06-4024-9aaf-1da491d05538}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Bmp">
-      <UniqueIdentifier>{5ade95b4-e85a-49c0-b4e9-3f7b50e7481c}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Fonts">
-      <UniqueIdentifier>{ed7b7dd5-bc03-498c-9f85-2f558db8bad1}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Gif">
-      <UniqueIdentifier>{074dc2e3-0cf2-4f6d-b323-6d88e9912677}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Jpeg">
-      <UniqueIdentifier>{d91e25c2-baea-4e11-8c4b-a42dd1d3f0a6}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="nf-interpreter\src\nanoFramework.Graphics\TouchPanel">
-      <UniqueIdentifier>{e80da81b-ec5b-4ec1-bebc-25427134564e}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="nf-interpreter\src\nanoFramework.Graphics\TouchPanel\Core">
-      <UniqueIdentifier>{b1df150e-92cc-43e7-9814-7108bbb7625e}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="nf-interpreter\src\nanoFramework.Graphics\TouchPanel\Devices">
-      <UniqueIdentifier>{ba933ed4-7a1f-406a-b552-d59330c400f7}</UniqueIdentifier>
+    <Filter Include="nf-interpreter\src\nanoFramework.Graphics\Graphics\Native">
+      <UniqueIdentifier>{f92ab17c-8f8d-409a-9357-a8966c420d48}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -327,8 +339,12 @@
     <None Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Readme.md">
       <Filter>nf-interpreter\src\nanoFramework.Graphics\TouchPanel</Filter>
     </None>
-    <None Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Fonts\TinyFonts\NinaB.tinyfnt" />
-    <None Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Fonts\TinyFonts\small.tinyfnt" />
+    <None Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Fonts\TinyFonts\NinaB.tinyfnt">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Fonts\TinyFonts</Filter>
+    </None>
+    <None Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Fonts\TinyFonts\small.tinyfnt">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Fonts\TinyFonts</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\nf-interpreter\src\CLR\CorLib\corlib_native.h">
@@ -371,7 +387,7 @@
       <Filter>FileX\common\inc</Filter>
     </ClInclude>
     <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h">
-      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc\Legacy</Filter>
+      <Filter>ExternalRepos\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc\Legacy</Filter>
     </ClInclude>
     <ClInclude Include="..\..\nf-interpreter\src\CLR\Helpers\Base64\base64.h">
       <Filter>nf-interpreter\src\CLR\Helpers\Base64</Filter>
@@ -590,124 +606,124 @@
       <Filter>nf-interpreter\src\nanoFramework.System.Text</Filter>
     </ClInclude>
     <ClInclude Include="..\..\STM32CubeH7\Drivers\CMSIS\Device\ST\STM32H7xx\Include\stm32h7xx.h">
-      <Filter>STM32CubeH7\Drivers\CMSIS\Device\ST\STM32H7xx\Include</Filter>
+      <Filter>ExternalRepos\STM32CubeH7\Drivers\CMSIS\Device\ST\STM32H7xx\Include</Filter>
     </ClInclude>
     <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_ll_adc.h">
-      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
+      <Filter>ExternalRepos\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
     </ClInclude>
     <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_ll_bdma.h">
-      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
+      <Filter>ExternalRepos\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
     </ClInclude>
     <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_ll_bus.h">
-      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
+      <Filter>ExternalRepos\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
     </ClInclude>
     <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_ll_comp.h">
-      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
+      <Filter>ExternalRepos\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
     </ClInclude>
     <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_ll_cordic.h">
-      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
+      <Filter>ExternalRepos\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
     </ClInclude>
     <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_ll_cortex.h">
-      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
+      <Filter>ExternalRepos\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
     </ClInclude>
     <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_ll_crc.h">
-      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
+      <Filter>ExternalRepos\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
     </ClInclude>
     <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_ll_crs.h">
-      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
+      <Filter>ExternalRepos\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
     </ClInclude>
     <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_ll_dac.h">
-      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
+      <Filter>ExternalRepos\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
     </ClInclude>
     <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_ll_delayblock.h">
-      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
+      <Filter>ExternalRepos\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
     </ClInclude>
     <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_ll_dma.h">
-      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
+      <Filter>ExternalRepos\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
     </ClInclude>
     <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_ll_dma2d.h">
-      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
+      <Filter>ExternalRepos\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
     </ClInclude>
     <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_ll_dmamux.h">
-      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
+      <Filter>ExternalRepos\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
     </ClInclude>
     <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_ll_exti.h">
-      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
+      <Filter>ExternalRepos\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
     </ClInclude>
     <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_ll_fmac.h">
-      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
+      <Filter>ExternalRepos\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
     </ClInclude>
     <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_ll_fmc.h">
-      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
+      <Filter>ExternalRepos\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
     </ClInclude>
     <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_ll_gpio.h">
-      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
+      <Filter>ExternalRepos\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
     </ClInclude>
     <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_ll_hrtim.h">
-      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
+      <Filter>ExternalRepos\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
     </ClInclude>
     <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_ll_hsem.h">
-      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
+      <Filter>ExternalRepos\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
     </ClInclude>
     <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_ll_i2c.h">
-      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
+      <Filter>ExternalRepos\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
     </ClInclude>
     <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_ll_iwdg.h">
-      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
+      <Filter>ExternalRepos\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
     </ClInclude>
     <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_ll_lptim.h">
-      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
+      <Filter>ExternalRepos\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
     </ClInclude>
     <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_ll_lpuart.h">
-      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
+      <Filter>ExternalRepos\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
     </ClInclude>
     <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_ll_mdma.h">
-      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
+      <Filter>ExternalRepos\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
     </ClInclude>
     <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_ll_opamp.h">
-      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
+      <Filter>ExternalRepos\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
     </ClInclude>
     <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_ll_pwr.h">
-      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
+      <Filter>ExternalRepos\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
     </ClInclude>
     <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_ll_rcc.h">
-      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
+      <Filter>ExternalRepos\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
     </ClInclude>
     <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_ll_rng.h">
-      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
+      <Filter>ExternalRepos\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
     </ClInclude>
     <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_ll_rtc.h">
-      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
+      <Filter>ExternalRepos\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
     </ClInclude>
     <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_ll_sdmmc.h">
-      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
+      <Filter>ExternalRepos\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
     </ClInclude>
     <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_ll_spi.h">
-      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
+      <Filter>ExternalRepos\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
     </ClInclude>
     <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_ll_swpmi.h">
-      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
+      <Filter>ExternalRepos\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
     </ClInclude>
     <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_ll_system.h">
-      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
+      <Filter>ExternalRepos\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
     </ClInclude>
     <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_ll_tim.h">
-      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
+      <Filter>ExternalRepos\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
     </ClInclude>
     <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_ll_usart.h">
-      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
+      <Filter>ExternalRepos\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
     </ClInclude>
     <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_ll_usb.h">
-      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
+      <Filter>ExternalRepos\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
     </ClInclude>
     <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_ll_utils.h">
-      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
+      <Filter>ExternalRepos\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
     </ClInclude>
     <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_ll_wwdg.h">
-      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
+      <Filter>ExternalRepos\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
     </ClInclude>
     <ClInclude Include="..\..\STM32CubeH7\Drivers\CMSIS\Device\ST\STM32H7xx\Include\stm32h735xx.h">
-      <Filter>STM32CubeH7\Drivers\CMSIS\Device\ST\STM32H7xx\Include</Filter>
+      <Filter>ExternalRepos\STM32CubeH7\Drivers\CMSIS\Device\ST\STM32H7xx\Include</Filter>
     </ClInclude>
     <ClInclude Include="..\..\nf-interpreter\src\System.Device.Adc\sys_dev_adc_native.h">
       <Filter>nf-interpreter\src\System.Device.Adc</Filter>
@@ -731,43 +747,43 @@
       <Filter>nf-interpreter\src\System.IO.Ports</Filter>
     </ClInclude>
     <ClInclude Include="..\..\STM32CubeH7\Drivers\CMSIS\Device\ST\STM32H7xx\Include\system_stm32h7xx.h">
-      <Filter>STM32CubeH7\Drivers\CMSIS\Device\ST\STM32H7xx\Include</Filter>
+      <Filter>ExternalRepos\STM32CubeH7\Drivers\CMSIS\Device\ST\STM32H7xx\Include</Filter>
     </ClInclude>
     <ClInclude Include="..\..\threadx\common\inc\tx_api.h">
-      <Filter>threadx\common\inc</Filter>
+      <Filter>ExternalRepos\threadx\common\inc</Filter>
     </ClInclude>
     <ClInclude Include="..\..\threadx\common\inc\tx_block_pool.h">
-      <Filter>threadx\common\inc</Filter>
+      <Filter>ExternalRepos\threadx\common\inc</Filter>
     </ClInclude>
     <ClInclude Include="..\..\threadx\common\inc\tx_byte_pool.h">
-      <Filter>threadx\common\inc</Filter>
+      <Filter>ExternalRepos\threadx\common\inc</Filter>
     </ClInclude>
     <ClInclude Include="..\..\threadx\common\inc\tx_event_flags.h">
-      <Filter>threadx\common\inc</Filter>
+      <Filter>ExternalRepos\threadx\common\inc</Filter>
     </ClInclude>
     <ClInclude Include="..\..\threadx\common\inc\tx_initialize.h">
-      <Filter>threadx\common\inc</Filter>
+      <Filter>ExternalRepos\threadx\common\inc</Filter>
     </ClInclude>
     <ClInclude Include="..\..\threadx\common\inc\tx_mutex.h">
-      <Filter>threadx\common\inc</Filter>
+      <Filter>ExternalRepos\threadx\common\inc</Filter>
     </ClInclude>
     <ClInclude Include="..\..\threadx\common\inc\tx_queue.h">
-      <Filter>threadx\common\inc</Filter>
+      <Filter>ExternalRepos\threadx\common\inc</Filter>
     </ClInclude>
     <ClInclude Include="..\..\threadx\common\inc\tx_semaphore.h">
-      <Filter>threadx\common\inc</Filter>
+      <Filter>ExternalRepos\threadx\common\inc</Filter>
     </ClInclude>
     <ClInclude Include="..\..\threadx\common\inc\tx_thread.h">
-      <Filter>threadx\common\inc</Filter>
+      <Filter>ExternalRepos\threadx\common\inc</Filter>
     </ClInclude>
     <ClInclude Include="..\..\threadx\common\inc\tx_timer.h">
-      <Filter>threadx\common\inc</Filter>
+      <Filter>ExternalRepos\threadx\common\inc</Filter>
     </ClInclude>
     <ClInclude Include="..\..\threadx\common\inc\tx_trace.h">
-      <Filter>threadx\common\inc</Filter>
+      <Filter>ExternalRepos\threadx\common\inc</Filter>
     </ClInclude>
     <ClInclude Include="..\..\threadx\common\inc\tx_user_sample.h">
-      <Filter>threadx\common\inc</Filter>
+      <Filter>ExternalRepos\threadx\common\inc</Filter>
     </ClInclude>
     <ClInclude Include="..\..\nf-interpreter\src\Windows.Storage\win_storage_native.h">
       <Filter>nf-interpreter\src\Windows.Storage</Filter>
@@ -851,49 +867,49 @@
       <Filter>nf-interpreter\src\HAL\Include</Filter>
     </ClInclude>
     <ClInclude Include="..\..\STM32CubeH7\Drivers\CMSIS\Include\mpu_armv7.h">
-      <Filter>STM32CubeH7\Drivers\CMSIS\Include</Filter>
+      <Filter>ExternalRepos\STM32CubeH7\Drivers\CMSIS\Include</Filter>
     </ClInclude>
     <ClInclude Include="..\..\STM32CubeH7\Drivers\CMSIS\Include\core_cm7.h">
-      <Filter>STM32CubeH7\Drivers\CMSIS\Include</Filter>
+      <Filter>ExternalRepos\STM32CubeH7\Drivers\CMSIS\Include</Filter>
     </ClInclude>
     <ClInclude Include="..\..\nf-interpreter\src\PAL\Include\CPU_SPI_decl.h">
       <Filter>nf-interpreter\src\PAL\Include</Filter>
     </ClInclude>
     <ClInclude Include="..\..\STM32CubeH7\Drivers\CMSIS\Include\cmsis_armcc.h">
-      <Filter>STM32CubeH7\Drivers\CMSIS\Include</Filter>
+      <Filter>ExternalRepos\STM32CubeH7\Drivers\CMSIS\Include</Filter>
     </ClInclude>
     <ClInclude Include="..\..\STM32CubeH7\Drivers\CMSIS\Include\cmsis_armclang.h">
-      <Filter>STM32CubeH7\Drivers\CMSIS\Include</Filter>
+      <Filter>ExternalRepos\STM32CubeH7\Drivers\CMSIS\Include</Filter>
     </ClInclude>
     <ClInclude Include="..\..\STM32CubeH7\Drivers\CMSIS\Include\cmsis_compiler.h">
-      <Filter>STM32CubeH7\Drivers\CMSIS\Include</Filter>
+      <Filter>ExternalRepos\STM32CubeH7\Drivers\CMSIS\Include</Filter>
     </ClInclude>
     <ClInclude Include="..\..\STM32CubeH7\Drivers\CMSIS\Include\cmsis_gcc.h">
-      <Filter>STM32CubeH7\Drivers\CMSIS\Include</Filter>
+      <Filter>ExternalRepos\STM32CubeH7\Drivers\CMSIS\Include</Filter>
     </ClInclude>
     <ClInclude Include="..\..\STM32CubeH7\Drivers\CMSIS\Include\cmsis_iccarm.h">
-      <Filter>STM32CubeH7\Drivers\CMSIS\Include</Filter>
+      <Filter>ExternalRepos\STM32CubeH7\Drivers\CMSIS\Include</Filter>
     </ClInclude>
     <ClInclude Include="..\..\STM32CubeH7\Drivers\CMSIS\Include\cmsis_version.h">
-      <Filter>STM32CubeH7\Drivers\CMSIS\Include</Filter>
+      <Filter>ExternalRepos\STM32CubeH7\Drivers\CMSIS\Include</Filter>
     </ClInclude>
     <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal.h">
-      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
+      <Filter>ExternalRepos\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
     </ClInclude>
     <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_def.h">
-      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
+      <Filter>ExternalRepos\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
     </ClInclude>
     <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_dma.h">
-      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
+      <Filter>ExternalRepos\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
     </ClInclude>
     <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_sai_ex.h">
-      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
+      <Filter>ExternalRepos\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
     </ClInclude>
     <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_dma_ex.h">
-      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
+      <Filter>ExternalRepos\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc</Filter>
     </ClInclude>
     <ClInclude Include="..\..\threadx\ports\cortex_m7\gnu\inc\tx_port.h">
-      <Filter>threadx\ports\cortex_m7\gnu\inc</Filter>
+      <Filter>ExternalRepos\threadx\ports\cortex_m7\gnu\inc</Filter>
     </ClInclude>
     <ClInclude Include="..\..\nf-interpreter\src\CLR\Include\stdafx.h">
       <Filter>nf-interpreter\src\CLR\Include</Filter>
@@ -961,14 +977,30 @@
     <ClInclude Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\GraphicsMemoryHeap.h">
       <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Fonts\InternalFont.h" />
-    <ClInclude Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Displays\Debug_To_Display.h" />
-    <ClInclude Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Displays\Display.h" />
-    <ClInclude Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Displays\DisplayInterface.h" />
-    <ClInclude Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Native\nanoFramework_Graphics.h" />
-    <ClInclude Include="..\..\nf-interpreter\src\nanoFramework.Graphics\TouchPanel\Core\TouchPanel.h" />
-    <ClInclude Include="..\..\nf-interpreter\src\nanoFramework.Graphics\TouchPanel\Devices\TouchDevice.h" />
-    <ClInclude Include="..\..\nf-interpreter\src\nanoFramework.Graphics\TouchPanel\Devices\TouchInterface.h" />
+    <ClInclude Include="..\..\nf-interpreter\src\nanoFramework.Graphics\TouchPanel\Core\TouchPanel.h">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\TouchPanel\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\nanoFramework.Graphics\TouchPanel\Devices\TouchDevice.h">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\TouchPanel\Devices</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\nanoFramework.Graphics\TouchPanel\Devices\TouchInterface.h">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\TouchPanel\Devices</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Fonts\InternalFont.h">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Displays\Debug_To_Display.h">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Displays</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Displays\Display.h">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Displays</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Displays\DisplayInterface.h">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Displays</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Native\nanoFramework_Graphics.h">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Native</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\nf-interpreter\src\CLR\Core\CLR_RT_Interop.cpp">
@@ -2175,82 +2207,82 @@
       <Filter>nf-interpreter\src\CLR\Diagnostics</Filter>
     </ClCompile>
     <ClCompile Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_ll_usart.c">
-      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\src</Filter>
+      <Filter>ExternalRepos\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_ll_tim.c">
-      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\src</Filter>
+      <Filter>ExternalRepos\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_ll_swpmi.c">
-      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\src</Filter>
+      <Filter>ExternalRepos\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_ll_spi.c">
-      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\src</Filter>
+      <Filter>ExternalRepos\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_ll_rtc.c">
-      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\src</Filter>
+      <Filter>ExternalRepos\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_ll_rng.c">
-      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\src</Filter>
+      <Filter>ExternalRepos\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_ll_rcc.c">
-      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\src</Filter>
+      <Filter>ExternalRepos\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_ll_pwr.c">
-      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\src</Filter>
+      <Filter>ExternalRepos\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_ll_opamp.c">
-      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\src</Filter>
+      <Filter>ExternalRepos\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_ll_mdma.c">
-      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\src</Filter>
+      <Filter>ExternalRepos\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_ll_lpuart.c">
-      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\src</Filter>
+      <Filter>ExternalRepos\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_ll_lptim.c">
-      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\src</Filter>
+      <Filter>ExternalRepos\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_ll_i2c.c">
-      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\src</Filter>
+      <Filter>ExternalRepos\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_ll_hrtim.c">
-      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\src</Filter>
+      <Filter>ExternalRepos\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_ll_gpio.c">
-      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\src</Filter>
+      <Filter>ExternalRepos\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_ll_fmac.c">
-      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\src</Filter>
+      <Filter>ExternalRepos\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_ll_exti.c">
-      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\src</Filter>
+      <Filter>ExternalRepos\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_ll_dma2d.c">
-      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\src</Filter>
+      <Filter>ExternalRepos\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_ll_dma.c">
-      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\src</Filter>
+      <Filter>ExternalRepos\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_ll_dac.c">
-      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\src</Filter>
+      <Filter>ExternalRepos\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_ll_crs.c">
-      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\src</Filter>
+      <Filter>ExternalRepos\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_ll_crc.c">
-      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\src</Filter>
+      <Filter>ExternalRepos\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_ll_cordic.c">
-      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\src</Filter>
+      <Filter>ExternalRepos\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_ll_comp.c">
-      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\src</Filter>
+      <Filter>ExternalRepos\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_ll_bdma.c">
-      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\src</Filter>
+      <Filter>ExternalRepos\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_ll_adc.c">
-      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\src</Filter>
+      <Filter>ExternalRepos\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\nf-interpreter\src\CLR\Core\RPC\RPC_stub.cpp">
       <Filter>nf-interpreter\src\CLR\Core\RPC</Filter>
@@ -2298,559 +2330,559 @@
       <Filter>nf-interpreter\src\CLR\Core</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_byte_allocate.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_block_allocate.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_block_pool_cleanup.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_block_pool_create.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_block_pool_delete.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_block_pool_info_get.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_block_pool_initialize.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_block_pool_performance_info_get.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_block_pool_performance_system_info_get.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_block_pool_prioritize.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_block_release.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_byte_release.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_byte_pool_cleanup.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_byte_pool_create.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_byte_pool_delete.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_byte_pool_info_get.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_byte_pool_initialize.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_byte_pool_performance_info_get.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_byte_pool_performance_system_info_get.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_byte_pool_prioritize.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_byte_pool_search.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_event_flags_set_notify.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_event_flags_set.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_event_flags_performance_system_info_get.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_event_flags_performance_info_get.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_event_flags_initialize.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_event_flags_info_get.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_event_flags_get.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_event_flags_delete.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_event_flags_create.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_event_flags_cleanup.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_initialize_high_level.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_initialize_kernel_enter.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_initialize_kernel_setup.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_semaphore_put_notify.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_semaphore_put.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_semaphore_prioritize.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_semaphore_performance_system_info_get.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_semaphore_performance_info_get.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_semaphore_initialize.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_semaphore_info_get.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_semaphore_get.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_semaphore_delete.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_semaphore_create.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_semaphore_cleanup.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_semaphore_ceiling_put.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_queue_send_notify.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_queue_send.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_queue_receive.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_queue_prioritize.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_queue_performance_system_info_get.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_queue_performance_info_get.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_queue_initialize.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_queue_info_get.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_queue_front_send.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_queue_flush.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_queue_delete.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_queue_create.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_queue_cleanup.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_mutex_put.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_mutex_priority_change.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_mutex_prioritize.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_mutex_performance_system_info_get.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_mutex_performance_info_get.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_mutex_initialize.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_mutex_info_get.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_mutex_get.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_mutex_delete.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_mutex_create.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_mutex_cleanup.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_misra.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_timer_initialize.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_timer_info_get.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_timer_expiration_process.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_timer_delete.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_timer_deactivate.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_timer_create.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_timer_change.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_timer_activate.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_time_set.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_time_get.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_thread_wait_abort.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_thread_timeout.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_thread_time_slice_change.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_thread_time_slice.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_thread_terminate.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_thread_system_suspend.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_thread_system_resume.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_thread_system_preempt_check.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_thread_suspend.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_thread_stack_error_notify.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_thread_stack_error_handler.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_thread_stack_analyze.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_thread_sleep.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_thread_shell_entry.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_thread_resume.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_thread_reset.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_thread_relinquish.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_thread_priority_change.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_thread_preemption_change.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_thread_performance_system_info_get.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_thread_performance_info_get.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_thread_initialize.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_thread_info_get.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_thread_identify.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_thread_entry_exit_notify.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_thread_delete.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_thread_create.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_trace_user_event_insert.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_trace_object_unregister.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_trace_object_register.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_trace_isr_exit_insert.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_trace_isr_enter_insert.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_trace_interrupt_control.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_trace_initialize.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_trace_event_unfilter.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_trace_event_filter.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_trace_enable.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_trace_disable.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_trace_buffer_full_notify.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_timer_thread_entry.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_timer_system_deactivate.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_timer_system_activate.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_timer_performance_system_info_get.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\tx_timer_performance_info_get.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\txe_timer_info_get.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\txe_timer_delete.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\txe_timer_deactivate.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\txe_timer_create.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\txe_timer_change.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\txe_timer_activate.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\txe_thread_wait_abort.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\txe_thread_time_slice_change.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\txe_thread_terminate.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\txe_thread_suspend.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\txe_thread_resume.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\txe_thread_reset.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\txe_thread_relinquish.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\txe_thread_priority_change.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\txe_thread_preemption_change.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\txe_thread_info_get.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\txe_thread_entry_exit_notify.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\txe_thread_delete.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\txe_thread_create.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\txe_semaphore_put_notify.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\txe_semaphore_put.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\txe_semaphore_prioritize.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\txe_semaphore_info_get.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\txe_semaphore_get.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\txe_semaphore_delete.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\txe_semaphore_create.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\txe_semaphore_ceiling_put.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\txe_queue_send_notify.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\txe_queue_send.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\txe_queue_receive.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\txe_queue_prioritize.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\txe_queue_info_get.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\txe_queue_front_send.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\txe_queue_flush.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\txe_queue_delete.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\txe_queue_create.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\txe_mutex_put.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\txe_mutex_prioritize.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\txe_mutex_info_get.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\txe_mutex_get.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\txe_mutex_delete.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\txe_mutex_create.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\txe_event_flags_set_notify.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\txe_event_flags_set.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\txe_event_flags_info_get.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\txe_event_flags_get.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\txe_event_flags_delete.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\txe_event_flags_create.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\txe_byte_release.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\txe_byte_pool_prioritize.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\txe_byte_pool_info_get.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\txe_byte_pool_delete.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\txe_byte_pool_create.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\txe_byte_allocate.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\txe_block_release.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\txe_block_pool_prioritize.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\txe_block_pool_info_get.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\txe_block_pool_delete.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\txe_block_pool_create.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\common\src\txe_block_allocate.c">
-      <Filter>threadx\common\src</Filter>
+      <Filter>ExternalRepos\threadx\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\nf-interpreter\src\CLR\Core\TypeSystem.cpp">
       <Filter>nf-interpreter\src\CLR\Core</Filter>
@@ -2970,28 +3002,28 @@
       <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Startup</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\ports\cortex_m7\gnu\src\tx_thread_context_restore.S">
-      <Filter>threadx\ports\cortex_m7\gnu\src</Filter>
+      <Filter>ExternalRepos\threadx\ports\cortex_m7\gnu\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\ports\cortex_m7\gnu\src\tx_thread_context_save.S">
-      <Filter>threadx\ports\cortex_m7\gnu\src</Filter>
+      <Filter>ExternalRepos\threadx\ports\cortex_m7\gnu\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\ports\cortex_m7\gnu\src\tx_thread_interrupt_disable.S">
-      <Filter>threadx\ports\cortex_m7\gnu\src</Filter>
+      <Filter>ExternalRepos\threadx\ports\cortex_m7\gnu\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\ports\cortex_m7\gnu\src\tx_thread_interrupt_restore.S">
-      <Filter>threadx\ports\cortex_m7\gnu\src</Filter>
+      <Filter>ExternalRepos\threadx\ports\cortex_m7\gnu\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\ports\cortex_m7\gnu\src\tx_thread_schedule.S">
-      <Filter>threadx\ports\cortex_m7\gnu\src</Filter>
+      <Filter>ExternalRepos\threadx\ports\cortex_m7\gnu\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\ports\cortex_m7\gnu\src\tx_thread_stack_build.S">
-      <Filter>threadx\ports\cortex_m7\gnu\src</Filter>
+      <Filter>ExternalRepos\threadx\ports\cortex_m7\gnu\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\ports\cortex_m7\gnu\src\tx_thread_system_return.S">
-      <Filter>threadx\ports\cortex_m7\gnu\src</Filter>
+      <Filter>ExternalRepos\threadx\ports\cortex_m7\gnu\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\ports\cortex_m7\gnu\src\tx_timer_interrupt.S">
-      <Filter>threadx\ports\cortex_m7\gnu\src</Filter>
+      <Filter>ExternalRepos\threadx\ports\cortex_m7\gnu\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\System.Device.I2c\cpu_System.Device.I2c.cpp">
       <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\System.Device.I2c</Filter>
@@ -3000,10 +3032,10 @@
       <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\System.Device.I2c</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\ports\cortex_m7\gnu\src\tx_thread_interrupt_control.S">
-      <Filter>threadx\ports\cortex_m7\gnu\src</Filter>
+      <Filter>ExternalRepos\threadx\ports\cortex_m7\gnu\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_ll_utils.c">
-      <Filter>STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\src</Filter>
+      <Filter>ExternalRepos\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Bmp\Bitmap_Decoder.cpp">
       <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Bmp</Filter>
@@ -3182,16 +3214,32 @@
     <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\GraphicsMemoryHeap.cpp">
       <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Graphics.cpp" />
-    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Fonts\font8x8.cpp" />
-    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Native\nanoFramework_Graphics.cpp" />
-    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Native\nanoFramework_Graphics_nanoFramework_UI_Bitmap.cpp" />
-    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Native\nanoFramework_Graphics_nanoFramework_UI_DisplayControl.cpp" />
-    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Native\nanoFramework_Graphics_nanoFramework_UI_Font.cpp" />
-    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Native\nanoFramework_Graphics_nanoFramework_UI_TouchPanel.cpp" />
-    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\TouchPanel\Core\TouchPanel.cpp" />
     <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\TouchPanel\Devices\FT5336_I2C.cpp">
       <Filter>nf-interpreter\src\nanoFramework.Graphics\TouchPanel\Devices</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\TouchPanel\Core\TouchPanel.cpp">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\TouchPanel\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Fonts\font8x8.cpp">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Fonts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Graphics.cpp">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Native\nanoFramework_Graphics.cpp">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Native\nanoFramework_Graphics_nanoFramework_UI_Bitmap.cpp">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Native\nanoFramework_Graphics_nanoFramework_UI_Font.cpp">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Native\nanoFramework_Graphics_nanoFramework_UI_DisplayControl.cpp">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Native\nanoFramework_Graphics_nanoFramework_UI_TouchPanel.cpp">
+      <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Native</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
