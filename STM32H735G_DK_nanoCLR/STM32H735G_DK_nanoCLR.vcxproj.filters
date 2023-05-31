@@ -1,30 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="FileX">
-      <UniqueIdentifier>{9a20da76-76ed-4729-bf5b-77bb225f2c8f}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="FileX\common">
-      <UniqueIdentifier>{a2b6320a-8c35-44df-aa96-6087e8bef9db}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="FileX\common\inc">
-      <UniqueIdentifier>{cd40aab8-d117-45d9-98d5-fb2a1761f193}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="FileX\common\src">
-      <UniqueIdentifier>{2b6c4895-30fa-45a4-afa0-b001363665b1}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="FileX\ports">
-      <UniqueIdentifier>{0f787994-d6e2-4e26-a6e4-0d67097aa647}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="FileX\ports\cortex_m7">
-      <UniqueIdentifier>{ff6cbaae-3de2-4d72-978b-5fc735c82b62}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="FileX\ports\cortex_m7\gnu">
-      <UniqueIdentifier>{8072e925-7e61-4a97-bba3-f2fffb829b6a}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="FileX\ports\cortex_m7\gnu\inc">
-      <UniqueIdentifier>{ebf308b4-3162-40ed-b249-cd48e3d85cf3}</UniqueIdentifier>
-    </Filter>
     <Filter Include="ExternalRepos">
       <UniqueIdentifier>{8854e24d-e42f-4c77-942f-ef72ba6a09d4}</UniqueIdentifier>
     </Filter>
@@ -328,6 +304,33 @@
     <Filter Include="nf-interpreter\src\nanoFramework.Graphics\Graphics\Native">
       <UniqueIdentifier>{f92ab17c-8f8d-409a-9357-a8966c420d48}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ExternalRepos\FileX">
+      <UniqueIdentifier>{9a20da76-76ed-4729-bf5b-77bb225f2c8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExternalRepos\FileX\common">
+      <UniqueIdentifier>{a2b6320a-8c35-44df-aa96-6087e8bef9db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExternalRepos\FileX\common\inc">
+      <UniqueIdentifier>{cd40aab8-d117-45d9-98d5-fb2a1761f193}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExternalRepos\FileX\common\src">
+      <UniqueIdentifier>{2b6c4895-30fa-45a4-afa0-b001363665b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExternalRepos\FileX\ports">
+      <UniqueIdentifier>{0f787994-d6e2-4e26-a6e4-0d67097aa647}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExternalRepos\FileX\ports\cortex_m7">
+      <UniqueIdentifier>{ff6cbaae-3de2-4d72-978b-5fc735c82b62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExternalRepos\FileX\ports\cortex_m7\gnu">
+      <UniqueIdentifier>{8072e925-7e61-4a97-bba3-f2fffb829b6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExternalRepos\FileX\ports\cortex_m7\gnu\inc">
+      <UniqueIdentifier>{ebf308b4-3162-40ed-b249-cd48e3d85cf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VisualGDB settings">
+      <UniqueIdentifier>{89d1ceea-b840-41b9-968b-6003604aefae}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Memory\STM32H735G-DK.ld">
@@ -345,6 +348,15 @@
     <None Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Fonts\TinyFonts\small.tinyfnt">
       <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Fonts\TinyFonts</Filter>
     </None>
+    <None Include="stm32.props">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <None Include="STM32H735G_DK_nanoCLR-Debug.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <None Include="STM32H735G_DK_nanoCLR-Release.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\nf-interpreter\src\CLR\CorLib\corlib_native.h">
@@ -357,34 +369,34 @@
       <Filter>nf-interpreter\src\CLR\Debugger</Filter>
     </ClInclude>
     <ClInclude Include="..\..\filex\common\inc\fx_api.h">
-      <Filter>FileX\common\inc</Filter>
+      <Filter>ExternalRepos\FileX\common\inc</Filter>
     </ClInclude>
     <ClInclude Include="..\..\filex\common\inc\fx_directory.h">
-      <Filter>FileX\common\inc</Filter>
+      <Filter>ExternalRepos\FileX\common\inc</Filter>
     </ClInclude>
     <ClInclude Include="..\..\filex\common\inc\fx_directory_exFAT.h">
-      <Filter>FileX\common\inc</Filter>
+      <Filter>ExternalRepos\FileX\common\inc</Filter>
     </ClInclude>
     <ClInclude Include="..\..\filex\common\inc\fx_fault_tolerant.h">
-      <Filter>FileX\common\inc</Filter>
+      <Filter>ExternalRepos\FileX\common\inc</Filter>
     </ClInclude>
     <ClInclude Include="..\..\filex\common\inc\fx_file.h">
-      <Filter>FileX\common\inc</Filter>
+      <Filter>ExternalRepos\FileX\common\inc</Filter>
     </ClInclude>
     <ClInclude Include="..\..\filex\common\inc\fx_media.h">
-      <Filter>FileX\common\inc</Filter>
+      <Filter>ExternalRepos\FileX\common\inc</Filter>
     </ClInclude>
     <ClInclude Include="..\..\filex\common\inc\fx_system.h">
-      <Filter>FileX\common\inc</Filter>
+      <Filter>ExternalRepos\FileX\common\inc</Filter>
     </ClInclude>
     <ClInclude Include="..\..\filex\common\inc\fx_unicode.h">
-      <Filter>FileX\common\inc</Filter>
+      <Filter>ExternalRepos\FileX\common\inc</Filter>
     </ClInclude>
     <ClInclude Include="..\..\filex\common\inc\fx_user_sample.h">
-      <Filter>FileX\common\inc</Filter>
+      <Filter>ExternalRepos\FileX\common\inc</Filter>
     </ClInclude>
     <ClInclude Include="..\..\filex\common\inc\fx_utility.h">
-      <Filter>FileX\common\inc</Filter>
+      <Filter>ExternalRepos\FileX\common\inc</Filter>
     </ClInclude>
     <ClInclude Include="..\..\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h">
       <Filter>ExternalRepos\STM32CubeH7\Drivers\STM32H7xx_HAL_Driver\inc\Legacy</Filter>
@@ -858,7 +870,7 @@
       <Filter>nf-interpreter\src\PAL\Include</Filter>
     </ClInclude>
     <ClInclude Include="..\..\filex\ports\cortex_m7\gnu\inc\fx_port.h">
-      <Filter>FileX\ports\cortex_m7\gnu\inc</Filter>
+      <Filter>ExternalRepos\FileX\ports\cortex_m7\gnu\inc</Filter>
     </ClInclude>
     <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Startup\___vectors.h">
       <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Startup</Filter>
@@ -1238,715 +1250,715 @@
       <Filter>nf-interpreter\src\CLR\Debugger</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_directory_entry_write.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_directory_attributes_read.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_directory_attributes_set.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_directory_create.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_directory_default_get.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_directory_default_get_copy.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_directory_default_set.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_directory_delete.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_directory_entry_read.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_directory_short_name_get_extended.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_directory_exFAT_entry_read.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_directory_exFAT_entry_write.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_directory_exFAT_free_search.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_directory_exFAT_unicode_entry_write.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_directory_first_entry_find.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_directory_first_full_entry_find.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_directory_free_search.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_directory_information_get.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_directory_local_path_clear.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_directory_local_path_get.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_directory_local_path_get_copy.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_directory_local_path_restore.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_directory_local_path_set.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_directory_long_name_get.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_directory_long_name_get_extended.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_directory_name_extract.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_directory_name_test.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_directory_next_entry_find.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_directory_next_full_entry_find.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_directory_rename.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_directory_search.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_directory_short_name_get.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_fault_tolerant_write_log_file.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_fault_tolerant_add_bitmap_log.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_fault_tolerant_add_checksum_log.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_fault_tolerant_add_dir_log.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_fault_tolerant_add_FAT_log.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_fault_tolerant_apply_logs.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_fault_tolerant_calculate_checksum.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_fault_tolerant_cleanup_FAT_chain.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_fault_tolerant_create_log_file.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_fault_tolerant_enable.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_fault_tolerant_read_directory_sector.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_fault_tolerant_read_FAT.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_fault_tolerant_read_log_file.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_fault_tolerant_recover.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_fault_tolerant_reset_log_file.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_fault_tolerant_set_FAT_chain.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_fault_tolerant_transaction_end.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_fault_tolerant_transaction_fail.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_fault_tolerant_transaction_start.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_file_write_notify_set.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_file_allocate.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_file_attributes_read.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_file_attributes_set.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_file_best_effort_allocate.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_file_close.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_file_create.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_file_date_time_set.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_file_delete.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_file_extended_allocate.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_file_extended_best_effort_allocate.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_file_extended_relative_seek.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_file_extended_seek.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_file_extended_truncate.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_file_extended_truncate_release.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_file_open.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_file_read.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_file_relative_seek.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_file_rename.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_file_seek.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_file_truncate.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_file_truncate_release.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_file_write.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_ram_driver.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_partition_offset_calculate.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_media_write.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_media_volume_set.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_media_volume_get_extended.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_media_volume_get.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_media_space_available.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_media_read.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_media_open_notify_set.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_media_open.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_media_format_volume_id_set.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_media_format_type_set.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_media_format_oem_name_set.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_media_format.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_media_flush.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_media_extended_space_available.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_media_exFAT_format.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_media_close_notify_set.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_media_close.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_media_check_lost_cluster_check.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_media_check_FAT_chain_check.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_media_check.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_media_cache_invalidate.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_media_boot_info_extract.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_media_abort.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_trace_object_unregister.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_trace_object_register.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_trace_event_update.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_trace_event_insert.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_system_timer_entry.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_system_time_set.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_system_time_get.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_system_initialize.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_system_date_set.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_system_date_get.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fxe_unicode_short_name_get_extended.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fxe_unicode_short_name_get.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fxe_unicode_name_get_extended.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fxe_unicode_name_get.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fxe_unicode_file_rename.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fxe_unicode_file_create.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fxe_unicode_directory_rename.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fxe_unicode_directory_create.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fxe_system_time_set.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fxe_system_time_get.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fxe_system_date_set.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fxe_system_date_get.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fxe_media_write.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fxe_media_volume_set.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fxe_media_volume_get_extended.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fxe_media_volume_get.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fxe_media_space_available.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fxe_media_read.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fxe_media_open_notify_set.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fxe_media_open.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fxe_media_format.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fxe_media_flush.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fxe_media_extended_space_available.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fxe_media_exFAT_format.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fxe_media_close_notify_set.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fxe_media_close.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fxe_media_check.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fxe_media_cache_invalidate.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fxe_media_abort.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fxe_file_write_notify_set.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fxe_file_write.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fxe_file_truncate_release.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fxe_file_truncate.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fxe_file_seek.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fxe_file_rename.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fxe_file_relative_seek.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fxe_file_read.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fxe_file_open.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fxe_file_extended_truncate_release.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fxe_file_extended_truncate.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fxe_file_extended_seek.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fxe_file_extended_relative_seek.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fxe_file_extended_best_effort_allocate.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fxe_file_extended_allocate.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fxe_file_delete.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fxe_file_date_time_set.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fxe_file_create.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fxe_file_close.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fxe_file_best_effort_allocate.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fxe_file_attributes_set.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fxe_file_attributes_read.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fxe_file_allocate.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fxe_fault_tolerant_enable.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fxe_directory_short_name_get_extended.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fxe_directory_short_name_get.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fxe_directory_rename.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fxe_directory_next_full_entry_find.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fxe_directory_next_entry_find.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fxe_directory_name_test.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fxe_directory_long_name_get_extended.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fxe_directory_long_name_get.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fxe_directory_local_path_set.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fxe_directory_local_path_restore.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fxe_directory_local_path_get_copy.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fxe_directory_local_path_get.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fxe_directory_local_path_clear.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fxe_directory_information_get.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fxe_directory_first_full_entry_find.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fxe_directory_first_entry_find.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fxe_directory_delete.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fxe_directory_default_set.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fxe_directory_default_get_copy.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fxe_directory_default_get.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fxe_directory_create.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fxe_directory_attributes_set.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fxe_directory_attributes_read.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_utility_token_length_get.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_utility_string_length_get.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_utility_memory_set.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_utility_memory_copy.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_utility_logical_sector_write.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_utility_logical_sector_read.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_utility_logical_sector_flush.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_utility_logical_sector_cache_entry_read.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_utility_FAT_sector_get.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_utility_FAT_map_flush.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_utility_FAT_flush.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_utility_FAT_entry_write.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_utility_FAT_entry_read.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_utility_exFAT_upcase_table.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_utility_exFAT_unicode_name_hash_get.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_utility_exFAT_system_sector_write.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_utility_exFAT_system_area_format.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_utility_exFAT_system_area_checksum_write.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_utility_exFAT_system_area_checksum_verify.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_utility_exFAT_size_calculate.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_utility_exFAT_name_hash_get.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_utility_exFAT_geometry_check.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_utility_exFAT_cluster_state_set.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_utility_exFAT_cluster_state_get.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_utility_exFAT_cluster_free.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_utility_exFAT_bitmap_start_sector_get.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_utility_exFAT_bitmap_initialize.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_utility_exFAT_bitmap_free_cluster_find.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_utility_exFAT_bitmap_flush.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_utility_exFAT_bitmap_cache_update.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_utility_exFAT_bitmap_cache_prepare.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_utility_exFAT_allocate_new_cluster.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_utility_absolute_path_get.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_utility_64_unsigned_write.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_utility_64_unsigned_read.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_utility_32_unsigned_write.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_utility_32_unsigned_read.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_utility_16_unsigned_write.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_utility_16_unsigned_read.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_unicode_short_name_get_extended.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_unicode_short_name_get.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_unicode_name_get_extended.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_unicode_name_get.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_unicode_length_get_extended.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_unicode_length_get.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_unicode_file_rename.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_unicode_file_create.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_unicode_directory_search.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_unicode_directory_rename.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_unicode_directory_entry_read.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_unicode_directory_entry_change.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\filex\common\src\fx_unicode_directory_create.c">
-      <Filter>FileX\common\src</Filter>
+      <Filter>ExternalRepos\FileX\common\src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\nf-interpreter\src\PAL\AsyncProcCall\AsyncCompletions.cpp">
       <Filter>nf-interpreter\src\PAL\AsyncProcCall</Filter>
@@ -3241,5 +3253,10 @@
     <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Native\nanoFramework_Graphics_nanoFramework_UI_TouchPanel.cpp">
       <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Native</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="stm32.xml">
+      <Filter>VisualGDB settings</Filter>
+    </Xml>
   </ItemGroup>
 </Project>

@@ -1050,5 +1050,11 @@
     <None Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Fonts\TinyFonts\small.tinyfnt" />
     <None Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Readme.md" />
     <None Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Memory\STM32H735G-DK.ld" />
+    <None Include="stm32.props" />
+    <None Include="STM32H735G_DK_nanoCLR-Debug.vgdbsettings" />
+    <None Include="STM32H735G_DK_nanoCLR-Release.vgdbsettings" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="stm32.xml" />
   </ItemGroup>
 </Project>
