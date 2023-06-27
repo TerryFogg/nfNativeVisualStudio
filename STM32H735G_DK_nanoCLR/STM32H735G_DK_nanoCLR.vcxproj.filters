@@ -1013,6 +1013,9 @@
     <ClInclude Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Native\nanoFramework_Graphics.h">
       <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Native</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\nf-interpreter\src\HAL\Include\nanoHAL_Rtos.h">
+      <Filter>nf-interpreter\src\HAL\Include</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\nf-interpreter\src\CLR\Core\CLR_RT_Interop.cpp">
@@ -3252,6 +3255,12 @@
     </ClCompile>
     <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Native\nanoFramework_Graphics_nanoFramework_UI_TouchPanel.cpp">
       <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\HAL\targetHAL_Rtos.c">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\Diagnostics\Info_Safeprintf.cpp">
+      <Filter>nf-interpreter\src\CLR\Diagnostics</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

@@ -318,6 +318,7 @@
     <ClCompile Include="..\..\filex\common\src\fx_utility_memory_set.c" />
     <ClCompile Include="..\..\filex\common\src\fx_utility_string_length_get.c" />
     <ClCompile Include="..\..\filex\common\src\fx_utility_token_length_get.c" />
+    <ClCompile Include="..\..\nf-interpreter\src\CLR\Diagnostics\Info_Safeprintf.cpp" />
     <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Graphics.cpp" />
     <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\GraphicsDriver.cpp" />
     <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\GraphicsMemoryHeap.cpp" />
@@ -386,6 +387,7 @@
     <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Native\nanoFramework_Graphics_nanoFramework_UI_TouchPanel.cpp" />
     <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\TouchPanel\Core\TouchPanel.cpp" />
     <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\TouchPanel\Devices\FT5336_I2C.cpp" />
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\HAL\targetHAL_Rtos.c" />
     <ClCompile Include="..\..\threadx\common\src\txe_block_allocate.c" />
     <ClCompile Include="..\..\threadx\common\src\txe_block_pool_create.c" />
     <ClCompile Include="..\..\threadx\common\src\txe_block_pool_delete.c" />
@@ -838,6 +840,7 @@
     <ClInclude Include="..\..\filex\common\inc\fx_user_sample.h" />
     <ClInclude Include="..\..\filex\common\inc\fx_utility.h" />
     <ClInclude Include="..\..\filex\ports\cortex_m7\gnu\inc\fx_port.h" />
+    <ClInclude Include="..\..\nf-interpreter\src\HAL\Include\nanoHAL_Rtos.h" />
     <ClInclude Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Graphics.h" />
     <ClInclude Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\GraphicsMemoryHeap.h" />
     <ClInclude Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Fonts\InternalFont.h" />

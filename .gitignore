@@ -41,10 +41,6 @@
 /BuildOutput/PicoProbe.lst
 /BuildOutput/PicoProbe.link.rsp
 /BuildOutput/PicoProbe.elf
-/RaspberryPiPico_nanoCLR/RaspberryPiPico_nanoCLR.vcxproj.filters
-/RaspberryPiPico_nanoCLR/RaspberryPiPico_nanoCLR.vcxproj
-/RaspberryPiPico_nanoCLR/RaspberryPiPico_nanoCLR-Debug.bat
-/RaspberryPiPico_nanoCLR/blink.elf.map
 /BuildOutput/STM32H735G_DK_nanoCLR.size
 /BuildOutput/STM32H735G_DK_nanoCLR.nm
 /BuildOutput/STM32H735G_DK_nanoCLR.lst

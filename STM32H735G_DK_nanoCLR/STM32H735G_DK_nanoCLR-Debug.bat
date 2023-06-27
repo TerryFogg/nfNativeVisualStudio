@@ -475,6 +475,8 @@ echo fx_utility_string_length_get.c
 c:\sysgcc\arm-eabi\bin\arm-none-eabi-gcc.exe @"VisualGDB/Debug/_2_/filex/common/src/fx_utility_string_length_get.gcc.rsp" || exit 1
 echo fx_utility_token_length_get.c
 c:\sysgcc\arm-eabi\bin\arm-none-eabi-gcc.exe @"VisualGDB/Debug/_2_/filex/common/src/fx_utility_token_length_get.gcc.rsp" || exit 1
+echo Info_Safeprintf.cpp
+c:\sysgcc\arm-eabi\bin\arm-none-eabi-g++.exe @"VisualGDB/Debug/_2_/nf-interpreter/src/CLR/Diagnostics/Info_Safeprintf.gcc.rsp" || exit 1
 echo Graphics.cpp
 c:\sysgcc\arm-eabi\bin\arm-none-eabi-g++.exe @"VisualGDB/Debug/_2_/nf-interpreter/src/nanoFramework.Graphics/Graphics/Core/Graphics.gcc.rsp" || exit 1
 echo GraphicsDriver.cpp
@@ -611,6 +613,8 @@ echo TouchPanel.cpp
 c:\sysgcc\arm-eabi\bin\arm-none-eabi-g++.exe @"VisualGDB/Debug/_2_/nf-interpreter/src/nanoFramework.Graphics/TouchPanel/Core/TouchPanel.gcc.rsp" || exit 1
 echo FT5336_I2C.cpp
 c:\sysgcc\arm-eabi\bin\arm-none-eabi-g++.exe @"VisualGDB/Debug/_2_/nf-interpreter/src/nanoFramework.Graphics/TouchPanel/Devices/FT5336_I2C.gcc.rsp" || exit 1
+echo targetHAL_Rtos.c
+c:\sysgcc\arm-eabi\bin\arm-none-eabi-gcc.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/STM32H735G_DK/nanoCLR/HAL/targetHAL_Rtos.gcc.rsp" || exit 1
 echo txe_block_allocate.c
 c:\sysgcc\arm-eabi\bin\arm-none-eabi-gcc.exe @"VisualGDB/Debug/_2_/threadx/common/src/txe_block_allocate.gcc.rsp" || exit 1
 echo txe_block_pool_create.c
