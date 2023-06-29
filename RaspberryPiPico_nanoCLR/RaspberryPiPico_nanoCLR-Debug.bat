@@ -37,6 +37,8 @@ echo Core1Tasks.c
 c:\sysgcc\arm-eabi\bin\arm-none-eabi-gcc.exe @"VisualGDB/Debug/Core1Tasks.gcc.rsp" || exit 1
 echo targetHAL_Rtos.c
 c:\sysgcc\arm-eabi\bin\arm-none-eabi-gcc.exe @"VisualGDB/Debug/targetHAL_Rtos.gcc.rsp" || exit 1
+echo pico-LCD-ER-TFTM028-4V4.cpp
+c:\sysgcc\arm-eabi\bin\arm-none-eabi-g++.exe @"VisualGDB/Debug/pico-LCD-ER-TFTM028-4V4.gcc.rsp" || exit 1
 echo Spi_To_Display_Pico.cpp
 c:\sysgcc\arm-eabi\bin\arm-none-eabi-g++.exe @"VisualGDB/Debug/Spi_To_Display_Pico.gcc.rsp" || exit 1
 echo cpu_System.Device.Adc.cpp
@@ -415,8 +417,6 @@ echo tx_trace_object_unregister.c
 c:\sysgcc\arm-eabi\bin\arm-none-eabi-gcc.exe @"VisualGDB/Debug/tx_trace_object_unregister.gcc.rsp" || exit 1
 echo tx_trace_user_event_insert.c
 c:\sysgcc\arm-eabi\bin\arm-none-eabi-gcc.exe @"VisualGDB/Debug/tx_trace_user_event_insert.gcc.rsp" || exit 1
-echo pico-LCD-ER-TFTM028-4V4.cpp
-c:\sysgcc\arm-eabi\bin\arm-none-eabi-g++.exe @"VisualGDB/Debug/pico-LCD-ER-TFTM028-4V4.gcc.rsp" || exit 1
 echo Cache.cpp
 c:\sysgcc\arm-eabi\bin\arm-none-eabi-g++.exe @"VisualGDB/Debug/Cache.gcc.rsp" || exit 1
 echo Checks.cpp

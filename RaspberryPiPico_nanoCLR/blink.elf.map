@@ -1800,6 +1800,14 @@ Discarded input sections
                 0x00000000        0x4 VisualGDB/Debug/targetHAL_Rtos.o
  .rodata.c_MARKER_CONFIGURATION_X509DEVICECERTIFICATE_V1
                 0x00000000        0x4 VisualGDB/Debug/targetHAL_Rtos.o
+ .text          0x00000000        0x0 VisualGDB/Debug/pico-LCD-ER-TFTM028-4V4.o
+ .data          0x00000000        0x0 VisualGDB/Debug/pico-LCD-ER-TFTM028-4V4.o
+ .bss           0x00000000        0x0 VisualGDB/Debug/pico-LCD-ER-TFTM028-4V4.o
+ .debug_line    0x00000000        0x0 VisualGDB/Debug/pico-LCD-ER-TFTM028-4V4.o
+ .debug_str     0x00000000      0x175 VisualGDB/Debug/pico-LCD-ER-TFTM028-4V4.o
+ .comment       0x00000000       0x4a VisualGDB/Debug/pico-LCD-ER-TFTM028-4V4.o
+ .ARM.attributes
+                0x00000000       0x32 VisualGDB/Debug/pico-LCD-ER-TFTM028-4V4.o
  .text          0x00000000        0x0 VisualGDB/Debug/Spi_To_Display_Pico.o
  .data          0x00000000        0x0 VisualGDB/Debug/Spi_To_Display_Pico.o
  .bss           0x00000000        0x0 VisualGDB/Debug/Spi_To_Display_Pico.o
@@ -4542,14 +4550,6 @@ Discarded input sections
  .debug_frame   0x00000000       0x30 VisualGDB/Debug/tx_trace_user_event_insert.o
  .ARM.attributes
                 0x00000000       0x2c VisualGDB/Debug/tx_trace_user_event_insert.o
- .text          0x00000000        0x0 VisualGDB/Debug/pico-LCD-ER-TFTM028-4V4.o
- .data          0x00000000        0x0 VisualGDB/Debug/pico-LCD-ER-TFTM028-4V4.o
- .bss           0x00000000        0x0 VisualGDB/Debug/pico-LCD-ER-TFTM028-4V4.o
- .debug_line    0x00000000        0x0 VisualGDB/Debug/pico-LCD-ER-TFTM028-4V4.o
- .debug_str     0x00000000      0x10f VisualGDB/Debug/pico-LCD-ER-TFTM028-4V4.o
- .comment       0x00000000       0x4a VisualGDB/Debug/pico-LCD-ER-TFTM028-4V4.o
- .ARM.attributes
-                0x00000000       0x32 VisualGDB/Debug/pico-LCD-ER-TFTM028-4V4.o
  .group         0x00000000       0x18 VisualGDB/Debug/Cache.o
  .group         0x00000000       0x14 VisualGDB/Debug/Cache.o
  .group         0x00000000       0x14 VisualGDB/Debug/Cache.o
@@ -30708,6 +30708,7 @@ LOAD VisualGDB/Debug/nf_system_runtime_serialization.o
 LOAD VisualGDB/Debug/nf_system_runtime_serialization_System_Runtime_Serialization_Formatters_Binary_BinaryFormatter.o
 LOAD VisualGDB/Debug/Core1Tasks.o
 LOAD VisualGDB/Debug/targetHAL_Rtos.o
+LOAD VisualGDB/Debug/pico-LCD-ER-TFTM028-4V4.o
 LOAD VisualGDB/Debug/Spi_To_Display_Pico.o
 LOAD VisualGDB/Debug/cpu_System.Device.Adc.o
 LOAD VisualGDB/Debug/cpu_System.Device.Pwm.o
@@ -30897,7 +30898,6 @@ LOAD VisualGDB/Debug/tx_trace_isr_exit_insert.o
 LOAD VisualGDB/Debug/tx_trace_object_register.o
 LOAD VisualGDB/Debug/tx_trace_object_unregister.o
 LOAD VisualGDB/Debug/tx_trace_user_event_insert.o
-LOAD VisualGDB/Debug/pico-LCD-ER-TFTM028-4V4.o
 LOAD VisualGDB/Debug/Cache.o
 LOAD VisualGDB/Debug/Checks.o
 LOAD VisualGDB/Debug/CLR_RT_DblLinkedList.o
