@@ -269,15 +269,6 @@
     <Filter Include="ExternalRepos\pico-sdk\src\rp2_common\pico_float\include\pico">
       <UniqueIdentifier>{0c8417ab-89e0-49a7-9e6d-91611d64bc21}</UniqueIdentifier>
     </Filter>
-    <Filter Include="ExternalRepos\pico-sdk\src\rp2_common\pico_float\pico_int64_ops">
-      <UniqueIdentifier>{b037d493-496a-4853-86d8-ec97b0d101b2}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="ExternalRepos\pico-sdk\src\rp2_common\pico_float\pico_int64_ops\include">
-      <UniqueIdentifier>{9a940b16-c569-4b85-9f5c-f72fcfb2f589}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="ExternalRepos\pico-sdk\src\rp2_common\pico_float\pico_int64_ops\include\pico">
-      <UniqueIdentifier>{528e44a0-6f42-4b63-b400-d22530d035b4}</UniqueIdentifier>
-    </Filter>
     <Filter Include="ExternalRepos\pico-sdk\src\rp2_common\pico_malloc">
       <UniqueIdentifier>{c4b7fcdd-f3ab-4e6c-ab34-5b5ae7946bc3}</UniqueIdentifier>
     </Filter>
@@ -836,6 +827,15 @@
     <Filter Include="nf-intepreter\targets\AzureRTOS\RaspberryPi\RP2040\nanoCLR\WireProtocol">
       <UniqueIdentifier>{341b5af1-640f-4953-936a-5346700ec5a0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ExternalRepos\pico-sdk\src\rp2_common\pico_int64_ops">
+      <UniqueIdentifier>{b037d493-496a-4853-86d8-ec97b0d101b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExternalRepos\pico-sdk\src\rp2_common\pico_int64_ops\include">
+      <UniqueIdentifier>{9a940b16-c569-4b85-9f5c-f72fcfb2f589}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExternalRepos\pico-sdk\src\rp2_common\pico_int64_ops\include\pico">
+      <UniqueIdentifier>{528e44a0-6f42-4b63-b400-d22530d035b4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\pico-sdk\src\common\pico_sync\critical_section.c">
@@ -932,7 +932,7 @@
       <Filter>ExternalRepos\pico-sdk\src\rp2_common\pico_float</Filter>
     </ClCompile>
     <ClCompile Include="..\..\pico-sdk\src\rp2_common\pico_int64_ops\pico_int64_ops_aeabi.S">
-      <Filter>ExternalRepos\pico-sdk\src\rp2_common\pico_float\pico_int64_ops</Filter>
+      <Filter>ExternalRepos\pico-sdk\src\rp2_common\pico_int64_ops</Filter>
     </ClCompile>
     <ClCompile Include="..\..\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c">
       <Filter>ExternalRepos\pico-sdk\src\rp2_common\pico_malloc</Filter>
@@ -2552,7 +2552,7 @@
       <Filter>ExternalRepos\pico-sdk\src\rp2_common\pico_float\include\pico</Filter>
     </ClInclude>
     <ClInclude Include="..\..\pico-sdk\src\rp2_common\pico_int64_ops\include\pico\int64_ops.h">
-      <Filter>ExternalRepos\pico-sdk\src\rp2_common\pico_float\pico_int64_ops\include\pico</Filter>
+      <Filter>ExternalRepos\pico-sdk\src\rp2_common\pico_int64_ops\include\pico</Filter>
     </ClInclude>
     <ClInclude Include="..\..\pico-sdk\src\rp2_common\pico_malloc\include\pico\malloc.h">
       <Filter>ExternalRepos\pico-sdk\src\rp2_common\pico_malloc\include\pico</Filter>

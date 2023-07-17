@@ -73,6 +73,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PicoProbe", "Tools\PicoProb
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pioasm", "Tools\Pioasm\Pioasm.vcxproj", "{47157A75-7B83-40EC-B3CA-20300337F3A3}"
 EndProject
+Project("{803FD0C6-D64E-4E16-9DC3-1DAEC859A3D2}") = "PicoSDKProject1", "PicoSDKProject1\PicoSDKProject1.vgdbproj", "{E423A91E-1D96-4839-B863-2BAAAE74765E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|VisualGDB = Debug|VisualGDB
@@ -209,6 +211,30 @@ Global
 		{47157A75-7B83-40EC-B3CA-20300337F3A3}.RelWithDebInfo|x64.Build.0 = Release|x64
 		{47157A75-7B83-40EC-B3CA-20300337F3A3}.RelWithDebInfo|x86.ActiveCfg = Release|Win32
 		{47157A75-7B83-40EC-B3CA-20300337F3A3}.RelWithDebInfo|x86.Build.0 = Release|Win32
+		{E423A91E-1D96-4839-B863-2BAAAE74765E}.Debug|VisualGDB.ActiveCfg = Debug|VisualGDB
+		{E423A91E-1D96-4839-B863-2BAAAE74765E}.Debug|VisualGDB.Build.0 = Debug|VisualGDB
+		{E423A91E-1D96-4839-B863-2BAAAE74765E}.Debug|x64.ActiveCfg = Debug|VisualGDB
+		{E423A91E-1D96-4839-B863-2BAAAE74765E}.Debug|x64.Build.0 = Debug|VisualGDB
+		{E423A91E-1D96-4839-B863-2BAAAE74765E}.Debug|x86.ActiveCfg = Debug|VisualGDB
+		{E423A91E-1D96-4839-B863-2BAAAE74765E}.Debug|x86.Build.0 = Debug|VisualGDB
+		{E423A91E-1D96-4839-B863-2BAAAE74765E}.MinSizeRel|VisualGDB.ActiveCfg = MinSizeRel|VisualGDB
+		{E423A91E-1D96-4839-B863-2BAAAE74765E}.MinSizeRel|VisualGDB.Build.0 = MinSizeRel|VisualGDB
+		{E423A91E-1D96-4839-B863-2BAAAE74765E}.MinSizeRel|x64.ActiveCfg = MinSizeRel|VisualGDB
+		{E423A91E-1D96-4839-B863-2BAAAE74765E}.MinSizeRel|x64.Build.0 = MinSizeRel|VisualGDB
+		{E423A91E-1D96-4839-B863-2BAAAE74765E}.MinSizeRel|x86.ActiveCfg = MinSizeRel|VisualGDB
+		{E423A91E-1D96-4839-B863-2BAAAE74765E}.MinSizeRel|x86.Build.0 = MinSizeRel|VisualGDB
+		{E423A91E-1D96-4839-B863-2BAAAE74765E}.Release|VisualGDB.ActiveCfg = Release|VisualGDB
+		{E423A91E-1D96-4839-B863-2BAAAE74765E}.Release|VisualGDB.Build.0 = Release|VisualGDB
+		{E423A91E-1D96-4839-B863-2BAAAE74765E}.Release|x64.ActiveCfg = Release|VisualGDB
+		{E423A91E-1D96-4839-B863-2BAAAE74765E}.Release|x64.Build.0 = Release|VisualGDB
+		{E423A91E-1D96-4839-B863-2BAAAE74765E}.Release|x86.ActiveCfg = Release|VisualGDB
+		{E423A91E-1D96-4839-B863-2BAAAE74765E}.Release|x86.Build.0 = Release|VisualGDB
+		{E423A91E-1D96-4839-B863-2BAAAE74765E}.RelWithDebInfo|VisualGDB.ActiveCfg = RelWithDebInfo|VisualGDB
+		{E423A91E-1D96-4839-B863-2BAAAE74765E}.RelWithDebInfo|VisualGDB.Build.0 = RelWithDebInfo|VisualGDB
+		{E423A91E-1D96-4839-B863-2BAAAE74765E}.RelWithDebInfo|x64.ActiveCfg = RelWithDebInfo|VisualGDB
+		{E423A91E-1D96-4839-B863-2BAAAE74765E}.RelWithDebInfo|x64.Build.0 = RelWithDebInfo|VisualGDB
+		{E423A91E-1D96-4839-B863-2BAAAE74765E}.RelWithDebInfo|x86.ActiveCfg = RelWithDebInfo|VisualGDB
+		{E423A91E-1D96-4839-B863-2BAAAE74765E}.RelWithDebInfo|x86.Build.0 = RelWithDebInfo|VisualGDB
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -44,3 +44,6 @@
 /BuildOutput/STM32H735G_DK_nanoCLR.size
 /BuildOutput/STM32H735G_DK_nanoCLR.nm
 /BuildOutput/STM32H735G_DK_nanoCLR.lst
+/.visualgdb/CodeDB/PicoSDKProject1.vgdbproj-Debug-VisualGDB.0001
+/PicoSDKProject1
+/STM32H735G_DK_nanoCLR/.visualgdb/CodeDB/STM32H735G_DK_nanoCLR-Debug-VisualGDB.0001
