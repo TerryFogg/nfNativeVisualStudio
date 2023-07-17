@@ -5,8 +5,6 @@ VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RaspberryPiPico_nanoCLR", "RaspberryPiPico_nanoCLR\RaspberryPiPico_nanoCLR.vcxproj", "{7E7AB174-875A-4519-A6DE-D1AA20A4DD29}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "STM32H735G_DK_nanoCLR", "STM32H735G_DK_nanoCLR\STM32H735G_DK_nanoCLR.vcxproj", "{67C33B72-4EB0-414B-984C-46502ADD5453}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{E3E2DC90-7C9A-49E1-A951-3630DC3147C9}"
 	ProjectSection(SolutionItems) = preProject
 		Tools\flash_nuke.uf2 = Tools\flash_nuke.uf2
@@ -75,6 +73,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pioasm", "Tools\Pioasm\Pioa
 EndProject
 Project("{803FD0C6-D64E-4E16-9DC3-1DAEC859A3D2}") = "PicoSDKProject1", "PicoSDKProject1\PicoSDKProject1.vgdbproj", "{E423A91E-1D96-4839-B863-2BAAAE74765E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ST_STM32H735G_DK_nanoCLR", "ST_STM32H735G_DK_nanoCLR\ST_STM32H735G_DK_nanoCLR.vcxproj", "{67C33B72-4EB0-414B-984C-46502ADD5453}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|VisualGDB = Debug|VisualGDB
@@ -115,30 +115,6 @@ Global
 		{7E7AB174-875A-4519-A6DE-D1AA20A4DD29}.RelWithDebInfo|x64.Build.0 = Release|VisualGDB
 		{7E7AB174-875A-4519-A6DE-D1AA20A4DD29}.RelWithDebInfo|x86.ActiveCfg = Release|VisualGDB
 		{7E7AB174-875A-4519-A6DE-D1AA20A4DD29}.RelWithDebInfo|x86.Build.0 = Release|VisualGDB
-		{67C33B72-4EB0-414B-984C-46502ADD5453}.Debug|VisualGDB.ActiveCfg = Debug|VisualGDB
-		{67C33B72-4EB0-414B-984C-46502ADD5453}.Debug|VisualGDB.Build.0 = Debug|VisualGDB
-		{67C33B72-4EB0-414B-984C-46502ADD5453}.Debug|x64.ActiveCfg = Debug|VisualGDB
-		{67C33B72-4EB0-414B-984C-46502ADD5453}.Debug|x64.Build.0 = Debug|VisualGDB
-		{67C33B72-4EB0-414B-984C-46502ADD5453}.Debug|x86.ActiveCfg = Debug|VisualGDB
-		{67C33B72-4EB0-414B-984C-46502ADD5453}.Debug|x86.Build.0 = Debug|VisualGDB
-		{67C33B72-4EB0-414B-984C-46502ADD5453}.MinSizeRel|VisualGDB.ActiveCfg = Release|VisualGDB
-		{67C33B72-4EB0-414B-984C-46502ADD5453}.MinSizeRel|VisualGDB.Build.0 = Release|VisualGDB
-		{67C33B72-4EB0-414B-984C-46502ADD5453}.MinSizeRel|x64.ActiveCfg = Release|VisualGDB
-		{67C33B72-4EB0-414B-984C-46502ADD5453}.MinSizeRel|x64.Build.0 = Release|VisualGDB
-		{67C33B72-4EB0-414B-984C-46502ADD5453}.MinSizeRel|x86.ActiveCfg = Release|VisualGDB
-		{67C33B72-4EB0-414B-984C-46502ADD5453}.MinSizeRel|x86.Build.0 = Release|VisualGDB
-		{67C33B72-4EB0-414B-984C-46502ADD5453}.Release|VisualGDB.ActiveCfg = Release|VisualGDB
-		{67C33B72-4EB0-414B-984C-46502ADD5453}.Release|VisualGDB.Build.0 = Release|VisualGDB
-		{67C33B72-4EB0-414B-984C-46502ADD5453}.Release|x64.ActiveCfg = Release|VisualGDB
-		{67C33B72-4EB0-414B-984C-46502ADD5453}.Release|x64.Build.0 = Release|VisualGDB
-		{67C33B72-4EB0-414B-984C-46502ADD5453}.Release|x86.ActiveCfg = Release|VisualGDB
-		{67C33B72-4EB0-414B-984C-46502ADD5453}.Release|x86.Build.0 = Release|VisualGDB
-		{67C33B72-4EB0-414B-984C-46502ADD5453}.RelWithDebInfo|VisualGDB.ActiveCfg = Release|VisualGDB
-		{67C33B72-4EB0-414B-984C-46502ADD5453}.RelWithDebInfo|VisualGDB.Build.0 = Release|VisualGDB
-		{67C33B72-4EB0-414B-984C-46502ADD5453}.RelWithDebInfo|x64.ActiveCfg = Release|VisualGDB
-		{67C33B72-4EB0-414B-984C-46502ADD5453}.RelWithDebInfo|x64.Build.0 = Release|VisualGDB
-		{67C33B72-4EB0-414B-984C-46502ADD5453}.RelWithDebInfo|x86.ActiveCfg = Release|VisualGDB
-		{67C33B72-4EB0-414B-984C-46502ADD5453}.RelWithDebInfo|x86.Build.0 = Release|VisualGDB
 		{67643395-C99B-4E27-8067-DF42E6A2C1AA}.Debug|VisualGDB.ActiveCfg = Debug|x64
 		{67643395-C99B-4E27-8067-DF42E6A2C1AA}.Debug|VisualGDB.Build.0 = Debug|x64
 		{67643395-C99B-4E27-8067-DF42E6A2C1AA}.Debug|x64.ActiveCfg = Debug|x64
@@ -235,6 +211,30 @@ Global
 		{E423A91E-1D96-4839-B863-2BAAAE74765E}.RelWithDebInfo|x64.Build.0 = RelWithDebInfo|VisualGDB
 		{E423A91E-1D96-4839-B863-2BAAAE74765E}.RelWithDebInfo|x86.ActiveCfg = RelWithDebInfo|VisualGDB
 		{E423A91E-1D96-4839-B863-2BAAAE74765E}.RelWithDebInfo|x86.Build.0 = RelWithDebInfo|VisualGDB
+		{67C33B72-4EB0-414B-984C-46502ADD5453}.Debug|VisualGDB.ActiveCfg = Debug|VisualGDB
+		{67C33B72-4EB0-414B-984C-46502ADD5453}.Debug|VisualGDB.Build.0 = Debug|VisualGDB
+		{67C33B72-4EB0-414B-984C-46502ADD5453}.Debug|x64.ActiveCfg = Debug|VisualGDB
+		{67C33B72-4EB0-414B-984C-46502ADD5453}.Debug|x64.Build.0 = Debug|VisualGDB
+		{67C33B72-4EB0-414B-984C-46502ADD5453}.Debug|x86.ActiveCfg = Debug|VisualGDB
+		{67C33B72-4EB0-414B-984C-46502ADD5453}.Debug|x86.Build.0 = Debug|VisualGDB
+		{67C33B72-4EB0-414B-984C-46502ADD5453}.MinSizeRel|VisualGDB.ActiveCfg = Release|VisualGDB
+		{67C33B72-4EB0-414B-984C-46502ADD5453}.MinSizeRel|VisualGDB.Build.0 = Release|VisualGDB
+		{67C33B72-4EB0-414B-984C-46502ADD5453}.MinSizeRel|x64.ActiveCfg = Release|VisualGDB
+		{67C33B72-4EB0-414B-984C-46502ADD5453}.MinSizeRel|x64.Build.0 = Release|VisualGDB
+		{67C33B72-4EB0-414B-984C-46502ADD5453}.MinSizeRel|x86.ActiveCfg = Release|VisualGDB
+		{67C33B72-4EB0-414B-984C-46502ADD5453}.MinSizeRel|x86.Build.0 = Release|VisualGDB
+		{67C33B72-4EB0-414B-984C-46502ADD5453}.Release|VisualGDB.ActiveCfg = Release|VisualGDB
+		{67C33B72-4EB0-414B-984C-46502ADD5453}.Release|VisualGDB.Build.0 = Release|VisualGDB
+		{67C33B72-4EB0-414B-984C-46502ADD5453}.Release|x64.ActiveCfg = Release|VisualGDB
+		{67C33B72-4EB0-414B-984C-46502ADD5453}.Release|x64.Build.0 = Release|VisualGDB
+		{67C33B72-4EB0-414B-984C-46502ADD5453}.Release|x86.ActiveCfg = Release|VisualGDB
+		{67C33B72-4EB0-414B-984C-46502ADD5453}.Release|x86.Build.0 = Release|VisualGDB
+		{67C33B72-4EB0-414B-984C-46502ADD5453}.RelWithDebInfo|VisualGDB.ActiveCfg = Release|VisualGDB
+		{67C33B72-4EB0-414B-984C-46502ADD5453}.RelWithDebInfo|VisualGDB.Build.0 = Release|VisualGDB
+		{67C33B72-4EB0-414B-984C-46502ADD5453}.RelWithDebInfo|x64.ActiveCfg = Release|VisualGDB
+		{67C33B72-4EB0-414B-984C-46502ADD5453}.RelWithDebInfo|x64.Build.0 = Release|VisualGDB
+		{67C33B72-4EB0-414B-984C-46502ADD5453}.RelWithDebInfo|x86.ActiveCfg = Release|VisualGDB
+		{67C33B72-4EB0-414B-984C-46502ADD5453}.RelWithDebInfo|x86.Build.0 = Release|VisualGDB
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

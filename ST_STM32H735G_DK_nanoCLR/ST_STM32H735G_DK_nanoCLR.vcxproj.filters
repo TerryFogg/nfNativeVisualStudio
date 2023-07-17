@@ -238,61 +238,61 @@
     <Filter Include="nf-interpreter\targets\AzureRTOS\ST">
       <UniqueIdentifier>{f58004e5-256b-4475-9f42-84410b27f2d6}</UniqueIdentifier>
     </Filter>
-    <Filter Include="nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK">
+    <Filter Include="nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK">
       <UniqueIdentifier>{a4dbefee-f36c-45f9-9a54-cb2e8cf41114}</UniqueIdentifier>
     </Filter>
-    <Filter Include="nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR">
+    <Filter Include="nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR">
       <UniqueIdentifier>{09af8dde-5cc9-4085-a7d4-da0d39f1d06c}</UniqueIdentifier>
     </Filter>
-    <Filter Include="nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\HAL">
+    <Filter Include="nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\HAL">
       <UniqueIdentifier>{02e4cad5-51c3-4191-bfb5-5058cac45ca0}</UniqueIdentifier>
     </Filter>
-    <Filter Include="nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Memory">
+    <Filter Include="nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\Memory">
       <UniqueIdentifier>{d1166060-19f0-4b8b-8c71-fb083b341a6b}</UniqueIdentifier>
     </Filter>
-    <Filter Include="nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\nanoFramework.Graphics">
+    <Filter Include="nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\nanoFramework.Graphics">
       <UniqueIdentifier>{b2f42653-74b9-4d51-84d5-32c923ce2617}</UniqueIdentifier>
     </Filter>
-    <Filter Include="nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\nanoFramework.Hardware.Stm32H7xx">
+    <Filter Include="nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\nanoFramework.Hardware.Stm32H7xx">
       <UniqueIdentifier>{3e31aa7e-fef2-4fdd-be4b-dd2ada58480b}</UniqueIdentifier>
     </Filter>
-    <Filter Include="nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\PAL">
+    <Filter Include="nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\PAL">
       <UniqueIdentifier>{017b12e8-b2d8-4784-af7c-6f34bc6c7a16}</UniqueIdentifier>
     </Filter>
-    <Filter Include="nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Startup">
+    <Filter Include="nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\Startup">
       <UniqueIdentifier>{38a6e3aa-81d0-426b-b63d-092415ea7347}</UniqueIdentifier>
     </Filter>
-    <Filter Include="nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\System.Device.Gpio">
+    <Filter Include="nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\System.Device.Gpio">
       <UniqueIdentifier>{4d2678af-40e0-4629-a2ab-3c717309bdb7}</UniqueIdentifier>
     </Filter>
-    <Filter Include="nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\System.Device.I2c">
+    <Filter Include="nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\System.Device.I2c">
       <UniqueIdentifier>{17f733f5-40f6-46e3-ad92-b2db9b9ab046}</UniqueIdentifier>
     </Filter>
-    <Filter Include="nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\System.Device.Spi">
+    <Filter Include="nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\System.Device.Spi">
       <UniqueIdentifier>{c37d7d29-f27d-4c67-8f73-14cd972b059d}</UniqueIdentifier>
     </Filter>
-    <Filter Include="nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\WireProtocol">
+    <Filter Include="nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\WireProtocol">
       <UniqueIdentifier>{f32703dc-dacb-41eb-b390-f4952eac598b}</UniqueIdentifier>
     </Filter>
-    <Filter Include="nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Other">
+    <Filter Include="nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\Other">
       <UniqueIdentifier>{5e3f09ab-8588-4d7f-8976-9e492f270513}</UniqueIdentifier>
     </Filter>
-    <Filter Include="nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\System.Media.PlaySound">
+    <Filter Include="nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\System.Media.PlaySound">
       <UniqueIdentifier>{9db3997f-47bb-46fe-a194-c8df9fa6692e}</UniqueIdentifier>
     </Filter>
-    <Filter Include="nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Windows.Storage">
+    <Filter Include="nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\Windows.Storage">
       <UniqueIdentifier>{dc7f1a49-bb5c-4a5c-ad49-6a78bc76bdbb}</UniqueIdentifier>
     </Filter>
-    <Filter Include="nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\System.Device.Adc">
+    <Filter Include="nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\System.Device.Adc">
       <UniqueIdentifier>{36ea1b60-3b5c-4bd3-9def-28c09120e8f6}</UniqueIdentifier>
     </Filter>
-    <Filter Include="nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\System.Device.Dac">
+    <Filter Include="nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\System.Device.Dac">
       <UniqueIdentifier>{dec93e5f-d0e8-42d8-bf9b-72d36c402c91}</UniqueIdentifier>
     </Filter>
-    <Filter Include="nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\System.Device.Pwm">
+    <Filter Include="nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\System.Device.Pwm">
       <UniqueIdentifier>{de7d281d-5295-4e62-bf1e-90ad4e839f43}</UniqueIdentifier>
     </Filter>
-    <Filter Include="nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\System.IO.Ports">
+    <Filter Include="nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\System.IO.Ports">
       <UniqueIdentifier>{95b901e7-379a-407b-b8df-6bd60a4acb0a}</UniqueIdentifier>
     </Filter>
     <Filter Include="nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Fonts\TinyFonts">
@@ -333,8 +333,8 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Memory\STM32H735G-DK.ld">
-      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Memory</Filter>
+    <None Include="..\..\nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\Memory\STM32H735G-DK.ld">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\Memory</Filter>
     </None>
     <None Include="..\..\nf-interpreter\src\CLR\Include\opcode.def">
       <Filter>nf-interpreter\src\CLR\Include</Filter>
@@ -407,11 +407,11 @@
     <ClInclude Include="..\..\nf-interpreter\src\CLR\Startup\CLRStartup.h">
       <Filter>nf-interpreter\src\CLR\Startup</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Startup\tx_user.h">
-      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Startup</Filter>
+    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\Startup\tx_user.h">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\Startup</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Startup\tx_user_nanoCLR.h">
-      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Startup</Filter>
+    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\Startup\tx_user_nanoCLR.h">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\Startup</Filter>
     </ClInclude>
     <ClInclude Include="..\..\nf-interpreter\src\CLR\Core\corhdr_private.h">
       <Filter>nf-interpreter\src\CLR\Core</Filter>
@@ -422,47 +422,47 @@
     <ClInclude Include="..\..\nf-interpreter\src\PAL\Include\CPU_GPIO_decl.h">
       <Filter>nf-interpreter\src\PAL\Include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Memory\target_BlockStorage.h">
-      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Memory</Filter>
+    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\Memory\target_BlockStorage.h">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\Memory</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Memory\Target_BlockStorage_STM32FlashDriver.h">
-      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Memory</Filter>
+    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\Memory\Target_BlockStorage_STM32FlashDriver.h">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\Memory</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Memory\TargetPAL_BlockStorage.h">
-      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Memory</Filter>
+    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\Memory\TargetPAL_BlockStorage.h">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\Memory</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\HAL\target_board.h">
-      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\HAL</Filter>
+    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\HAL\target_board.h">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\HAL</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\HAL\target_common.h">
-      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\HAL</Filter>
+    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\HAL\target_common.h">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\HAL</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\HAL\targetHAL_Power.h">
-      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\HAL</Filter>
+    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\HAL\targetHAL_Power.h">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\HAL</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\HAL\TargetHAL_Spi.h">
-      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\HAL</Filter>
+    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\HAL\TargetHAL_Spi.h">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\HAL</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Other\cmsis_compiler.h">
-      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Other</Filter>
+    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\Other\cmsis_compiler.h">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\Other</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Other\cmsis_gcc.h">
-      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Other</Filter>
+    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\Other\cmsis_gcc.h">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\Other</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Other\cmsis_os.h">
-      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Other</Filter>
+    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\Other\cmsis_os.h">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\Other</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Other\cmsis_version.h">
-      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Other</Filter>
+    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\Other\cmsis_version.h">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\Other</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Other\core_cm7.h">
-      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Other</Filter>
+    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\Other\core_cm7.h">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\Other</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Other\mpu_armv7.h">
-      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Other</Filter>
+    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\Other\mpu_armv7.h">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\Other</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\WireProtocol\wp_Communications.h">
-      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\WireProtocol</Filter>
+    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\WireProtocol\wp_Communications.h">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\WireProtocol</Filter>
     </ClInclude>
     <ClInclude Include="..\..\nf-interpreter\src\CLR\Diagnostics\Diagnostics.h">
       <Filter>nf-interpreter\src\CLR\Diagnostics</Filter>
@@ -800,38 +800,38 @@
     <ClInclude Include="..\..\nf-interpreter\src\Windows.Storage\win_storage_native.h">
       <Filter>nf-interpreter\src\Windows.Storage</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\PAL\target_os.h">
-      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\PAL</Filter>
+    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\PAL\target_os.h">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\PAL</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\PAL\target_platform.h">
-      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\PAL</Filter>
+    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\PAL\target_platform.h">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\PAL</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\PAL\targetPAL.h">
-      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\PAL</Filter>
+    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\PAL\targetPAL.h">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\PAL</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\PAL\platform_target_capabilities.h">
-      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\PAL</Filter>
+    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\PAL\platform_target_capabilities.h">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\PAL</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\HAL\Register_Modifications.h">
-      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\HAL</Filter>
+    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\HAL\Register_Modifications.h">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\HAL</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\HAL\targetHAL.h">
-      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\HAL</Filter>
+    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\HAL\targetHAL.h">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\HAL</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\HAL\targetHAL_Time.h">
-      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\HAL</Filter>
+    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\HAL\targetHAL_Time.h">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\HAL</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\PAL\targetPAL_Time.h">
-      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\PAL</Filter>
+    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\PAL\targetPAL_Time.h">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\PAL</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\WireProtocol\wp_CircularBuffer.h">
-      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\WireProtocol</Filter>
+    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\WireProtocol\wp_CircularBuffer.h">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\WireProtocol</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\WireProtocol\WireProtocol_ReceiverThread.h">
-      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\WireProtocol</Filter>
+    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\WireProtocol\WireProtocol_ReceiverThread.h">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\WireProtocol</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Startup\CLR_Startup_Thread.h">
-      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Startup</Filter>
+    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\Startup\CLR_Startup_Thread.h">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\Startup</Filter>
     </ClInclude>
     <ClInclude Include="..\..\nf-interpreter\src\CLR\Include\WireProtocol.h">
       <Filter>nf-interpreter\src\CLR\Include</Filter>
@@ -848,17 +848,17 @@
     <ClInclude Include="..\..\nf-interpreter\src\CLR\Include\WireProtocol_HAL_Interface.h">
       <Filter>nf-interpreter\src\CLR\Include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Memory\Target_Windows_Storage.h">
-      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Memory</Filter>
+    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\Memory\Target_Windows_Storage.h">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\Memory</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\HAL\targetHAL_board.h">
-      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\HAL</Filter>
+    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\HAL\targetHAL_board.h">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\HAL</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Windows.Storage\MicroSD.h">
-      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Windows.Storage</Filter>
+    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\Windows.Storage\MicroSD.h">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\Windows.Storage</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\System.Device.Gpio\sys_dev_gpio_native_target.h">
-      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\System.Device.Gpio</Filter>
+    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\System.Device.Gpio\sys_dev_gpio_native_target.h">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\System.Device.Gpio</Filter>
     </ClInclude>
     <ClInclude Include="..\..\nf-interpreter\src\HAL\Include\nanoHAL_Capabilites.h">
       <Filter>nf-interpreter\src\HAL\Include</Filter>
@@ -872,8 +872,8 @@
     <ClInclude Include="..\..\filex\ports\cortex_m7\gnu\inc\fx_port.h">
       <Filter>ExternalRepos\FileX\ports\cortex_m7\gnu\inc</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Startup\___vectors.h">
-      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Startup</Filter>
+    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\Startup\___vectors.h">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\Startup</Filter>
     </ClInclude>
     <ClInclude Include="..\..\nf-interpreter\src\HAL\Include\nanoHAL_Windows_Storage.h">
       <Filter>nf-interpreter\src\HAL\Include</Filter>
@@ -926,8 +926,8 @@
     <ClInclude Include="..\..\nf-interpreter\src\CLR\Include\stdafx.h">
       <Filter>nf-interpreter\src\CLR\Include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\System.Device.I2c\low_level_i2c.h">
-      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\System.Device.I2c</Filter>
+    <ClInclude Include="..\..\nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\System.Device.I2c\low_level_i2c.h">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\System.Device.I2c</Filter>
     </ClInclude>
     <ClInclude Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Gif\gif.h">
       <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Support\Gif</Filter>
@@ -1987,17 +1987,17 @@
     <ClCompile Include="..\..\nf-interpreter\src\CLR\Startup\CLRStartup.cpp">
       <Filter>nf-interpreter\src\CLR\Startup</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Startup\Clock_configuration.c">
-      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Startup</Filter>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\Startup\Clock_configuration.c">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\Startup</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Startup\CLR_RT_InteropAssembliesTable.cpp">
-      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Startup</Filter>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\Startup\CLR_RT_InteropAssembliesTable.cpp">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\Startup</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Startup\CLR_Startup_Thread.c">
-      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Startup</Filter>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\Startup\CLR_Startup_Thread.c">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\Startup</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Startup\nanoFramework_Threads.c">
-      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Startup</Filter>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\Startup\nanoFramework_Threads.c">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\Startup</Filter>
     </ClCompile>
     <ClCompile Include="..\..\nf-interpreter\src\PAL\COM\COM_stubs.c">
       <Filter>nf-interpreter\src\PAL\COM</Filter>
@@ -2005,50 +2005,50 @@
     <ClCompile Include="..\..\nf-interpreter\src\CLR\Core\Core.cpp">
       <Filter>nf-interpreter\src\CLR\Core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Memory\Device_BlockStorage.c">
-      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Memory</Filter>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\Memory\Device_BlockStorage.c">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\Memory</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Memory\OCTOSPI2_Hyperam.c">
-      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Memory</Filter>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\Memory\OCTOSPI2_Hyperam.c">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\Memory</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Memory\platform_BlockStorage.c">
-      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Memory</Filter>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\Memory\platform_BlockStorage.c">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\Memory</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Memory\target_BlockStorage.c">
-      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Memory</Filter>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\Memory\target_BlockStorage.c">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\Memory</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Memory\Target_BlockStorage_STM32FlashDriver.c">
-      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Memory</Filter>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\Memory\Target_BlockStorage_STM32FlashDriver.c">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\Memory</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\HAL\target_common.c">
-      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\HAL</Filter>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\HAL\target_common.c">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\HAL</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\HAL\targetHAL.cpp">
-      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\HAL</Filter>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\HAL\targetHAL.cpp">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\HAL</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\HAL\targetHAL_ConfigurationManager.cpp">
-      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\HAL</Filter>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\HAL\targetHAL_ConfigurationManager.cpp">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\HAL</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\HAL\targetHAL_Power.c">
-      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\HAL</Filter>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\HAL\targetHAL_Power.c">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\HAL</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\nanoFramework.Graphics\Graphics_Memory.cpp">
-      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\nanoFramework.Graphics</Filter>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\nanoFramework.Graphics\Graphics_Memory.cpp">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\nanoFramework.Graphics</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\nanoFramework.Graphics\I2c_To_TouchPanel.cpp">
-      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\nanoFramework.Graphics</Filter>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\nanoFramework.Graphics\I2c_To_TouchPanel.cpp">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\nanoFramework.Graphics</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\nanoFramework.Graphics\Initialize_Graphics.cpp">
-      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\nanoFramework.Graphics</Filter>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\nanoFramework.Graphics\Initialize_Graphics.cpp">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\nanoFramework.Graphics</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\nanoFramework.Graphics\LTDC_DMA2D_To_Video.cpp">
-      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\nanoFramework.Graphics</Filter>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\nanoFramework.Graphics\LTDC_DMA2D_To_Video.cpp">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\nanoFramework.Graphics</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\nanoFramework.Graphics\RK043FN48H_VideoMode.cpp">
-      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\nanoFramework.Graphics</Filter>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\nanoFramework.Graphics\RK043FN48H_VideoMode.cpp">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\nanoFramework.Graphics</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\WireProtocol\wp_Communications.c">
-      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\WireProtocol</Filter>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\WireProtocol\wp_Communications.c">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\WireProtocol</Filter>
     </ClCompile>
     <ClCompile Include="..\..\nf-interpreter\src\CLR\Diagnostics\Diagnostics_stub.cpp">
       <Filter>nf-interpreter\src\CLR\Diagnostics</Filter>
@@ -2917,47 +2917,47 @@
     <ClCompile Include="..\..\nf-interpreter\src\CLR\Core\Various.cpp">
       <Filter>nf-interpreter\src\CLR\Core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\PAL\system_stm32h7xx.c">
-      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\PAL</Filter>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\PAL\system_stm32h7xx.c">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\PAL</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\PAL\targetPAL.c">
-      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\PAL</Filter>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\PAL\targetPAL.c">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\PAL</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\main.c">
-      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR</Filter>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\main.c">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\HAL\hard_fault_handler.c">
-      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\HAL</Filter>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\HAL\hard_fault_handler.c">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\HAL</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\HAL\nanoHAL.cpp">
-      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\HAL</Filter>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\HAL\nanoHAL.cpp">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\HAL</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\HAL\targetHAL_Time.cpp">
-      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\HAL</Filter>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\HAL\targetHAL_Time.cpp">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\HAL</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\HAL\nanoCRT.cpp">
-      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\HAL</Filter>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\HAL\nanoCRT.cpp">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\HAL</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\HAL\Memory.cpp">
-      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\HAL</Filter>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\HAL\Memory.cpp">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\HAL</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\PAL\targetPAL_Events.cpp">
-      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\PAL</Filter>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\PAL\targetPAL_Events.cpp">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\PAL</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\PAL\targetPAL_Time.cpp">
-      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\PAL</Filter>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\PAL\targetPAL_Time.cpp">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\PAL</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\PAL\platform_heap.c">
-      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\PAL</Filter>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\PAL\platform_heap.c">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\PAL</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\WireProtocol\WireProtocol_HAL_Interface.c">
-      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\WireProtocol</Filter>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\WireProtocol\WireProtocol_HAL_Interface.c">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\WireProtocol</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\WireProtocol\WireProtocol_ReceiverThread.c">
-      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\WireProtocol</Filter>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\WireProtocol\WireProtocol_ReceiverThread.c">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\WireProtocol</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\WireProtocol\wp_CircularBuffer.c">
-      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\WireProtocol</Filter>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\WireProtocol\wp_CircularBuffer.c">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\WireProtocol</Filter>
     </ClCompile>
     <ClCompile Include="..\..\nf-interpreter\src\CLR\WireProtocol\WireProtocol_MonitorCommands.c">
       <Filter>nf-interpreter\src\CLR\WireProtocol</Filter>
@@ -2965,38 +2965,38 @@
     <ClCompile Include="..\..\nf-interpreter\src\CLR\WireProtocol\WireProtocol_Message.c">
       <Filter>nf-interpreter\src\CLR\WireProtocol</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\HAL\targetHAL_board.c">
-      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\HAL</Filter>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\HAL\targetHAL_board.c">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\HAL</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\System.Media.PlaySound\cpu_System.Media.Playsound.c">
-      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\System.Media.PlaySound</Filter>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\System.Media.PlaySound\cpu_System.Media.Playsound.c">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\System.Media.PlaySound</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Windows.Storage\MicroSD.c">
-      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Windows.Storage</Filter>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\Windows.Storage\MicroSD.c">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\Windows.Storage</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Windows.Storage\WindowsStorage.cpp">
-      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Windows.Storage</Filter>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\Windows.Storage\WindowsStorage.cpp">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\Windows.Storage</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\System.Device.Adc\cpu_System.Device.Adc.cpp">
-      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\System.Device.Adc</Filter>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\System.Device.Adc\cpu_System.Device.Adc.cpp">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\System.Device.Adc</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\System.Device.Gpio\cpu_System.Device.Gpio.cpp">
-      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\System.Device.Gpio</Filter>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\System.Device.Gpio\cpu_System.Device.Gpio.cpp">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\System.Device.Gpio</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\System.Device.Dac\cpu_System.Device.Dac.cpp">
-      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\System.Device.Dac</Filter>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\System.Device.Dac\cpu_System.Device.Dac.cpp">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\System.Device.Dac</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\System.Device.Spi\cpu_System.Device.SPI.cpp">
-      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\System.Device.Spi</Filter>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\System.Device.Spi\cpu_System.Device.SPI.cpp">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\System.Device.Spi</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\System.Device.Pwm\cpu_System.Device.Pwm.cpp">
-      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\System.Device.Pwm</Filter>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\System.Device.Pwm\cpu_System.Device.Pwm.cpp">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\System.Device.Pwm</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\System.IO.Ports\cpu_System.IO.Ports.cpp">
-      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\System.IO.Ports</Filter>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\System.IO.Ports\cpu_System.IO.Ports.cpp">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\System.IO.Ports</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\nanoFramework.Hardware.Stm32H7xx\RealTimeClock.c">
-      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\nanoFramework.Hardware.Stm32H7xx</Filter>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\nanoFramework.Hardware.Stm32H7xx\RealTimeClock.c">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\nanoFramework.Hardware.Stm32H7xx</Filter>
     </ClCompile>
     <ClCompile Include="..\..\nf-interpreter\src\CLR\Core\Random.cpp">
       <Filter>nf-interpreter\src\CLR\Core</Filter>
@@ -3010,11 +3010,11 @@
     <ClCompile Include="..\..\nf-interpreter\src\PAL\BlockStorage\nanoPAL_BlockStorage.c">
       <Filter>nf-interpreter\src\PAL\BlockStorage</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Startup\tx_initialize_low_level.S">
-      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Startup</Filter>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\Startup\tx_initialize_low_level.S">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\Startup</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Startup\startup_stm32h735igkx.S">
-      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\Startup</Filter>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\Startup\startup_stm32h735igkx.S">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\Startup</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\ports\cortex_m7\gnu\src\tx_thread_context_restore.S">
       <Filter>ExternalRepos\threadx\ports\cortex_m7\gnu\src</Filter>
@@ -3040,11 +3040,11 @@
     <ClCompile Include="..\..\threadx\ports\cortex_m7\gnu\src\tx_timer_interrupt.S">
       <Filter>ExternalRepos\threadx\ports\cortex_m7\gnu\src</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\System.Device.I2c\cpu_System.Device.I2c.cpp">
-      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\System.Device.I2c</Filter>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\System.Device.I2c\cpu_System.Device.I2c.cpp">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\System.Device.I2c</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\System.Device.I2c\low_level_I2c.c">
-      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\System.Device.I2c</Filter>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\System.Device.I2c\low_level_I2c.c">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\System.Device.I2c</Filter>
     </ClCompile>
     <ClCompile Include="..\..\threadx\ports\cortex_m7\gnu\src\tx_thread_interrupt_control.S">
       <Filter>ExternalRepos\threadx\ports\cortex_m7\gnu\src</Filter>
@@ -3256,8 +3256,8 @@
     <ClCompile Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Native\nanoFramework_Graphics_nanoFramework_UI_TouchPanel.cpp">
       <Filter>nf-interpreter\src\nanoFramework.Graphics\Graphics\Native</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\HAL\targetHAL_Rtos.c">
-      <Filter>nf-interpreter\targets\AzureRTOS\ST\STM32H735G_DK\nanoCLR\HAL</Filter>
+    <ClCompile Include="..\..\nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\HAL\targetHAL_Rtos.c">
+      <Filter>nf-interpreter\targets\AzureRTOS\ST\ST_STM32H735G_DK\nanoCLR\HAL</Filter>
     </ClCompile>
     <ClCompile Include="..\..\nf-interpreter\src\CLR\Diagnostics\Info_Safeprintf.cpp">
       <Filter>nf-interpreter\src\CLR\Diagnostics</Filter>

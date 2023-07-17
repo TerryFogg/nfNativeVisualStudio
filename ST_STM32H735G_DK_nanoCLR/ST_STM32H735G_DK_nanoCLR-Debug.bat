@@ -614,7 +614,7 @@ c:\sysgcc\arm-eabi\bin\arm-none-eabi-g++.exe @"VisualGDB/Debug/_2_/nf-interprete
 echo FT5336_I2C.cpp
 c:\sysgcc\arm-eabi\bin\arm-none-eabi-g++.exe @"VisualGDB/Debug/_2_/nf-interpreter/src/nanoFramework.Graphics/TouchPanel/Devices/FT5336_I2C.gcc.rsp" || exit 1
 echo targetHAL_Rtos.c
-c:\sysgcc\arm-eabi\bin\arm-none-eabi-gcc.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/STM32H735G_DK/nanoCLR/HAL/targetHAL_Rtos.gcc.rsp" || exit 1
+c:\sysgcc\arm-eabi\bin\arm-none-eabi-gcc.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/ST_STM32H735G_DK/nanoCLR/HAL/targetHAL_Rtos.gcc.rsp" || exit 1
 echo txe_block_allocate.c
 c:\sysgcc\arm-eabi\bin\arm-none-eabi-gcc.exe @"VisualGDB/Debug/_2_/threadx/common/src/txe_block_allocate.gcc.rsp" || exit 1
 echo txe_block_pool_create.c
@@ -1384,97 +1384,97 @@ c:\sysgcc\arm-eabi\bin\arm-none-eabi-gcc.exe @"VisualGDB/Debug/_2_/STM32CubeH7/D
 echo stm32h7xx_ll_utils.c
 c:\sysgcc\arm-eabi\bin\arm-none-eabi-gcc.exe @"VisualGDB/Debug/_2_/STM32CubeH7/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_utils.gcc.rsp" || exit 1
 echo hard_fault_handler.c
-c:\sysgcc\arm-eabi\bin\arm-none-eabi-gcc.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/STM32H735G_DK/nanoCLR/HAL/hard_fault_handler.gcc.rsp" || exit 1
+c:\sysgcc\arm-eabi\bin\arm-none-eabi-gcc.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/ST_STM32H735G_DK/nanoCLR/HAL/hard_fault_handler.gcc.rsp" || exit 1
 echo Memory.cpp
-c:\sysgcc\arm-eabi\bin\arm-none-eabi-g++.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/STM32H735G_DK/nanoCLR/HAL/Memory.gcc.rsp" || exit 1
+c:\sysgcc\arm-eabi\bin\arm-none-eabi-g++.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/ST_STM32H735G_DK/nanoCLR/HAL/Memory.gcc.rsp" || exit 1
 echo nanoCRT.cpp
-c:\sysgcc\arm-eabi\bin\arm-none-eabi-g++.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/STM32H735G_DK/nanoCLR/HAL/nanoCRT.gcc.rsp" || exit 1
+c:\sysgcc\arm-eabi\bin\arm-none-eabi-g++.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/ST_STM32H735G_DK/nanoCLR/HAL/nanoCRT.gcc.rsp" || exit 1
 echo nanoHAL.cpp
-c:\sysgcc\arm-eabi\bin\arm-none-eabi-g++.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/STM32H735G_DK/nanoCLR/HAL/nanoHAL.gcc.rsp" || exit 1
+c:\sysgcc\arm-eabi\bin\arm-none-eabi-g++.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/ST_STM32H735G_DK/nanoCLR/HAL/nanoHAL.gcc.rsp" || exit 1
 echo targetHAL.cpp
-c:\sysgcc\arm-eabi\bin\arm-none-eabi-g++.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/STM32H735G_DK/nanoCLR/HAL/targetHAL.gcc.rsp" || exit 1
+c:\sysgcc\arm-eabi\bin\arm-none-eabi-g++.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/ST_STM32H735G_DK/nanoCLR/HAL/targetHAL.gcc.rsp" || exit 1
 echo targetHAL_board.c
-c:\sysgcc\arm-eabi\bin\arm-none-eabi-gcc.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/STM32H735G_DK/nanoCLR/HAL/targetHAL_board.gcc.rsp" || exit 1
+c:\sysgcc\arm-eabi\bin\arm-none-eabi-gcc.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/ST_STM32H735G_DK/nanoCLR/HAL/targetHAL_board.gcc.rsp" || exit 1
 echo targetHAL_ConfigurationManager.cpp
-c:\sysgcc\arm-eabi\bin\arm-none-eabi-g++.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/STM32H735G_DK/nanoCLR/HAL/targetHAL_ConfigurationManager.gcc.rsp" || exit 1
+c:\sysgcc\arm-eabi\bin\arm-none-eabi-g++.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/ST_STM32H735G_DK/nanoCLR/HAL/targetHAL_ConfigurationManager.gcc.rsp" || exit 1
 echo targetHAL_Power.c
-c:\sysgcc\arm-eabi\bin\arm-none-eabi-gcc.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/STM32H735G_DK/nanoCLR/HAL/targetHAL_Power.gcc.rsp" || exit 1
+c:\sysgcc\arm-eabi\bin\arm-none-eabi-gcc.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/ST_STM32H735G_DK/nanoCLR/HAL/targetHAL_Power.gcc.rsp" || exit 1
 echo targetHAL_Time.cpp
-c:\sysgcc\arm-eabi\bin\arm-none-eabi-g++.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/STM32H735G_DK/nanoCLR/HAL/targetHAL_Time.gcc.rsp" || exit 1
+c:\sysgcc\arm-eabi\bin\arm-none-eabi-g++.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/ST_STM32H735G_DK/nanoCLR/HAL/targetHAL_Time.gcc.rsp" || exit 1
 echo target_common.c
-c:\sysgcc\arm-eabi\bin\arm-none-eabi-gcc.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/STM32H735G_DK/nanoCLR/HAL/target_common.gcc.rsp" || exit 1
+c:\sysgcc\arm-eabi\bin\arm-none-eabi-gcc.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/ST_STM32H735G_DK/nanoCLR/HAL/target_common.gcc.rsp" || exit 1
 echo main.c
-c:\sysgcc\arm-eabi\bin\arm-none-eabi-gcc.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/STM32H735G_DK/nanoCLR/main.gcc.rsp" || exit 1
+c:\sysgcc\arm-eabi\bin\arm-none-eabi-gcc.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/ST_STM32H735G_DK/nanoCLR/main.gcc.rsp" || exit 1
 echo Device_BlockStorage.c
-c:\sysgcc\arm-eabi\bin\arm-none-eabi-gcc.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/STM32H735G_DK/nanoCLR/Memory/Device_BlockStorage.gcc.rsp" || exit 1
+c:\sysgcc\arm-eabi\bin\arm-none-eabi-gcc.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/ST_STM32H735G_DK/nanoCLR/Memory/Device_BlockStorage.gcc.rsp" || exit 1
 echo OCTOSPI2_Hyperam.c
-c:\sysgcc\arm-eabi\bin\arm-none-eabi-gcc.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/STM32H735G_DK/nanoCLR/Memory/OCTOSPI2_Hyperam.gcc.rsp" || exit 1
+c:\sysgcc\arm-eabi\bin\arm-none-eabi-gcc.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/ST_STM32H735G_DK/nanoCLR/Memory/OCTOSPI2_Hyperam.gcc.rsp" || exit 1
 echo platform_BlockStorage.c
-c:\sysgcc\arm-eabi\bin\arm-none-eabi-gcc.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/STM32H735G_DK/nanoCLR/Memory/platform_BlockStorage.gcc.rsp" || exit 1
+c:\sysgcc\arm-eabi\bin\arm-none-eabi-gcc.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/ST_STM32H735G_DK/nanoCLR/Memory/platform_BlockStorage.gcc.rsp" || exit 1
 echo target_BlockStorage.c
-c:\sysgcc\arm-eabi\bin\arm-none-eabi-gcc.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/STM32H735G_DK/nanoCLR/Memory/target_BlockStorage.gcc.rsp" || exit 1
+c:\sysgcc\arm-eabi\bin\arm-none-eabi-gcc.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/ST_STM32H735G_DK/nanoCLR/Memory/target_BlockStorage.gcc.rsp" || exit 1
 echo Target_BlockStorage_STM32FlashDriver.c
-c:\sysgcc\arm-eabi\bin\arm-none-eabi-gcc.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/STM32H735G_DK/nanoCLR/Memory/Target_BlockStorage_STM32FlashDriver.gcc.rsp" || exit 1
+c:\sysgcc\arm-eabi\bin\arm-none-eabi-gcc.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/ST_STM32H735G_DK/nanoCLR/Memory/Target_BlockStorage_STM32FlashDriver.gcc.rsp" || exit 1
 echo Graphics_Memory.cpp
-c:\sysgcc\arm-eabi\bin\arm-none-eabi-g++.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/STM32H735G_DK/nanoCLR/nanoFramework.Graphics/Graphics_Memory.gcc.rsp" || exit 1
+c:\sysgcc\arm-eabi\bin\arm-none-eabi-g++.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/ST_STM32H735G_DK/nanoCLR/nanoFramework.Graphics/Graphics_Memory.gcc.rsp" || exit 1
 echo I2c_To_TouchPanel.cpp
-c:\sysgcc\arm-eabi\bin\arm-none-eabi-g++.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/STM32H735G_DK/nanoCLR/nanoFramework.Graphics/I2c_To_TouchPanel.gcc.rsp" || exit 1
+c:\sysgcc\arm-eabi\bin\arm-none-eabi-g++.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/ST_STM32H735G_DK/nanoCLR/nanoFramework.Graphics/I2c_To_TouchPanel.gcc.rsp" || exit 1
 echo Initialize_Graphics.cpp
-c:\sysgcc\arm-eabi\bin\arm-none-eabi-g++.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/STM32H735G_DK/nanoCLR/nanoFramework.Graphics/Initialize_Graphics.gcc.rsp" || exit 1
+c:\sysgcc\arm-eabi\bin\arm-none-eabi-g++.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/ST_STM32H735G_DK/nanoCLR/nanoFramework.Graphics/Initialize_Graphics.gcc.rsp" || exit 1
 echo LTDC_DMA2D_To_Video.cpp
-c:\sysgcc\arm-eabi\bin\arm-none-eabi-g++.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/STM32H735G_DK/nanoCLR/nanoFramework.Graphics/LTDC_DMA2D_To_Video.gcc.rsp" || exit 1
+c:\sysgcc\arm-eabi\bin\arm-none-eabi-g++.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/ST_STM32H735G_DK/nanoCLR/nanoFramework.Graphics/LTDC_DMA2D_To_Video.gcc.rsp" || exit 1
 echo RK043FN48H_VideoMode.cpp
-c:\sysgcc\arm-eabi\bin\arm-none-eabi-g++.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/STM32H735G_DK/nanoCLR/nanoFramework.Graphics/RK043FN48H_VideoMode.gcc.rsp" || exit 1
+c:\sysgcc\arm-eabi\bin\arm-none-eabi-g++.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/ST_STM32H735G_DK/nanoCLR/nanoFramework.Graphics/RK043FN48H_VideoMode.gcc.rsp" || exit 1
 echo RealTimeClock.c
-c:\sysgcc\arm-eabi\bin\arm-none-eabi-gcc.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/STM32H735G_DK/nanoCLR/nanoFramework.Hardware.Stm32H7xx/RealTimeClock.gcc.rsp" || exit 1
+c:\sysgcc\arm-eabi\bin\arm-none-eabi-gcc.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/ST_STM32H735G_DK/nanoCLR/nanoFramework.Hardware.Stm32H7xx/RealTimeClock.gcc.rsp" || exit 1
 echo platform_heap.c
-c:\sysgcc\arm-eabi\bin\arm-none-eabi-gcc.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/STM32H735G_DK/nanoCLR/PAL/platform_heap.gcc.rsp" || exit 1
+c:\sysgcc\arm-eabi\bin\arm-none-eabi-gcc.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/ST_STM32H735G_DK/nanoCLR/PAL/platform_heap.gcc.rsp" || exit 1
 echo system_stm32h7xx.c
-c:\sysgcc\arm-eabi\bin\arm-none-eabi-gcc.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/STM32H735G_DK/nanoCLR/PAL/system_stm32h7xx.gcc.rsp" || exit 1
+c:\sysgcc\arm-eabi\bin\arm-none-eabi-gcc.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/ST_STM32H735G_DK/nanoCLR/PAL/system_stm32h7xx.gcc.rsp" || exit 1
 echo targetPAL.c
-c:\sysgcc\arm-eabi\bin\arm-none-eabi-gcc.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/STM32H735G_DK/nanoCLR/PAL/targetPAL.gcc.rsp" || exit 1
+c:\sysgcc\arm-eabi\bin\arm-none-eabi-gcc.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/ST_STM32H735G_DK/nanoCLR/PAL/targetPAL.gcc.rsp" || exit 1
 echo targetPAL_Events.cpp
-c:\sysgcc\arm-eabi\bin\arm-none-eabi-g++.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/STM32H735G_DK/nanoCLR/PAL/targetPAL_Events.gcc.rsp" || exit 1
+c:\sysgcc\arm-eabi\bin\arm-none-eabi-g++.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/ST_STM32H735G_DK/nanoCLR/PAL/targetPAL_Events.gcc.rsp" || exit 1
 echo targetPAL_Time.cpp
-c:\sysgcc\arm-eabi\bin\arm-none-eabi-g++.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/STM32H735G_DK/nanoCLR/PAL/targetPAL_Time.gcc.rsp" || exit 1
+c:\sysgcc\arm-eabi\bin\arm-none-eabi-g++.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/ST_STM32H735G_DK/nanoCLR/PAL/targetPAL_Time.gcc.rsp" || exit 1
 echo Clock_configuration.c
-c:\sysgcc\arm-eabi\bin\arm-none-eabi-gcc.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/STM32H735G_DK/nanoCLR/Startup/Clock_configuration.gcc.rsp" || exit 1
+c:\sysgcc\arm-eabi\bin\arm-none-eabi-gcc.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/ST_STM32H735G_DK/nanoCLR/Startup/Clock_configuration.gcc.rsp" || exit 1
 echo CLR_RT_InteropAssembliesTable.cpp
-c:\sysgcc\arm-eabi\bin\arm-none-eabi-g++.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/STM32H735G_DK/nanoCLR/Startup/CLR_RT_InteropAssembliesTable.gcc.rsp" || exit 1
+c:\sysgcc\arm-eabi\bin\arm-none-eabi-g++.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/ST_STM32H735G_DK/nanoCLR/Startup/CLR_RT_InteropAssembliesTable.gcc.rsp" || exit 1
 echo CLR_Startup_Thread.c
-c:\sysgcc\arm-eabi\bin\arm-none-eabi-gcc.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/STM32H735G_DK/nanoCLR/Startup/CLR_Startup_Thread.gcc.rsp" || exit 1
+c:\sysgcc\arm-eabi\bin\arm-none-eabi-gcc.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/ST_STM32H735G_DK/nanoCLR/Startup/CLR_Startup_Thread.gcc.rsp" || exit 1
 echo nanoFramework_Threads.c
-c:\sysgcc\arm-eabi\bin\arm-none-eabi-gcc.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/STM32H735G_DK/nanoCLR/Startup/nanoFramework_Threads.gcc.rsp" || exit 1
+c:\sysgcc\arm-eabi\bin\arm-none-eabi-gcc.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/ST_STM32H735G_DK/nanoCLR/Startup/nanoFramework_Threads.gcc.rsp" || exit 1
 echo cpu_System.Device.Adc.cpp
-c:\sysgcc\arm-eabi\bin\arm-none-eabi-g++.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/STM32H735G_DK/nanoCLR/System.Device.Adc/cpu_System.Device.Adc.gcc.rsp" || exit 1
+c:\sysgcc\arm-eabi\bin\arm-none-eabi-g++.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/ST_STM32H735G_DK/nanoCLR/System.Device.Adc/cpu_System.Device.Adc.gcc.rsp" || exit 1
 echo cpu_System.Device.Dac.cpp
-c:\sysgcc\arm-eabi\bin\arm-none-eabi-g++.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/STM32H735G_DK/nanoCLR/System.Device.Dac/cpu_System.Device.Dac.gcc.rsp" || exit 1
+c:\sysgcc\arm-eabi\bin\arm-none-eabi-g++.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/ST_STM32H735G_DK/nanoCLR/System.Device.Dac/cpu_System.Device.Dac.gcc.rsp" || exit 1
 echo cpu_System.Device.Gpio.cpp
-c:\sysgcc\arm-eabi\bin\arm-none-eabi-g++.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/STM32H735G_DK/nanoCLR/System.Device.Gpio/cpu_System.Device.Gpio.gcc.rsp" || exit 1
+c:\sysgcc\arm-eabi\bin\arm-none-eabi-g++.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/ST_STM32H735G_DK/nanoCLR/System.Device.Gpio/cpu_System.Device.Gpio.gcc.rsp" || exit 1
 echo cpu_System.Device.I2c.cpp
-c:\sysgcc\arm-eabi\bin\arm-none-eabi-g++.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/STM32H735G_DK/nanoCLR/System.Device.I2c/cpu_System.Device.I2c.gcc.rsp" || exit 1
+c:\sysgcc\arm-eabi\bin\arm-none-eabi-g++.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/ST_STM32H735G_DK/nanoCLR/System.Device.I2c/cpu_System.Device.I2c.gcc.rsp" || exit 1
 echo low_level_I2c.c
-c:\sysgcc\arm-eabi\bin\arm-none-eabi-gcc.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/STM32H735G_DK/nanoCLR/System.Device.I2c/low_level_I2c.gcc.rsp" || exit 1
+c:\sysgcc\arm-eabi\bin\arm-none-eabi-gcc.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/ST_STM32H735G_DK/nanoCLR/System.Device.I2c/low_level_I2c.gcc.rsp" || exit 1
 echo cpu_System.Device.Pwm.cpp
-c:\sysgcc\arm-eabi\bin\arm-none-eabi-g++.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/STM32H735G_DK/nanoCLR/System.Device.Pwm/cpu_System.Device.Pwm.gcc.rsp" || exit 1
+c:\sysgcc\arm-eabi\bin\arm-none-eabi-g++.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/ST_STM32H735G_DK/nanoCLR/System.Device.Pwm/cpu_System.Device.Pwm.gcc.rsp" || exit 1
 echo cpu_System.Device.SPI.cpp
-c:\sysgcc\arm-eabi\bin\arm-none-eabi-g++.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/STM32H735G_DK/nanoCLR/System.Device.Spi/cpu_System.Device.SPI.gcc.rsp" || exit 1
+c:\sysgcc\arm-eabi\bin\arm-none-eabi-g++.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/ST_STM32H735G_DK/nanoCLR/System.Device.Spi/cpu_System.Device.SPI.gcc.rsp" || exit 1
 echo cpu_System.IO.Ports.cpp
-c:\sysgcc\arm-eabi\bin\arm-none-eabi-g++.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/STM32H735G_DK/nanoCLR/System.IO.Ports/cpu_System.IO.Ports.gcc.rsp" || exit 1
+c:\sysgcc\arm-eabi\bin\arm-none-eabi-g++.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/ST_STM32H735G_DK/nanoCLR/System.IO.Ports/cpu_System.IO.Ports.gcc.rsp" || exit 1
 echo cpu_System.Media.Playsound.c
-c:\sysgcc\arm-eabi\bin\arm-none-eabi-gcc.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/STM32H735G_DK/nanoCLR/System.Media.PlaySound/cpu_System.Media.Playsound.gcc.rsp" || exit 1
+c:\sysgcc\arm-eabi\bin\arm-none-eabi-gcc.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/ST_STM32H735G_DK/nanoCLR/System.Media.PlaySound/cpu_System.Media.Playsound.gcc.rsp" || exit 1
 echo MicroSD.c
-c:\sysgcc\arm-eabi\bin\arm-none-eabi-gcc.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/STM32H735G_DK/nanoCLR/Windows.Storage/MicroSD.gcc.rsp" || exit 1
+c:\sysgcc\arm-eabi\bin\arm-none-eabi-gcc.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/ST_STM32H735G_DK/nanoCLR/Windows.Storage/MicroSD.gcc.rsp" || exit 1
 echo WindowsStorage.cpp
-c:\sysgcc\arm-eabi\bin\arm-none-eabi-g++.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/STM32H735G_DK/nanoCLR/Windows.Storage/WindowsStorage.gcc.rsp" || exit 1
+c:\sysgcc\arm-eabi\bin\arm-none-eabi-g++.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/ST_STM32H735G_DK/nanoCLR/Windows.Storage/WindowsStorage.gcc.rsp" || exit 1
 echo WireProtocol_HAL_Interface.c
-c:\sysgcc\arm-eabi\bin\arm-none-eabi-gcc.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/STM32H735G_DK/nanoCLR/WireProtocol/WireProtocol_HAL_Interface.gcc.rsp" || exit 1
+c:\sysgcc\arm-eabi\bin\arm-none-eabi-gcc.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/ST_STM32H735G_DK/nanoCLR/WireProtocol/WireProtocol_HAL_Interface.gcc.rsp" || exit 1
 echo WireProtocol_ReceiverThread.c
-c:\sysgcc\arm-eabi\bin\arm-none-eabi-gcc.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/STM32H735G_DK/nanoCLR/WireProtocol/WireProtocol_ReceiverThread.gcc.rsp" || exit 1
+c:\sysgcc\arm-eabi\bin\arm-none-eabi-gcc.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/ST_STM32H735G_DK/nanoCLR/WireProtocol/WireProtocol_ReceiverThread.gcc.rsp" || exit 1
 echo wp_CircularBuffer.c
-c:\sysgcc\arm-eabi\bin\arm-none-eabi-gcc.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/STM32H735G_DK/nanoCLR/WireProtocol/wp_CircularBuffer.gcc.rsp" || exit 1
+c:\sysgcc\arm-eabi\bin\arm-none-eabi-gcc.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/ST_STM32H735G_DK/nanoCLR/WireProtocol/wp_CircularBuffer.gcc.rsp" || exit 1
 echo wp_Communications.c
-c:\sysgcc\arm-eabi\bin\arm-none-eabi-gcc.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/STM32H735G_DK/nanoCLR/WireProtocol/wp_Communications.gcc.rsp" || exit 1
+c:\sysgcc\arm-eabi\bin\arm-none-eabi-gcc.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/ST_STM32H735G_DK/nanoCLR/WireProtocol/wp_Communications.gcc.rsp" || exit 1
 echo tx_thread_context_restore.S
 c:\sysgcc\arm-eabi\bin\arm-none-eabi-g++.exe @"VisualGDB/Debug/_2_/threadx/ports/cortex_m7/gnu/src/tx_thread_context_restore.gcc.rsp" || exit 1
 echo tx_thread_context_save.S
@@ -1494,9 +1494,9 @@ c:\sysgcc\arm-eabi\bin\arm-none-eabi-g++.exe @"VisualGDB/Debug/_2_/threadx/ports
 echo tx_timer_interrupt.S
 c:\sysgcc\arm-eabi\bin\arm-none-eabi-g++.exe @"VisualGDB/Debug/_2_/threadx/ports/cortex_m7/gnu/src/tx_timer_interrupt.gcc.rsp" || exit 1
 echo startup_stm32h735igkx.S
-c:\sysgcc\arm-eabi\bin\arm-none-eabi-g++.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/STM32H735G_DK/nanoCLR/Startup/startup_stm32h735igkx.gcc.rsp" || exit 1
+c:\sysgcc\arm-eabi\bin\arm-none-eabi-g++.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/ST_STM32H735G_DK/nanoCLR/Startup/startup_stm32h735igkx.gcc.rsp" || exit 1
 echo tx_initialize_low_level.S
-c:\sysgcc\arm-eabi\bin\arm-none-eabi-g++.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/STM32H735G_DK/nanoCLR/Startup/tx_initialize_low_level.gcc.rsp" || exit 1
-echo Linking ../BuildOutput/STM32H735G_DK_nanoCLR.elf...
-c:\sysgcc\arm-eabi\bin\arm-none-eabi-g++.exe @../BuildOutput/STM32H735G_DK_nanoCLR.link.rsp || exit 1
-c:\sysgcc\arm-eabi\bin\arm-none-eabi-objcopy.exe @../BuildOutput/STM32H735G_DK_nanoCLR.mkbin.rsp || exit 1
+c:\sysgcc\arm-eabi\bin\arm-none-eabi-g++.exe @"VisualGDB/Debug/_2_/nf-interpreter/targets/AzureRTOS/ST/ST_STM32H735G_DK/nanoCLR/Startup/tx_initialize_low_level.gcc.rsp" || exit 1
+echo Linking ../BuildOutput/ST_STM32H735G_DK_nanoCLR.elf...
+c:\sysgcc\arm-eabi\bin\arm-none-eabi-g++.exe @../BuildOutput/ST_STM32H735G_DK_nanoCLR.link.rsp || exit 1
+c:\sysgcc\arm-eabi\bin\arm-none-eabi-objcopy.exe @../BuildOutput/ST_STM32H735G_DK_nanoCLR.mkbin.rsp || exit 1
