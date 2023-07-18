@@ -51,3 +51,12 @@
 /ST_STM32H735G_DK_nanoCLR/.visualgdb/CodeDB
 /ST_STM32H735G_DK_nanoCLR/VisualGDB
 /BuildOutput/ST_STM32H735G_DK_nanoCLR.bin
+/BuildOutput/ST_STM32H735G_DK_nanoCLR.elf
+/BuildOutput/ST_STM32H735G_DK_nanoCLR.link.rsp
+/BuildOutput/ST_STM32H735G_DK_nanoCLR.lst
+/BuildOutput/ST_STM32H735G_DK_nanoCLR.mkbin.rsp
+/BuildOutput/ST_STM32H735G_DK_nanoCLR.nm
+/BuildOutput/ST_STM32H735G_DK_nanoCLR.progstat
+/BuildOutput/ST_STM32H735G_DK_nanoCLR.size
+/x64/Debug/ELF2UF2.exe
+/x64/Debug/ELF2UF2.pdb
