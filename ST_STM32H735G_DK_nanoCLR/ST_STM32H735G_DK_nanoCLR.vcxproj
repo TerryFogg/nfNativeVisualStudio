@@ -843,7 +843,6 @@
     <ClInclude Include="..\..\filex\common\inc\fx_user_sample.h" />
     <ClInclude Include="..\..\filex\common\inc\fx_utility.h" />
     <ClInclude Include="..\..\filex\ports\cortex_m7\gnu\inc\fx_port.h" />
-    <ClInclude Include="..\..\filex\ports\generic\inc\fx_port.h" />
     <ClInclude Include="..\..\nf-interpreter\src\HAL\Include\nanoHAL_Rtos.h" />
     <ClInclude Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\Graphics.h" />
     <ClInclude Include="..\..\nf-interpreter\src\nanoFramework.Graphics\Graphics\Core\GraphicsMemoryHeap.h" />
