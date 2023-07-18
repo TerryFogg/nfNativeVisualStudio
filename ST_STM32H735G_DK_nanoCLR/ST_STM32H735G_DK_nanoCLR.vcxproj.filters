@@ -351,12 +351,8 @@
     <None Include="stm32.props">
       <Filter>VisualGDB settings</Filter>
     </None>
-    <None Include="STM32H735G_DK_nanoCLR-Debug.vgdbsettings">
-      <Filter>VisualGDB settings</Filter>
-    </None>
-    <None Include="STM32H735G_DK_nanoCLR-Release.vgdbsettings">
-      <Filter>VisualGDB settings</Filter>
-    </None>
+    <None Include="ST_STM32H735G_DK_nanoCLR-Debug.vgdbsettings" />
+    <None Include="ST_STM32H735G_DK_nanoCLR-Release.vgdbsettings" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\nf-interpreter\src\CLR\CorLib\corlib_native.h">
@@ -1016,6 +1012,7 @@
     <ClInclude Include="..\..\nf-interpreter\src\HAL\Include\nanoHAL_Rtos.h">
       <Filter>nf-interpreter\src\HAL\Include</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\filex\ports\generic\inc\fx_port.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\nf-interpreter\src\CLR\Core\CLR_RT_Interop.cpp">
